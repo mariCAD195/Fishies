@@ -1,4 +1,4 @@
-package command;
+package classes.command;
 
 public class Search {
 }
