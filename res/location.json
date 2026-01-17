@@ -2,65 +2,74 @@
   {
     "name": "Lobby",
     "timePassable": false,
-    "neighbours": [],
+    "neighbours": [1,4,7],
     "NPCsPresent": [],
-    "interactableObjects": []
+    "interactableObjects": [],
+    "key": 0
   },
   {
     "name": "Cafe",
     "timePassable": true,
-    "neighbours": [],
+    "neighbours": [0,2],
     "NPCsPresent": [],
-    "interactableObjects": []
+    "interactableObjects": [],
+    "key": 1
   },
   {
     "name": "Gift shop",
     "timePassable": false,
-    "neighbours": [],
+    "neighbours": [1,3],
     "NPCsPresent": [],
-    "interactableObjects": []
+    "interactableObjects": [],
+    "key": 2
   },
   {
     "name": "Restaurant",
     "timePassable": true,
-    "neighbours": [],
+    "neighbours": [2,4,5],
     "NPCsPresent": [],
-    "interactableObjects": []
+    "interactableObjects": [],
+    "key": 3
   },
   {
     "name": "Saltwater Area",
     "timePassable": false,
-    "neighbours": [],
+    "neighbours": [0,3],
     "NPCsPresent": [],
-    "interactableObjects": []
+    "interactableObjects": [],
+    "key": 4
   },
   {
     "name": "Kids section",
     "timePassable": false,
-    "neighbours": [],
+    "neighbours": [3,6],
     "NPCsPresent": [],
-    "interactableObjects": []
+    "interactableObjects": [],
+    "key": 5
   },
   {
     "name": "Freshwater Area",
     "timePassable": false,
-    "neighbours": [],
+    "neighbours": [5,7,8],
     "NPCsPresent": [],
-    "interactableObjects": []
+    "interactableObjects": [],
+    "key": 6
   },
   {
     "name": "Unique animals",
     "timePassable": false,
-    "neighbours": [],
+    "neighbours": [6,0],
     "NPCsPresent": [],
-    "interactableObjects": []
+    "interactableObjects": [],
+    "key": 7
   },
   {
     "name": "Staff Area",
     "timePassable": false,
-    "neighbours": [],
+    "neighbours": [6],
     "NPCsPresent": [],
-    "interactableObjects": []
+    "interactableObjects": [],
+    "key": 8
   }
 ]
 

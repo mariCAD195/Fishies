@@ -5,11 +5,13 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.ArrayList;
 
 public class Location {
-    String name;
-    ArrayList<Integer> neighbours;
-    ArrayList<NPC> NPCsPresent;
-    ArrayList<InteractableObject> interactableObjects;
-    boolean timePassable;
+    private String name;
+    private ArrayList<Integer> neighbours;
+    private ArrayList<NPC> NPCsPresent;
+    private ArrayList<InteractableObject> interactableObjects;
+    private boolean timePassable;
+    private int key;
+
 
     public Location() {
     }
@@ -53,6 +55,14 @@ public class Location {
 
     public void setTimePassable(boolean timePassable) {
         this.timePassable = timePassable;
+    }
+
+    public int getKey() {
+        return key;
+    }
+
+    public void setKey(int key) {
+        this.key = key;
     }
 
     @Override

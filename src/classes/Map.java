@@ -1,19 +1,20 @@
 package classes;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Map {
-    private ArrayList<Location> locations;
+    private HashMap<Integer,Location> locations;
 
     public Map() {
-        locations = new ArrayList<>();
+        locations = new HashMap<>();
     }
 
-    public ArrayList<Location> getLocations() {
+    public HashMap<Integer, Location> getLocations() {
         return locations;
     }
 
-    public void setLocations(ArrayList<Location> locations) {
+    public void setLocations(HashMap<Integer, Location> locations) {
         this.locations = locations;
     }
 
