@@ -6,6 +6,7 @@ public class Map {
     private ArrayList<Location> locations;
 
     public Map() {
+        locations = new ArrayList<>();
     }
 
     public ArrayList<Location> getLocations() {
@@ -18,8 +19,8 @@ public class Map {
 
     @Override
     public String toString() {
-        return "Map{" +
-                "locations=" + locations +
-                '}';
+        return "Map : " +
+                "locations = " + locations +"\n";
     }
+
 }
