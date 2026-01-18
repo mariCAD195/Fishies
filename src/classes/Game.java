@@ -11,6 +11,10 @@ public class Game {
 
     Map map = new Map();
 
+    /**
+     * loads game map from json file
+     * @throws FileNotFoundException
+     */
     public void loadLocations() throws FileNotFoundException {
         ObjectMapper mapper = new ObjectMapper();
         try (InputStream input = new FileInputStream("res/location.json");){

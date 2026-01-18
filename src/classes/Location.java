@@ -11,6 +11,7 @@ public class Location {
     private ArrayList<InteractableObject> interactableObjects;
     private boolean timePassable;
     private int key;
+    private String description;
 
 
     public Location() {
@@ -65,13 +66,22 @@ public class Location {
         this.key = key;
     }
 
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
     @Override
     public String toString() {
         return "\nLocation : " +
                 "\nname = '" + name + '\'' +
                 "\nneighbours = " + neighbours +
-                "\nNPCsPresent=" + NPCsPresent +
-                "\ninteractableObjects=" + interactableObjects +
-                "\ntimePassable=" + timePassable+"\n";
+                "\nNPCsPresent = " + NPCsPresent +
+                "\ninteractableObjects = " + interactableObjects +
+                "\ntimePassable = " + timePassable+
+                "\ndescription = " + description+"\n\n";
     }
 }

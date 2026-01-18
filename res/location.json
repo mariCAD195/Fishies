@@ -5,7 +5,8 @@
     "neighbours": [1,4,7],
     "NPCsPresent": [],
     "interactableObjects": [],
-    "key": 0
+    "key": 0,
+    "description" : "A room on the smaller side. it has big open archways leading to the two biggest rooms and a smaller glass door leading to the café."
   },
   {
     "name": "Cafe",
@@ -13,7 +14,8 @@
     "neighbours": [0,2],
     "NPCsPresent": [],
     "interactableObjects": [],
-    "key": 1
+    "key": 1,
+    "description" : "Quite tiny place with lots of plants and string lights. there is only a few people here and behind the counter stands a freckled brunette in an apron, smiling at you."
   },
   {
     "name": "Gift shop",
@@ -21,7 +23,8 @@
     "neighbours": [1,3],
     "NPCsPresent": [],
     "interactableObjects": [],
-    "key": 2
+    "key": 2,
+    "description" : "Very cluttered space filled with fish-themed plushies, magnets, shirts, bags and many others. The local cashier seems...distracted by his phone, maybe best if you don't talk to him much."
   },
   {
     "name": "Restaurant",
@@ -29,7 +32,8 @@
     "neighbours": [2,4,5],
     "NPCsPresent": [],
     "interactableObjects": [],
-    "key": 3
+    "key": 3,
+    "description" : ""
   },
   {
     "name": "Saltwater Area",
@@ -37,7 +41,8 @@
     "neighbours": [0,3],
     "NPCsPresent": [],
     "interactableObjects": [],
-    "key": 4
+    "key": 4,
+    "description" : ""
   },
   {
     "name": "Kids section",
@@ -45,7 +50,8 @@
     "neighbours": [3,6],
     "NPCsPresent": [],
     "interactableObjects": [],
-    "key": 5
+    "key": 5,
+    "description" : ""
   },
   {
     "name": "Freshwater Area",
@@ -53,7 +59,8 @@
     "neighbours": [5,7,8],
     "NPCsPresent": [],
     "interactableObjects": [],
-    "key": 6
+    "key": 6,
+    "description" : ""
   },
   {
     "name": "Unique animals",
@@ -61,7 +68,8 @@
     "neighbours": [6,0],
     "NPCsPresent": [],
     "interactableObjects": [],
-    "key": 7
+    "key": 7,
+    "description" : ""
   },
   {
     "name": "Staff Area",
@@ -69,7 +77,8 @@
     "neighbours": [6],
     "NPCsPresent": [],
     "interactableObjects": [],
-    "key": 8
+    "key": 8,
+    "description" : ""
   }
 ]
 
