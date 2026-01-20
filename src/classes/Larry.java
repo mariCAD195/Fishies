@@ -15,11 +15,11 @@ public class Larry {
         this.date = date;
     }
 
-    public void createTime(){
-        time.put("morning",0);
-        time.put("noon",1);
-        time.put("afternoon",2);
-        time.put("evening",3);
+    public void createTime() {
+        time.put("morning", 0);
+        time.put("noon", 1);
+        time.put("afternoon", 2);
+        time.put("evening", 3);
     }
 
     public int getDate() {

@@ -16,7 +16,7 @@ public class GameData {
      */
     public void loadLocations() throws FileNotFoundException {
         ObjectMapper mapper = new ObjectMapper();
-        try (InputStream input = new FileInputStream("res/location.json");){
+        try (InputStream input = new FileInputStream("res/location.json");) {
             Location[] sideLocations = mapper.readValue(input, Location[].class);
             for (Location sideLocation : sideLocations) {
                 map.getLocations().put(sideLocation.getId(), sideLocation);

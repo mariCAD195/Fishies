@@ -77,7 +77,7 @@ public class Location {
                 "\nneighbours = " + neighbours +
                 "\nNPCsPresent = " + NPCsPresent +
                 "\ninteractableObjects = " + interactableObjects +
-                "\ntimePassable = " + timePassable+
-                "\ndescription = " + description+"\n\n";
+                "\ntimePassable = " + timePassable +
+                "\ndescription = " + description + "\n\n";
     }
 }
