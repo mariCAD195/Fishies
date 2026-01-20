@@ -3,17 +3,17 @@ package classes;
 import java.util.HashMap;
 
 public class Map {
-    private HashMap<Integer,Location> locations;
+    private HashMap<String,Location> locations;
 
     public Map() {
         locations = new HashMap<>();
     }
 
-    public HashMap<Integer, Location> getLocations() {
+    public HashMap<String, Location> getLocations() {
         return locations;
     }
 
-    public void setLocations(HashMap<Integer, Location> locations) {
+    public void setLocations(HashMap<String, Location> locations) {
         this.locations = locations;
     }
 

@@ -6,11 +6,11 @@ import java.util.ArrayList;
 
 public class Location {
     private String name;
-    private ArrayList<Integer> neighbours;
+    private ArrayList<String> neighbours;
     private ArrayList<NPC> NPCsPresent;
     private ArrayList<InteractableObject> interactableObjects;
     private boolean timePassable;
-    private int key;
+    private String id;
     private String description;
 
 
@@ -25,12 +25,16 @@ public class Location {
         this.name = name;
     }
 
-    public ArrayList<Integer> getNeighbours() {
+    public ArrayList<String> getNeighbours() {
         return neighbours;
     }
 
-    public void setNeighbours(ArrayList<Integer> neighbours) {
+    public void setNeighbours(ArrayList<String> neighbours) {
         this.neighbours = neighbours;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     @JsonProperty("NPCsPresent")
@@ -58,16 +62,8 @@ public class Location {
         this.timePassable = timePassable;
     }
 
-    public int getKey() {
-        return key;
-    }
-
-    public void setKey(int key) {
-        this.key = key;
-    }
-
-    public String getDescription() {
-        return description;
+    public String getId() {
+        return id;
     }
 
     public void setDescription(String description) {

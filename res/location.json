@@ -2,82 +2,82 @@
   {
     "name": "Lobby",
     "timePassable": false,
-    "neighbours": [1,4,7],
+    "neighbours": ["cafe","saltwaterArea","uniqueAnimals"],
     "NPCsPresent": [],
     "interactableObjects": [],
-    "key": 0,
+    "id": "lobby",
     "description" : "A room on the smaller side. it has big open archways leading to the two biggest rooms and a smaller glass door leading to the café."
   },
   {
     "name": "Cafe",
     "timePassable": true,
-    "neighbours": [0,2],
+    "neighbours": ["lobby","giftShop"],
     "NPCsPresent": [],
     "interactableObjects": [],
-    "key": 1,
+    "id": "cafe",
     "description" : "Quite tiny place with lots of plants and string lights. there is only a few people here and behind the counter stands a freckled brunette in an apron, smiling at you."
   },
   {
     "name": "Gift shop",
     "timePassable": false,
-    "neighbours": [1,3],
+    "neighbours": ["cafe","restaurant"],
     "NPCsPresent": [],
     "interactableObjects": [],
-    "key": 2,
+    "id": "giftShop",
     "description" : "Very cluttered space filled with fish-themed plushies, magnets, shirts, bags and many others. The local cashier seems...distracted by his phone, maybe best if you don't talk to him much."
   },
   {
     "name": "Restaurant",
     "timePassable": true,
-    "neighbours": [2,4,5],
+    "neighbours": ["giftShop","saltwaterArea","kidsSection"],
     "NPCsPresent": [],
     "interactableObjects": [],
-    "key": 3,
-    "description" : ""
+    "id": "restaurant",
+    "description" : "A very spacious clean room wit blue walls and lots of tables and chairs. The space is crowded with hungry visitors and all the staff here seems really busy"
   },
   {
     "name": "Saltwater Area",
     "timePassable": false,
-    "neighbours": [0,3],
+    "neighbours": ["lobby","restaurant"],
     "NPCsPresent": [],
     "interactableObjects": [],
-    "key": 4,
+    "id": "saltwaterArea",
     "description" : ""
   },
   {
     "name": "Kids section",
     "timePassable": false,
-    "neighbours": [3,6],
+    "neighbours": ["restaurant","freshwaterArea"],
     "NPCsPresent": [],
     "interactableObjects": [],
-    "key": 5,
+    "id": "kidsSection",
     "description" : ""
   },
   {
     "name": "Freshwater Area",
     "timePassable": false,
-    "neighbours": [5,7,8],
+    "neighbours": ["kidsArea","saltwaterArea","staffArea"],
     "NPCsPresent": [],
     "interactableObjects": [],
-    "key": 6,
+    "id": "freshwaterArea",
     "description" : ""
   },
   {
     "name": "Unique animals",
     "timePassable": false,
-    "neighbours": [6,0],
+    "neighbours": ["freshwaterArea","lobby"],
     "NPCsPresent": [],
     "interactableObjects": [],
-    "key": 7,
+    "id": "uniqueAnimals",
     "description" : ""
   },
   {
     "name": "Staff Area",
     "timePassable": false,
-    "neighbours": [6],
+    "neighbours": ["freshwaterArea"],
     "NPCsPresent": [],
     "interactableObjects": [],
-    "key": 8,
+    "id": "staffArea",
     "description" : ""
   }
 ]
