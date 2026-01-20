@@ -1,0 +1,35 @@
+package classes;
+
+import java.util.HashMap;
+
+public class Toolbox {
+
+    public static HashMap<String,String> colorMap;
+
+    /**
+     * adds color codes to a hashMap
+     */
+    public static void setColor() {
+        colorMap.put("DEFAULT","\u001B[0m");
+        colorMap.put("RED","\u001B[31m");
+        colorMap.put("BLUE","\u001B[34m");
+        colorMap.put("GREEN","\u001B[32m");
+        colorMap.put("YELLOW","\u001B[33m");
+        colorMap.put("BLACK","\u001B[30m");
+        colorMap.put("WHITE","\u001B[37m");
+        colorMap.put("PURPLE","\u001B[35m");
+        colorMap.put("CYAN","\u001B[36m");
+    }
+
+    /**
+     * sets given String to a different color
+     * @param color color name
+     * @param string text which is colored
+     * @return colored string
+     */
+    public static String coloredText(String color, String string) {
+        return colorMap.get(color.toUpperCase()) + string + colorMap.get("DEFAULT");
+
+    }
+
+}
