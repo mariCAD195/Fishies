@@ -2,6 +2,7 @@ package classes.command.console;
 
 import classes.GameData;
 import classes.Larry;
+import classes.Map;
 import classes.command.Command;
 import classes.command.Move;
 
@@ -14,10 +15,12 @@ public class GameConsole {
     private HashMap<String, Command> commands = new HashMap<>();
     private Scanner scanner = new Scanner(System.in);
     private GameData gameData = new GameData();
+    private Map gameMap = new Map();
+    private Larry larry;
 
     public void start() {
-        commandInitialization();
         gameInitialization();
+        commandInitialization();
         do{
             execute();
         }while(!exit);
@@ -36,15 +39,15 @@ public class GameConsole {
     }
 
     public void commandInitialization() {
-        commands.put("move", new Move());
+        commands.put("move", new Move(larry, gameMap));
     }
 
     public void gameInitialization() {
         try {
-            gameData.loadLocations();
+            gameData.loadLocations(gameMap);
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
-        Larry larry = new Larry(gameData.getMap().getLocations().get("lobby"), 0, 1);
+        larry = new Larry(gameMap.getLocations().get("lobby"), 0, 1);
     }
 }

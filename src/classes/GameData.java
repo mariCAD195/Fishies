@@ -9,12 +9,10 @@ import java.io.InputStream;
 
 public class GameData {
 
-    Map map = new Map();
-
     /**
      * loads game map from json file
      */
-    public void loadLocations() throws FileNotFoundException {
+    public void loadLocations(Map map) throws FileNotFoundException {
         ObjectMapper mapper = new ObjectMapper();
         try (InputStream input = new FileInputStream("res/location.json");) {
             Location[] sideLocations = mapper.readValue(input, Location[].class);
@@ -24,9 +22,5 @@ public class GameData {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-    }
-
-    public Map getMap() {
-        return map;
     }
 }

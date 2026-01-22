@@ -70,6 +70,13 @@ public class Location {
         this.description = description;
     }
 
+    public String neighboursMenu(Map map) {
+        for (int i = 0; i < neighbours.size(); i++) {
+            System.out.println(""+(i+1) +") " + map.getLocations().get(neighbours.get(i)).name);
+        }
+        return "";
+    }
+
     @Override
     public String toString() {
         return "\nLocation : " +
