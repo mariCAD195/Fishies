@@ -2,6 +2,7 @@ package classes.command;
 
 import classes.Larry;
 import classes.Map;
+import classes.Toolbox;
 
 import java.util.HashMap;
 import java.util.Scanner;
@@ -19,11 +20,24 @@ public class Move extends Command {
 
     @Override
     public String execute() {
-        System.out.println("\nI should probably get a change of scenery, but...where should I go?\n");
-        System.out.println(map.getLocations().get(larry.getCurrentLocation().getId()).neighboursMenu(map));
+        System.out.println("\nI should probably get a change of scenery, but . . . where should I go?\n");
+        System.out.println(map.getLocations().get(larry.getCurrentLocation().getName().toLowerCase()).neighboursMenu());
+        System.out.println("(type location name)");
         String input = scanner.nextLine();
-        larry.setCurrentLocation(map.getLocations().get(input));
-        return "";
+        if (map.getLocations().containsKey(input)) {
+            if(map.getLocations().get(larry.getCurrentLocation().getName().toLowerCase()).getNeighbours().contains(input)){
+                larry.setCurrentLocation(map.getLocations().get(input));
+                System.out.println( "great choice! I'll be right there");
+                Toolbox.enter();
+                System.out.println(Toolbox.clearConsole());
+                System.out.println(Toolbox.coloredText("yellow",larry.getCurrentLocation().getName().toUpperCase()));
+                return larry.getCurrentLocation().getDescription();
+            }else{
+                return "sure i would love to go there, but it's not possible from here";
+            }
+        }else{
+            return "hmm . . . I don't think that's on the aquarium map";
+        }
     }
 
     @Override

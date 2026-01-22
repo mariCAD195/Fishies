@@ -1,10 +1,11 @@
 package classes;
 
 import java.util.HashMap;
+import java.util.Scanner;
 
 public class Toolbox {
 
-    public static HashMap<String, String> colorMap;
+    public static HashMap<String, String> colorMap = new HashMap<>();
 
     /**
      * adds color codes to a hashMap
@@ -29,8 +30,26 @@ public class Toolbox {
      * @return colored string
      */
     public static String coloredText(String color, String string) {
+        setColor();
         return colorMap.get(color.toUpperCase()) + string + colorMap.get("DEFAULT");
 
+    }
+
+    public static String clearConsole(){
+        return "\n".repeat(60);
+    }
+
+    public static void wait(int time) {
+        try {
+            Thread.sleep(time);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static void enter(){
+        Scanner scanner = new Scanner(System.in);
+        scanner.nextLine();
     }
 
 }

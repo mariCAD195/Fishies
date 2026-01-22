@@ -10,7 +10,6 @@ public class Location {
     private ArrayList<NPC> NPCsPresent;
     private ArrayList<InteractableObject> interactableObjects;
     private boolean timePassable;
-    private String id;
     private String description;
 
 
@@ -33,9 +32,6 @@ public class Location {
         this.neighbours = neighbours;
     }
 
-    public void setId(String id) {
-        this.id = id;
-    }
 
     @JsonProperty("NPCsPresent")
     public ArrayList<NPC> getNPCsPresent() {
@@ -62,17 +58,18 @@ public class Location {
         this.timePassable = timePassable;
     }
 
-    public String getId() {
-        return id;
-    }
 
     public void setDescription(String description) {
         this.description = description;
     }
 
-    public String neighboursMenu(Map map) {
+    public String getDescription() {
+        return description + "\n";
+    }
+
+    public String neighboursMenu() {
         for (int i = 0; i < neighbours.size(); i++) {
-            System.out.println(""+(i+1) +") " + map.getLocations().get(neighbours.get(i)).name);
+            System.out.println(Toolbox.coloredText("blue",(i+1) +") " + neighbours.get(i)));
         }
         return "";
     }

@@ -17,7 +17,7 @@ public class GameData {
         try (InputStream input = new FileInputStream("res/location.json");) {
             Location[] sideLocations = mapper.readValue(input, Location[].class);
             for (Location sideLocation : sideLocations) {
-                map.getLocations().put(sideLocation.getId(), sideLocation);
+                map.getLocations().put(sideLocation.getName().toLowerCase(), sideLocation);
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
