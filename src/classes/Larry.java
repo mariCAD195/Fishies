@@ -2,6 +2,9 @@ package classes;
 
 import java.util.HashMap;
 
+/**
+ * the player
+ */
 public class Larry {
     private Location currentLocation;
     private HashMap<String, Integer> time;
@@ -15,6 +18,9 @@ public class Larry {
         this.date = date;
     }
 
+    /**
+     * adds different time periods which serve as in-game time
+     */
     public void createTime() {
         time.put("morning", 0);
         time.put("noon", 1);

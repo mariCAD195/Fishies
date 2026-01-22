@@ -2,6 +2,9 @@ package classes;
 
 import java.util.HashMap;
 
+/**
+ * game map aka the entire aquarium building
+ */
 public class Map {
     private HashMap<String, Location> locations;
 

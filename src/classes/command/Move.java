@@ -7,6 +7,9 @@ import classes.Toolbox;
 import java.util.HashMap;
 import java.util.Scanner;
 
+/**
+ * changes players current location
+ */
 public class Move extends Command {
 
     private Larry larry;

@@ -10,6 +10,9 @@ import java.io.FileNotFoundException;
 import java.util.HashMap;
 import java.util.Scanner;
 
+/**
+ * it's a console for my game :)
+ */
 public class GameConsole {
     private boolean exit = false;
     private HashMap<String, Command> commands = new HashMap<>();
@@ -18,6 +21,9 @@ public class GameConsole {
     private Map gameMap = new Map();
     private Larry larry;
 
+    /**
+     * loads the game and repeatedly shows command window
+     */
     public void start() {
         gameInitialization();
         commandInitialization();
@@ -26,6 +32,9 @@ public class GameConsole {
         }while(!exit);
     }
 
+    /**
+     * prints command line and starts command specific logic
+     */
     public void execute() {
         System.out.print("><((((`>  ");
         String input = scanner.nextLine();
@@ -38,10 +47,16 @@ public class GameConsole {
         }
     }
 
+    /**
+     * creates game commands
+     */
     public void commandInitialization() {
         commands.put("move", new Move(larry, gameMap));
     }
 
+    /**
+     * initializes the game and loads data
+     */
     public void gameInitialization() {
         try {
             gameData.loadLocations(gameMap);

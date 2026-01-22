@@ -4,6 +4,9 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.ArrayList;
 
+/**
+ * game location aka one aquarium room
+ */
 public class Location {
     private String name;
     private ArrayList<String> neighbours;
@@ -67,9 +70,13 @@ public class Location {
         return description + "\n";
     }
 
+    /**
+     * prints location neighbours in a multiple-choice format
+     * @return list of neighbours
+     */
     public String neighboursMenu() {
         for (int i = 0; i < neighbours.size(); i++) {
-            System.out.println(Toolbox.coloredText("blue",(i+1) +") " + neighbours.get(i)));
+            return Toolbox.coloredText("blue",(i+1) +") " + neighbours.get(i));
         }
         return "";
     }

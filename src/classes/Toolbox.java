@@ -3,6 +3,9 @@ package classes;
 import java.util.HashMap;
 import java.util.Scanner;
 
+/**
+ * useful methods for better console organization
+ */
 public class Toolbox {
 
     public static HashMap<String, String> colorMap = new HashMap<>();
@@ -35,10 +38,18 @@ public class Toolbox {
 
     }
 
+    /**
+     * prints empty lines which visually clear the console
+     * @return
+     */
     public static String clearConsole(){
         return "\n".repeat(60);
     }
 
+    /**
+     * program waits
+     * @param time amout of time the program is supposed to wait
+     */
     public static void wait(int time) {
         try {
             Thread.sleep(time);
@@ -47,6 +58,9 @@ public class Toolbox {
         }
     }
 
+    /**
+     * when used somewhere, forces the player to press enter before continuing
+     */
     public static void enter(){
         Scanner scanner = new Scanner(System.in);
         scanner.nextLine();
