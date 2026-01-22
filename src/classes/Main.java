@@ -1,10 +1,10 @@
 package classes;
 
-import java.io.FileNotFoundException;
+import classes.command.console.GameConsole;
 
 public class Main {
     public static void main(String[] args) {
         GameConsole gameConsole = new GameConsole();
-        gameConsole.gameInitialization();
+        gameConsole.start();
     }
 }

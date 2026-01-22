@@ -7,6 +7,6 @@ public abstract class Command {
         this.commandName = commandName;
     }
 
-    public abstract void execute();
-    public abstract void exit();
+    public abstract String execute();
+    public abstract boolean exit();
 }

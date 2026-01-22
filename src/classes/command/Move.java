@@ -3,12 +3,12 @@ package classes.command;
 public class Move extends Command {
 
     @Override
-    public void execute() {
-
+    public String execute() {
+        return "Move command";
     }
 
     @Override
-    public void exit() {
-
+    public boolean exit() {
+        return false;
     }
 }
