@@ -1,4 +1,13 @@
 package classes.command;
 
-public class GoHome {
+public class GoHome extends Command {
+    @Override
+    public String execute() {
+        return "";
+    }
+
+    @Override
+    public boolean exit() {
+        return false;
+    }
 }

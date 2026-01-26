@@ -1,6 +1,9 @@
 package classes;
 
+/**
+ * game characters the player can talk to
+ */
 public class NPC {
-    String name;
-    boolean isGiftable;
+    private String name;
+    private boolean isGiftable;
 }

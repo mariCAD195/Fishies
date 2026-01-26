@@ -1,5 +1,8 @@
 package classes;
 
+/**
+ * manages different fish species in the aquarium
+ */
 public class Fish {
     private String species;
     private Boolean special;

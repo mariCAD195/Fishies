@@ -10,7 +10,6 @@ public class Journal {
     private ArrayList<Fish> fishLeft;
     private ArrayList<Fish> allFish;
 
-
     public Journal() {
         fishDone = new ArrayList<>();
         fishLeft = new ArrayList<>();

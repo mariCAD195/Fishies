@@ -2,7 +2,10 @@ package classes;
 
 import java.util.ArrayList;
 
+/**
+ * individual fish tanks which house local fish
+ */
 public class Aquarium {
-    ArrayList<Fish> EveryFIsh;
-    ArrayList<Fish> ActiveFish;
+    private ArrayList<Fish> EveryFIsh;
+    private ArrayList<Fish> ActiveFish;
 }

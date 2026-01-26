@@ -12,7 +12,7 @@ public class OpenJournal extends Command {
 
     @Override
     public String execute() {
-        System.out.println("\nhere is the list of all the fishies you need to get, i highlighted the ones you already have in red\n");
+        System.out.println("\nhere is the list of all the fishies you need to get\nI highlighted the ones you already have in red\n");
         return journal.fishJournal();
     }
 

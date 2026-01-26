@@ -1,5 +1,8 @@
 package classes;
 
+/**
+ * object the player can interact with but not carry
+ */
 public class InteractableObject {
-    String name;
+    private String name;
 }

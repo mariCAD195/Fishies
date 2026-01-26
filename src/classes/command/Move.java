@@ -10,7 +10,7 @@ import java.util.Scanner;
 /**
  * changes players current location
  */
-public class Move extends Command {
+public class Move extends Command{
 
     private Larry larry;
     private Map map;
