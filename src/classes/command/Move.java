@@ -21,6 +21,9 @@ public class Move extends Command{
         this.map = map;
     }
 
+    /**
+     * allows player to move around the map and change locations
+     */
     @Override
     public String execute() {
         System.out.println("\nI should probably get a change of scenery, but . . . where should I go?\n");
@@ -31,6 +34,7 @@ public class Move extends Command{
             if(map.getLocations().get(larry.getCurrentLocation().getName().toLowerCase()).getNeighbours().contains(input)){
                 larry.setCurrentLocation(map.getLocations().get(input));
                 System.out.println( "great choice! I'll be right there");
+                Toolbox.enter();
                 System.out.println(Toolbox.clearConsole());
                 System.out.println(Toolbox.coloredText("yellow",larry.getCurrentLocation().getName().toUpperCase()));
                 return larry.getCurrentLocation().getDescription();

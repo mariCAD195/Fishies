@@ -5,6 +5,7 @@ import classes.Journal;
 import classes.Larry;
 import classes.Map;
 import classes.command.Command;
+import classes.command.GoHome;
 import classes.command.Move;
 import classes.command.OpenJournal;
 
@@ -56,6 +57,7 @@ public class GameConsole {
     public void commandInitialization() {
         commands.put("move", new Move(larry, gameMap));
         commands.put("open journal", new OpenJournal(journal));
+        commands.put("go home", new GoHome(larry,  gameMap));
     }
 
     /**
@@ -68,6 +70,6 @@ public class GameConsole {
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
-        larry = new Larry(gameMap.getLocations().get("lobby"), 0, 1);
+        larry = new Larry(gameMap.getLocations().get("lobby"), 1, 1);
     }
 }

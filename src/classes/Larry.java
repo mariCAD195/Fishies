@@ -29,6 +29,13 @@ public class Larry {
         time.put("evening", 4);
     }
 
+    public String newDayScreen(){
+        Toolbox.clearConsole();
+        System.out.println(Toolbox.coloredText("yellow", "\n\n\n -- day " + date+" -- \n\n\n"));
+        Toolbox.enter();
+        return Toolbox.clearConsole();
+    }
+
     public int getDate() {
         return date;
     }
@@ -43,6 +50,14 @@ public class Larry {
 
     public void setTime(HashMap<String, Integer> time) {
         this.time = time;
+    }
+
+    public int getCurrentTime() {
+        return currentTime;
+    }
+
+    public void setCurrentTime(int currentTime) {
+        this.currentTime = currentTime;
     }
 
     public Location getCurrentLocation() {
