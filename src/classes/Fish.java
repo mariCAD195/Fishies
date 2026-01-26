@@ -21,7 +21,7 @@ public class Fish {
     }
 
     public void setSpecial(Boolean special) {
-        special = special;
+        this.special = special;
     }
 
     public int getPreferredTime() {

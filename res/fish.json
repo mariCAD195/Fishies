@@ -3,5 +3,10 @@
     "species" : "octopus",
     "special" : true,
     "preferredTime" : 0
+  },
+  {
+    "species" : "trumpet fish",
+    "special" : false,
+    "preferredTime" : 1
   }
 ]

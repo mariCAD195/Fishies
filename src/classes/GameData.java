@@ -27,13 +27,16 @@ public class GameData {
         }
     }
 
+    /**
+     * loads fish from json file
+     */
     public void loadFish(Journal journal){
         ObjectMapper mapper = new ObjectMapper();
         try (InputStream input = new FileInputStream("res/fish.json");) {
             Fish[] fish = mapper.readValue(input, Fish[].class);
             for (Fish fish1 : fish) {
+                journal.getAllFish().add(fish1);
                 journal.getFishLeft().add(fish1);
-                System.out.println(journal.getFishLeft());
             }
         } catch (IOException e) {
             throw new RuntimeException(e);

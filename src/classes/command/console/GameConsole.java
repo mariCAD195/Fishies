@@ -6,6 +6,7 @@ import classes.Larry;
 import classes.Map;
 import classes.command.Command;
 import classes.command.Move;
+import classes.command.OpenJournal;
 
 import java.io.FileNotFoundException;
 import java.util.HashMap;
@@ -54,6 +55,7 @@ public class GameConsole {
      */
     public void commandInitialization() {
         commands.put("move", new Move(larry, gameMap));
+        commands.put("open journal", new OpenJournal(journal));
     }
 
     /**

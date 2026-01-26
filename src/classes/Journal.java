@@ -5,11 +5,13 @@ import java.util.ArrayList;
 public class Journal {
     private ArrayList<Fish> fishDone;
     private ArrayList<Fish> fishLeft;
+    private ArrayList<Fish> allFish;
 
 
     public Journal() {
         fishDone = new ArrayList<>();
         fishLeft = new ArrayList<>();
+        allFish = new ArrayList<>();
     }
 
     public ArrayList<Fish> getFishDone() {
@@ -18,6 +20,22 @@ public class Journal {
 
     public ArrayList<Fish> getFishLeft() {
         return fishLeft;
+    }
+
+    public ArrayList<Fish> getAllFish() {
+        return allFish;
+    }
+
+    public String fishJournal(){
+        for (int i = 0; i < allFish.size(); i++) {
+            if(fishLeft.contains(allFish.get(i))){
+                System.out.println(Toolbox.coloredText("red", allFish.get(i).getSpecies()));
+            }
+            if(fishDone.contains(allFish.get(i))){
+                System.out.println(Toolbox.coloredText("green",allFish.get(i).getSpecies()));
+            }
+        }
+        return "";
     }
 
     @Override
