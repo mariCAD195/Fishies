@@ -1,6 +1,7 @@
 package classes.command.console;
 
 import classes.GameData;
+import classes.Journal;
 import classes.Larry;
 import classes.Map;
 import classes.command.Command;
@@ -20,6 +21,7 @@ public class GameConsole {
     private GameData gameData = new GameData();
     private Map gameMap = new Map();
     private Larry larry;
+    private Journal journal = new Journal();
 
     /**
      * loads the game and repeatedly shows command window
@@ -60,6 +62,7 @@ public class GameConsole {
     public void gameInitialization() {
         try {
             gameData.loadLocations(gameMap);
+            gameData.loadFish(journal);
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }

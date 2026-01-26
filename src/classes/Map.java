@@ -16,10 +16,6 @@ public class Map {
         return locations;
     }
 
-    public void setLocations(HashMap<String, Location> locations) {
-        this.locations = locations;
-    }
-
     @Override
     public String toString() {
         return "Map : " +
