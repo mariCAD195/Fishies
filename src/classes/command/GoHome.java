@@ -1,8 +1,12 @@
 package classes.command;
 
 public class GoHome extends Command {
+
+
+
     @Override
     public String execute() {
+
         return "";
     }
 

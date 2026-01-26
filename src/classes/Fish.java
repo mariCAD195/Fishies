@@ -4,6 +4,7 @@ package classes;
  * manages different fish species in the aquarium
  */
 public class Fish {
+    private String name;
     private String species;
     private Boolean special;
     private int preferredTime;
@@ -33,6 +34,14 @@ public class Fish {
 
     public void setPreferredTime(int preferredTime) {
         this.preferredTime = preferredTime;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     @Override

@@ -22,10 +22,11 @@ public class Larry {
      * adds different time periods which serve as in-game time
      */
     public void createTime() {
-        time.put("morning", 0);
-        time.put("noon", 1);
-        time.put("afternoon", 2);
-        time.put("evening", 3);
+        time.put("all", 0);
+        time.put("morning", 1);
+        time.put("noon", 2);
+        time.put("afternoon", 3);
+        time.put("evening", 4);
     }
 
     public int getDate() {
