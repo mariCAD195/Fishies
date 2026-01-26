@@ -2,6 +2,9 @@ package classes;
 
 import java.util.ArrayList;
 
+/**
+ * stores your progress and fish
+ */
 public class Journal {
     private ArrayList<Fish> fishDone;
     private ArrayList<Fish> fishLeft;
@@ -26,6 +29,10 @@ public class Journal {
         return allFish;
     }
 
+    /**
+     * prints all fish in color based on your progress
+     * @return fish species name
+     */
     public String fishJournal(){
         for (int i = 0; i < allFish.size(); i++) {
             if(fishLeft.contains(allFish.get(i))){
