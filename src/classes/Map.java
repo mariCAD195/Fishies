@@ -7,13 +7,19 @@ import java.util.HashMap;
  */
 public class Map {
     private HashMap<String, Location> locations;
+    private HashMap<String, NPC> npcs;
 
     public Map() {
         locations = new HashMap<>();
+        npcs = new HashMap<>();
     }
 
     public HashMap<String, Location> getLocations() {
         return locations;
+    }
+
+    public HashMap<String, NPC> getNpcs() {
+        return npcs;
     }
 
     @Override

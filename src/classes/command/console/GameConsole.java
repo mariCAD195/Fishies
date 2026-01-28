@@ -64,8 +64,8 @@ public class GameConsole {
     public void gameInitialization() {
         try {
             gameData.loadLocations(gameMap);
+            gameData.loadNPCs(gameMap);
             gameData.loadFish(journal);
-
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }

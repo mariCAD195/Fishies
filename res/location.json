@@ -11,7 +11,7 @@
     "name": "Cafe",
     "timePassable": true,
     "neighbours": ["lobby","gift shop"],
-    "NPCsPresent": [],
+    "NPCsPresent": ["Natalie"],
     "interactableObjects": [],
     "description" : "Quite tiny place with lots of plants and string lights. there is only a few people here and behind the counter stands a freckled brunette in an apron, smiling at you."
   },
@@ -19,7 +19,7 @@
     "name": "Gift shop",
     "timePassable": false,
     "neighbours": ["cafe","restaurant"],
-    "NPCsPresent": [],
+    "NPCsPresent": ["Travis"],
     "interactableObjects": [],
     "description" : "Very cluttered space filled with fish-themed plushies, magnets, shirts, bags and many others. The local cashier seems...distracted by his phone, maybe best if you don't talk to him much."
   },
@@ -35,7 +35,7 @@
     "name": "Saltwater Area",
     "timePassable": false,
     "neighbours": ["lobby","restaurant"],
-    "NPCsPresent": [],
+    "NPCsPresent": ["John"],
     "interactableObjects": [],
     "description" : ""
   },
@@ -43,7 +43,7 @@
     "name": "Kids section",
     "timePassable": false,
     "neighbours": ["restaurant","freshwater Area"],
-    "NPCsPresent": [],
+    "NPCsPresent": ["Julia", "Michael"],
     "interactableObjects": [],
     "description" : ""
   },
@@ -59,7 +59,7 @@
     "name": "unique animals",
     "timePassable": false,
     "neighbours": ["freshwater area","lobby"],
-    "NPCsPresent": [],
+    "NPCsPresent": ["Mariane"],
     "interactableObjects": [],
     "description" : ""
   },

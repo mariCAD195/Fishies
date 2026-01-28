@@ -21,7 +21,6 @@ public class GameData {
             Location[] sideLocations = mapper.readValue(input, Location[].class);
             for (Location sideLocation : sideLocations) {
                 map.getLocations().put(sideLocation.getName().toLowerCase(), sideLocation);
-                sideLocation.arrayListInit();
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -38,6 +37,18 @@ public class GameData {
             for (Fish fish1 : fish) {
                 journal.getAllFish().add(fish1);
                 journal.getFishLeft().add(fish1);
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void loadNPCs(Map map) throws FileNotFoundException {
+        ObjectMapper mapper = new ObjectMapper();
+        try (InputStream input = new FileInputStream("res/npcs.json");) {
+            NPC[] npcs = mapper.readValue(input, NPC[].class);
+            for (NPC npc : npcs) {
+                map.getNpcs().put(npc.getName().toLowerCase(), npc);
             }
         } catch (IOException e) {
             throw new RuntimeException(e);

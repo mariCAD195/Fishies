@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class Location {
     private String name;
     private ArrayList<String> neighbours;
-    private ArrayList<NPC> NPCsPresent;
+    private ArrayList<String> NPCsPresent;
     private ArrayList<InteractableObject> interactableObjects;
     private ArrayList<Aquarium> aquariums;
     private boolean timePassable;
@@ -50,7 +50,7 @@ public class Location {
         this.neighbours = neighbours;
     }
 
-    public void setNPCsPresent(ArrayList<NPC> NPCsPresent) {
+    public void setNPCsPresent(ArrayList<String> NPCsPresent) {
         this.NPCsPresent = NPCsPresent;
     }
 
@@ -67,7 +67,7 @@ public class Location {
     }
 
     @JsonProperty("NPCsPresent")
-    public ArrayList<NPC> getNPCsPresent() {
+    public ArrayList<String> getNPCsPresent() {
         return NPCsPresent;
     }
 
@@ -98,6 +98,9 @@ public class Location {
         return "";
     }
 
+    /**
+     * prints list of all thing available for the player to explore
+     */
     public String searchLocationMenu(){
         for (int i = 0; i < NPCsPresent.size(); i++) {
             System.out.println(NPCsPresent.get(i)+"\n");
