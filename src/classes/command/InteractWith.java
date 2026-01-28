@@ -27,7 +27,26 @@ public class InteractWith extends Command {
             return map.getInteractableObjects().get(input).getDescription();
         }
         if(map.getLocations().get(larry.getCurrentLocation().getName().toLowerCase()).getItems().contains(input)){
-            return map.getItems().get(input).getDescription();
+            System.out.println(map.getItems().get(input).getDescription());
+            System.out.println("\ndo you want to buy this? (don't worry i promise it's in your student's budget)\n"+"(y/n)");
+            boolean answered = false;
+            while(answered == false) {
+                String answer = scanner.next();
+                scanner.nextLine();
+                if(answer.equalsIgnoreCase("n")||answer.equalsIgnoreCase("no")){
+                    return "\nokey sure, you can always come back for it if you'd like";
+                }
+                if(answer.equalsIgnoreCase("y")||answer.equalsIgnoreCase("yes")){
+                    if(larry.getInventory().size()<5){
+                        larry.getInventory().add(map.getItems().get(input));
+                        return "\ngreat, you now have it in your inventory :)";
+                    }else{
+                        return "oh...it looks like you can't pick up any more items, i'm sorry :(";
+                    }
+                }else{
+                    System.out.println("\nem...i gave you a simple question, try again");
+                }
+            }
         }
         return "";
     }

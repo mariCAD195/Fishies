@@ -1,5 +1,6 @@
 package classes;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 /**
@@ -10,14 +11,14 @@ public class Larry {
     private HashMap<String, Integer> time;
     private int currentTime;
     private int date;
-    private Item[] inventory;
+    private ArrayList<Item> inventory;
 
     public Larry(Location currentLocation, int currentTime, int date) {
         this.currentLocation = currentLocation;
         this.time = new HashMap<>();
         this.currentTime = currentTime;
         this.date = date;
-        this.inventory = new Item[5];
+        this.inventory = new ArrayList<>();
     }
 
     /**
@@ -58,11 +59,11 @@ public class Larry {
         return currentTime;
     }
 
-    public Item[] getInventory() {
+    public ArrayList<Item> getInventory() {
         return inventory;
     }
 
-    public void setInventory(Item[] inventory) {
+    public void setInventory(ArrayList<Item> inventory) {
         this.inventory = inventory;
     }
 

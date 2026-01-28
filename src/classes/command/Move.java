@@ -33,7 +33,7 @@ public class Move extends Command{
         if (map.getLocations().containsKey(input)) {
             if(map.getLocations().get(larry.getCurrentLocation().getName().toLowerCase()).getNeighbours().contains(input)){
                 larry.setCurrentLocation(map.getLocations().get(input));
-                System.out.println( "great choice! I'll be right there");
+                System.out.println( "\ngreat choice! I'll be right there");
                 Toolbox.enter();
                 System.out.println(Toolbox.clearConsole());
                 System.out.println(Toolbox.coloredText("yellow",larry.getCurrentLocation().getName().toUpperCase()));
