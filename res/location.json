@@ -5,6 +5,7 @@
     "neighbours": ["cafe","saltwater area","unique animals"],
     "NPCsPresent": [],
     "interactableObjects": [],
+    "aquariums" : [],
     "description" : "A room on the smaller side. it has big open archways leading to the two biggest rooms and a smaller glass door leading to the café."
   },
   {
@@ -22,6 +23,7 @@
     "neighbours": ["cafe","restaurant"],
     "NPCsPresent": ["Travis"],
     "interactableObjects": [],
+    "aquariums" : [],
     "description" : "Very cluttered space filled with fish-themed plushies, magnets, shirts, bags and many others. The local cashier seems...distracted by his phone, maybe best if you don't talk to him much."
   },
   {
@@ -30,6 +32,7 @@
     "neighbours": ["gift Shop","saltwater area","kids section"],
     "NPCsPresent": [],
     "interactableObjects": [],
+    "aquariums" : [],
     "description" : "A very spacious clean room wit blue walls and lots of tables and chairs. The space is crowded with hungry visitors and all the staff here seems really busy"
   },
   {
@@ -38,6 +41,7 @@
     "neighbours": ["lobby","restaurant"],
     "NPCsPresent": ["John"],
     "interactableObjects": [],
+    "aquariums" : [],
     "description" : ""
   },
   {
@@ -46,6 +50,7 @@
     "neighbours": ["restaurant","freshwater Area"],
     "NPCsPresent": ["Julia", "Michael"],
     "interactableObjects": [],
+    "aquariums" : [],
     "description" : ""
   },
   {
@@ -54,6 +59,7 @@
     "neighbours": ["kids area","saltwater area","staff area"],
     "NPCsPresent": [],
     "interactableObjects": [],
+    "aquariums" : [],
     "description" : ""
   },
   {
@@ -62,6 +68,7 @@
     "neighbours": ["freshwater area","lobby"],
     "NPCsPresent": ["Mariane"],
     "interactableObjects": [],
+    "aquariums" : [],
     "description" : ""
   },
   {
@@ -70,6 +77,7 @@
     "neighbours": ["freshwater area"],
     "NPCsPresent": [],
     "interactableObjects": [],
+    "aquariums" : [],
     "description" : ""
   }
 ]

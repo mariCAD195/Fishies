@@ -102,15 +102,34 @@ public class Location {
      * prints list of all thing available for the player to explore
      */
     public String searchLocationMenu(){
-        for (int i = 0; i < NPCsPresent.size(); i++) {
-            System.out.println(NPCsPresent.get(i)+"\n");
+
+        if(NPCsPresent.size() == 0){
+            System.out.println("\nnobody...nobody seems to have the time for you at least\n");
+        }else{
+            for (int i = 0; i < NPCsPresent.size(); i++) {
+                System.out.println("\nPeople you can try talking to : ");
+                System.out.println(Toolbox.coloredText("blue", NPCsPresent.get(i)+"\n"));
+            }
         }
-        for (int i = 0; i < interactableObjects.size(); i++) {
-            System.out.println(interactableObjects.get(i)+"\n");
+
+        if(interactableObjects.size() == 0){
+            System.out.println("nothing...nothing in this room worth looking at\n");
+        }else{
+            for (int i = 0; i < interactableObjects.size(); i++) {
+                System.out.println("things maybe worth exploring closer : ");
+                System.out.println(Toolbox.coloredText("blue",interactableObjects.get(i)+"\n"));
+            }
         }
-        for (int i = 0; i < aquariums.size(); i++) {
-            System.out.println(aquariums.get(i)+"\n");
+
+        if(aquariums.size() == 0){
+            System.out.println("no fishies in this room :(\n");
+        }else{
+            for (int i = 0; i < aquariums.size(); i++) {
+                System.out.println("aquariums you should check out : ");
+                System.out.println(Toolbox.coloredText("blue",aquariums.get(i)+"\n"));
+            }
         }
+
         return "";
     }
 

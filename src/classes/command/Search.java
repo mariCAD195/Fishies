@@ -2,6 +2,7 @@ package classes.command;
 
 import classes.Larry;
 import classes.Map;
+import classes.Toolbox;
 
 /**
  * allows player to see all available activities in the room
@@ -22,6 +23,7 @@ public class Search extends Command {
      */
     @Override
     public String execute() {
+        System.out.println("\nhmmm...you look around the room and find...");
         return larry.getCurrentLocation().searchLocationMenu();
     }
 
