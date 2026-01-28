@@ -39,6 +39,13 @@ public class Larry {
         return Toolbox.clearConsole();
     }
 
+    public String inventoryMenu(){
+        for (int i = 0; i < inventory.size(); i++) {
+            System.out.println(Toolbox.coloredText("blue", inventory.get(i).getName()));
+        }
+        return "";
+    }
+
     public int getDate() {
         return date;
     }

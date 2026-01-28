@@ -1,6 +1,9 @@
 [
   {
     "name" : "Natalie",
-    "giftable" : false
+    "giftable" : false,
+    "welcomeDialog" : "hiiii, I'm Natalie, what will it be for you today?? :)",
+    "fishInfo" : "some animal crossing quote",
+    "giftReaction" : "em...you're sweet but i don't really want anything from you"
   }
 ]

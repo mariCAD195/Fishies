@@ -97,6 +97,10 @@ public class Location {
         return "";
     }
 
+    /**
+     * prints all thing the player is able to interact with
+     * @return list of available objects and items
+     */
     public String interactWithMenu() {
         int count = 0;
         for (int i = 0; i < interactableObjects.size(); i++) {
@@ -107,6 +111,13 @@ public class Location {
             for (int i = 0; i < items.size(); i++) {
                 System.out.println(Toolbox.coloredText("blue",(count+1) +") " + items.get(i)));
             }
+        }
+        return "";
+    }
+
+    public String talktoMenu(){
+        for (int i = 0; i < NPCsPresent.size(); i++) {
+            System.out.println(Toolbox.coloredText("blue",(i+1) +") " + NPCsPresent.get(i)));
         }
         return "";
     }

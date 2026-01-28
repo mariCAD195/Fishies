@@ -58,7 +58,7 @@ public class GameConsole {
         commands.put("search", new Search());
         commands.put("interact with", new InteractWith(gameMap, larry));
         commands.put("look around", new LookAround(gameMap, larry));
-        commands.put("talk to", new TalkTo());
+        commands.put("talk to", new TalkTo(gameMap, larry));
         commands.put("help", new Help());
     }
 
