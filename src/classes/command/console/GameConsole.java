@@ -55,7 +55,11 @@ public class GameConsole {
         commands.put("move", new Move(larry, gameMap));
         commands.put("open journal", new OpenJournal(journal));
         commands.put("go home", new GoHome(larry,  gameMap));
-        commands.put("search", new Search(gameMap, larry));
+        commands.put("search", new Search());
+        commands.put("interact with ", new InteractWith());
+        commands.put("look around", new LookAround(gameMap, larry));
+        commands.put("talk to", new TalkTo());
+        commands.put("help", new Help());
     }
 
     /**
