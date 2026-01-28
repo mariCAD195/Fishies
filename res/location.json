@@ -12,7 +12,8 @@
     "timePassable": true,
     "neighbours": ["lobby","gift shop"],
     "NPCsPresent": ["Natalie"],
-    "interactableObjects": [],
+    "interactableObjects": ["plant"],
+    "aquariums" : ["smallTank_1"],
     "description" : "Quite tiny place with lots of plants and string lights. there is only a few people here and behind the counter stands a freckled brunette in an apron, smiling at you."
   },
   {

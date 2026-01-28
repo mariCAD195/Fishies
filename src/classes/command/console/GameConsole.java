@@ -66,6 +66,8 @@ public class GameConsole {
             gameData.loadLocations(gameMap);
             gameData.loadNPCs(gameMap);
             gameData.loadFish(journal);
+            gameData.loadObjects(gameMap);
+            gameData.loadAquariums(gameMap);
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }

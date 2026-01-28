@@ -11,8 +11,8 @@ public class Location {
     private String name;
     private ArrayList<String> neighbours;
     private ArrayList<String> NPCsPresent;
-    private ArrayList<InteractableObject> interactableObjects;
-    private ArrayList<Aquarium> aquariums;
+    private ArrayList<String> interactableObjects;
+    private ArrayList<String> aquariums;
     private boolean timePassable;
     private String description;
 
@@ -38,7 +38,7 @@ public class Location {
         return neighbours;
     }
 
-    public ArrayList<Aquarium> getAquariums() {
+    public ArrayList<String> getAquariums() {
         return aquariums;
     }
 
@@ -54,11 +54,11 @@ public class Location {
         this.NPCsPresent = NPCsPresent;
     }
 
-    public void setInteractableObjects(ArrayList<InteractableObject> interactableObjects) {
+    public void setInteractableObjects(ArrayList<String> interactableObjects) {
         this.interactableObjects = interactableObjects;
     }
 
-    public void setAquariums(ArrayList<Aquarium> aquariums) {
+    public void setAquariums(ArrayList<String> aquariums) {
         this.aquariums = aquariums;
     }
 
@@ -71,7 +71,7 @@ public class Location {
         return NPCsPresent;
     }
 
-    public ArrayList<InteractableObject> getInteractableObjects() {
+    public ArrayList<String> getInteractableObjects() {
         return interactableObjects;
     }
 

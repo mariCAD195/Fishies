@@ -54,4 +54,28 @@ public class GameData {
             throw new RuntimeException(e);
         }
     }
+
+    public void loadObjects(Map map) throws FileNotFoundException {
+        ObjectMapper mapper = new ObjectMapper();
+        try(InputStream input = new FileInputStream("res/objects.json");){
+            InteractableObject[] objects = mapper.readValue(input, InteractableObject[].class);
+            for (InteractableObject object : objects) {
+                map.getInteractableObjects().put(object.getName().toLowerCase(), object);
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void loadAquariums(Map map) throws FileNotFoundException {
+        ObjectMapper mapper = new ObjectMapper();
+        try(InputStream input = new FileInputStream("res/aquariums.json");){
+            Aquarium[] aquariums = mapper.readValue(input, Aquarium[].class);
+            for (Aquarium aquarium : aquariums) {
+                map.getAquariums().put(aquarium.getName().toLowerCase(), aquarium);
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }
