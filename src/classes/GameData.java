@@ -21,6 +21,7 @@ public class GameData {
             Location[] sideLocations = mapper.readValue(input, Location[].class);
             for (Location sideLocation : sideLocations) {
                 map.getLocations().put(sideLocation.getName().toLowerCase(), sideLocation);
+                sideLocation.arrayListInit();
             }
         } catch (IOException e) {
             throw new RuntimeException(e);

@@ -4,10 +4,7 @@ import classes.GameData;
 import classes.Journal;
 import classes.Larry;
 import classes.Map;
-import classes.command.Command;
-import classes.command.GoHome;
-import classes.command.Move;
-import classes.command.OpenJournal;
+import classes.command.*;
 
 import java.io.FileNotFoundException;
 import java.util.HashMap;
@@ -58,6 +55,7 @@ public class GameConsole {
         commands.put("move", new Move(larry, gameMap));
         commands.put("open journal", new OpenJournal(journal));
         commands.put("go home", new GoHome(larry,  gameMap));
+        commands.put("search", new Search(gameMap, larry));
     }
 
     /**
@@ -67,6 +65,7 @@ public class GameConsole {
         try {
             gameData.loadLocations(gameMap);
             gameData.loadFish(journal);
+
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }

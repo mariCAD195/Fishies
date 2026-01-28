@@ -12,6 +12,7 @@ public class Location {
     private ArrayList<String> neighbours;
     private ArrayList<NPC> NPCsPresent;
     private ArrayList<InteractableObject> interactableObjects;
+    private ArrayList<Aquarium> aquariums;
     private boolean timePassable;
     private String description;
 
@@ -19,38 +20,59 @@ public class Location {
     public Location() {
     }
 
-    public String getName() {
-        return name;
+    /**
+     * initializes all arrayLists
+     */
+    public void arrayListInit(){
+        neighbours = new ArrayList<>();
+        interactableObjects = new ArrayList<>();
+        aquariums = new ArrayList<>();
+        NPCsPresent = new ArrayList<>();
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public String getName() {
+        return name;
     }
 
     public ArrayList<String> getNeighbours() {
         return neighbours;
     }
 
-    public void setNeighbours(ArrayList<String> neighbours) {
-        this.neighbours = neighbours;
+    public ArrayList<Aquarium> getAquariums() {
+        return aquariums;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
 
-    @JsonProperty("NPCsPresent")
-    public ArrayList<NPC> getNPCsPresent() {
-        return NPCsPresent;
+    public void setNeighbours(ArrayList<String> neighbours) {
+        this.neighbours = neighbours;
     }
 
     public void setNPCsPresent(ArrayList<NPC> NPCsPresent) {
         this.NPCsPresent = NPCsPresent;
     }
 
-    public ArrayList<InteractableObject> getInteractableObjects() {
-        return interactableObjects;
-    }
-
     public void setInteractableObjects(ArrayList<InteractableObject> interactableObjects) {
         this.interactableObjects = interactableObjects;
+    }
+
+    public void setAquariums(ArrayList<Aquarium> aquariums) {
+        this.aquariums = aquariums;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    @JsonProperty("NPCsPresent")
+    public ArrayList<NPC> getNPCsPresent() {
+        return NPCsPresent;
+    }
+
+    public ArrayList<InteractableObject> getInteractableObjects() {
+        return interactableObjects;
     }
 
     public boolean isTimePassable() {
@@ -59,11 +81,6 @@ public class Location {
 
     public void setTimePassable(boolean timePassable) {
         this.timePassable = timePassable;
-    }
-
-
-    public void setDescription(String description) {
-        this.description = description;
     }
 
     public String getDescription() {
@@ -77,6 +94,19 @@ public class Location {
     public String neighboursMenu() {
         for (int i = 0; i < neighbours.size(); i++) {
             System.out.println(Toolbox.coloredText("blue",(i+1) +") " + neighbours.get(i)));
+        }
+        return "";
+    }
+
+    public String searchLocationMenu(){
+        for (int i = 0; i < NPCsPresent.size(); i++) {
+            System.out.println(NPCsPresent.get(i)+"\n");
+        }
+        for (int i = 0; i < interactableObjects.size(); i++) {
+            System.out.println(interactableObjects.get(i)+"\n");
+        }
+        for (int i = 0; i < aquariums.size(); i++) {
+            System.out.println(aquariums.get(i)+"\n");
         }
         return "";
     }
