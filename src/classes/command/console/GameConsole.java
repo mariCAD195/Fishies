@@ -56,7 +56,7 @@ public class GameConsole {
         commands.put("open journal", new OpenJournal(journal));
         commands.put("go home", new GoHome(larry,  gameMap));
         commands.put("search", new Search());
-        commands.put("interact with ", new InteractWith());
+        commands.put("interact with", new InteractWith(gameMap, larry));
         commands.put("look around", new LookAround(gameMap, larry));
         commands.put("talk to", new TalkTo());
         commands.put("help", new Help());
@@ -72,6 +72,7 @@ public class GameConsole {
             gameData.loadFish(journal);
             gameData.loadObjects(gameMap);
             gameData.loadAquariums(gameMap);
+            gameData.loadItems(gameMap);
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }

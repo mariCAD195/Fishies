@@ -10,12 +10,14 @@ public class Map {
     private HashMap<String, NPC> npcs;
     private HashMap<String, InteractableObject> interactableObjects;
     private HashMap<String, Aquarium> aquariums;
+    private HashMap<String, Item> items;
 
     public Map() {
         locations = new HashMap<>();
         npcs = new HashMap<>();
         interactableObjects = new HashMap<>();
         aquariums = new HashMap<>();
+        items = new HashMap<>();
     }
 
     public HashMap<String, Location> getLocations() {
@@ -32,6 +34,10 @@ public class Map {
 
     public HashMap<String, Aquarium> getAquariums() {
         return aquariums;
+    }
+
+    public HashMap<String, Item> getItems() {
+        return items;
     }
 
     @Override

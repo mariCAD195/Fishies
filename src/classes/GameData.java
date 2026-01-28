@@ -78,4 +78,16 @@ public class GameData {
             throw new RuntimeException(e);
         }
     }
+    public void loadItems(Map map) throws FileNotFoundException {
+        ObjectMapper mapper = new ObjectMapper();
+        try(InputStream input = new FileInputStream("res/item.json");){
+            Item[] items = mapper.readValue(input, Item[].class);
+            for (Item item : items) {
+                map.getItems().put(item.getName().toLowerCase(), item);
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }
+

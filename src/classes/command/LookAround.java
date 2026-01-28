@@ -23,7 +23,7 @@ public class LookAround extends Command {
     @Override
     public String execute() {
         System.out.println("\nhmmm...you look around the room and find...");
-        return larry.getCurrentLocation().searchLocationMenu();
+        return larry.getCurrentLocation().lookAroundLocationMenu();
     }
 
     @Override

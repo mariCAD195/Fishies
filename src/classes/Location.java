@@ -13,21 +13,12 @@ public class Location {
     private ArrayList<String> NPCsPresent;
     private ArrayList<String> interactableObjects;
     private ArrayList<String> aquariums;
+    private ArrayList<String> items;
     private boolean timePassable;
     private String description;
 
 
     public Location() {
-    }
-
-    /**
-     * initializes all arrayLists
-     */
-    public void arrayListInit(){
-        neighbours = new ArrayList<>();
-        interactableObjects = new ArrayList<>();
-        aquariums = new ArrayList<>();
-        NPCsPresent = new ArrayList<>();
     }
 
     public String getName() {
@@ -87,6 +78,14 @@ public class Location {
         return description + "\n";
     }
 
+    public ArrayList<String> getItems() {
+        return items;
+    }
+
+    public void setItems(ArrayList<String> items) {
+        this.items = items;
+    }
+
     /**
      * prints location neighbours in a multiple-choice format
      * @return list of neighbours
@@ -98,35 +97,55 @@ public class Location {
         return "";
     }
 
+    public String interactWithMenu() {
+        int count = 0;
+        for (int i = 0; i < interactableObjects.size(); i++) {
+            System.out.println(Toolbox.coloredText("blue",(i+1) +") " + interactableObjects.get(i)));
+            count++;
+        }
+        if(items.size()>0){
+            for (int i = 0; i < items.size(); i++) {
+                System.out.println(Toolbox.coloredText("blue",(count+1) +") " + items.get(i)));
+            }
+        }
+        return "";
+    }
+
     /**
      * prints list of all thing available for the player to explore
      */
-    public String searchLocationMenu(){
+    public String lookAroundLocationMenu(){
 
         if(NPCsPresent.size() == 0){
             System.out.println("\nnobody...nobody seems to have the time for you at least\n");
         }else{
+            System.out.println("\nPeople you can try talking to : ");
             for (int i = 0; i < NPCsPresent.size(); i++) {
-                System.out.println("\nPeople you can try talking to : ");
-                System.out.println(Toolbox.coloredText("blue", NPCsPresent.get(i)+"\n"));
+                System.out.println(Toolbox.coloredText("blue", NPCsPresent.get(i)));
             }
         }
 
         if(interactableObjects.size() == 0){
             System.out.println("nothing...nothing in this room worth looking at\n");
         }else{
+            System.out.println("\nthings maybe worth exploring closer : ");
             for (int i = 0; i < interactableObjects.size(); i++) {
-                System.out.println("things maybe worth exploring closer : ");
-                System.out.println(Toolbox.coloredText("blue",interactableObjects.get(i)+"\n"));
+                System.out.println(Toolbox.coloredText("blue",interactableObjects.get(i)));
             }
         }
 
         if(aquariums.size() == 0){
             System.out.println("no fishies in this room :(\n");
         }else{
+            System.out.println("\naquariums you should check out : ");
             for (int i = 0; i < aquariums.size(); i++) {
-                System.out.println("aquariums you should check out : ");
-                System.out.println(Toolbox.coloredText("blue",aquariums.get(i)+"\n"));
+                System.out.println(Toolbox.coloredText("blue",aquariums.get(i)));
+            }
+        }
+        if(items.size() > 0){
+            System.out.println("\nitems you can get : ");
+            for (int i = 0; i < items.size(); i++) {
+                System.out.println(Toolbox.coloredText("blue",items.get(i)));
             }
         }
 

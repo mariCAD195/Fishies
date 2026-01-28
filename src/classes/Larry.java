@@ -10,12 +10,14 @@ public class Larry {
     private HashMap<String, Integer> time;
     private int currentTime;
     private int date;
+    private Item[] inventory;
 
     public Larry(Location currentLocation, int currentTime, int date) {
         this.currentLocation = currentLocation;
         this.time = new HashMap<>();
         this.currentTime = currentTime;
         this.date = date;
+        this.inventory = new Item[5];
     }
 
     /**
@@ -54,6 +56,14 @@ public class Larry {
 
     public int getCurrentTime() {
         return currentTime;
+    }
+
+    public Item[] getInventory() {
+        return inventory;
+    }
+
+    public void setInventory(Item[] inventory) {
+        this.inventory = inventory;
     }
 
     public void setCurrentTime(int currentTime) {
