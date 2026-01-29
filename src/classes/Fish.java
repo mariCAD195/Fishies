@@ -7,9 +7,18 @@ public class Fish {
     private String name;
     private String species;
     private Boolean special;
+    private String description;
     private int preferredTime;
 
     public Fish() {
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public String getSpecies() {

@@ -1,12 +1,16 @@
 [
   {
+    "name" : "octopus",
     "species" : "octopus",
     "special" : true,
-    "preferredTime" : 0
+    "preferredTime" : 0,
+    "description" : ""
   },
   {
+    "name" : "trumpet fish",
     "species" : "trumpet fish",
     "special" : false,
-    "preferredTime" : 1
+    "preferredTime" : 1,
+    "description" : ""
   }
 ]

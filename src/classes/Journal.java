@@ -1,31 +1,44 @@
 package classes;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * stores your progress and fish
  */
 public class Journal {
-    private ArrayList<Fish> fishDone;
-    private ArrayList<Fish> fishLeft;
-    private ArrayList<Fish> allFish;
+    private HashMap<String, Fish> fishDone;
+    private HashMap<String, Fish> fishLeft;
+    private HashMap<String, Fish> allFish;
 
     public Journal() {
-        fishDone = new ArrayList<>();
-        fishLeft = new ArrayList<>();
-        allFish = new ArrayList<>();
+        fishDone = new HashMap<>();
+        fishLeft = new HashMap<>();
+        allFish = new HashMap<>();
     }
 
-    public ArrayList<Fish> getFishDone() {
+    public HashMap<String, Fish> getFishDone() {
         return fishDone;
     }
 
-    public ArrayList<Fish> getFishLeft() {
+    public void setFishDone(HashMap<String, Fish> fishDone) {
+        this.fishDone = fishDone;
+    }
+
+    public HashMap<String, Fish> getFishLeft() {
         return fishLeft;
     }
 
-    public ArrayList<Fish> getAllFish() {
+    public void setFishLeft(HashMap<String, Fish> fishLeft) {
+        this.fishLeft = fishLeft;
+    }
+
+    public HashMap<String, Fish> getAllFish() {
         return allFish;
+    }
+
+    public void setAllFish(HashMap<String, Fish> allFish) {
+        this.allFish = allFish;
     }
 
     /**
@@ -34,14 +47,18 @@ public class Journal {
      */
     public String fishJournal(){
         for (int i = 0; i < allFish.size(); i++) {
-            if(fishLeft.contains(allFish.get(i))){
+            if(fishLeft.containsKey(allFish.get(i).getName())){
                 System.out.println(Toolbox.coloredText("red", allFish.get(i).getSpecies()));
             }
-            if(fishDone.contains(allFish.get(i))){
+            if(fishDone.containsKey(allFish.get(i).getName())){
                 System.out.println(Toolbox.coloredText("green",allFish.get(i).getSpecies()));
             }
         }
         return "";
+    }
+
+    public void takephoto(String fish){
+        //TODO take photo method
     }
 
     @Override

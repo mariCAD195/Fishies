@@ -35,8 +35,8 @@ public class GameData {
         try (InputStream input = new FileInputStream("res/fish.json");) {
             Fish[] fish = mapper.readValue(input, Fish[].class);
             for (Fish fish1 : fish) {
-                journal.getAllFish().add(fish1);
-                journal.getFishLeft().add(fish1);
+                journal.getAllFish().put(fish1.getName().toLowerCase(), fish1);
+                journal.getFishLeft().put(fish1.getName().toLowerCase(), fish1);
             }
         } catch (IOException e) {
             throw new RuntimeException(e);

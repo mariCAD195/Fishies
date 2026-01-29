@@ -20,7 +20,7 @@ public class TalkTo extends Command {
     @Override
     public String execute() {
         System.out.println("\n...");
-        map.getLocations().get(larry.getCurrentLocation().getName().toLowerCase()).talktoMenu();
+        map.getLocations().get(larry.getCurrentLocation().getName().toLowerCase()).talkToMenu();
         System.out.println("\n(type npc name)");
         String input = sc.next();
         if (map.getLocations().get(larry.getCurrentLocation().getName().toLowerCase()).getNPCsPresent().contains(input)) {

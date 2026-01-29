@@ -8,10 +8,25 @@ import java.util.ArrayList;
 public class Aquarium {
     private String name;
     private String description;
-    private ArrayList<Fish> EveryFIsh;
-    private ArrayList<Fish> ActiveFish;
+    private ArrayList<Fish> everyFish;
+    private ArrayList<Fish> activeFish;
 
     public Aquarium() {
+    }
+
+    public String activeFishMenu(){
+        for (int i = 0; i < activeFish.size(); i++) {
+            System.out.println(Toolbox.coloredText("blue","1) " + activeFish.get(i).getName()));
+        }
+        return "";
+    }
+
+    public String everyFishSign(){
+        System.out.println("\nhere is every fish in this fish tank\n");
+        for (int i = 0; i < everyFish.size(); i++) {
+            System.out.println(Toolbox.coloredText("blue","1) " + everyFish.get(i).getName()));
+        }
+        return "";
     }
 
     public String getName() {
@@ -30,19 +45,20 @@ public class Aquarium {
         this.description = description;
     }
 
-    public ArrayList<Fish> getEveryFIsh() {
-        return EveryFIsh;
+    public ArrayList<Fish> getEveryFish() {
+        return everyFish;
     }
 
-    public void setEveryFIsh(ArrayList<Fish> everyFIsh) {
-        EveryFIsh = everyFIsh;
+    public void setEveryFish(ArrayList<Fish> everyFish) {
+        this.everyFish = everyFish;
     }
 
     public ArrayList<Fish> getActiveFish() {
-        return ActiveFish;
+        return activeFish;
     }
 
     public void setActiveFish(ArrayList<Fish> activeFish) {
-        ActiveFish = activeFish;
+        this.activeFish = activeFish;
     }
+
 }

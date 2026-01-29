@@ -21,6 +21,7 @@ public class Location {
     public Location() {
     }
 
+    //region gettersSetters
     public String getName() {
         return name;
     }
@@ -85,6 +86,7 @@ public class Location {
     public void setItems(ArrayList<String> items) {
         this.items = items;
     }
+    //endregion
 
     /**
      * prints location neighbours in a multiple-choice format
@@ -115,9 +117,19 @@ public class Location {
         return "";
     }
 
-    public String talktoMenu(){
+    /**
+     * prints list of all available NPCs in location
+     */
+    public String talkToMenu(){
         for (int i = 0; i < NPCsPresent.size(); i++) {
             System.out.println(Toolbox.coloredText("blue",(i+1) +") " + NPCsPresent.get(i)));
+        }
+        return "";
+    }
+
+    public String searchMenu(){
+        for (int i = 0; i < aquariums.size(); i++) {
+            System.out.println(Toolbox.coloredText("blue",(i+1) +") " + aquariums.get(i)));
         }
         return "";
     }

@@ -1,5 +1,8 @@
 [
   {
-    "name" : "smallTank_1"
+    "name" : "small tank",
+    "description" : "",
+    "everyFish" : [],
+    "activeFish" : []
   }
 ]
