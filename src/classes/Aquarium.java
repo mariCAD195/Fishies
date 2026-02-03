@@ -14,6 +14,10 @@ public class Aquarium {
     public Aquarium() {
     }
 
+    public void addFish(Fish fish) {
+        everyFish.add(fish);
+    }
+
     public String activeFishMenu(){
         for (int i = 0; i < activeFish.size(); i++) {
             System.out.println(Toolbox.coloredText("blue","1) " + activeFish.get(i).getName()));

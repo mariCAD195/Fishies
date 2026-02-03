@@ -1,6 +1,36 @@
 [
   {
-    "name" : "small tank",
+    "name" : "octopus tank",
+    "description" : "",
+    "everyFish" : [],
+    "activeFish" : []
+  },
+  {
+    "name" : "sea fishies tank 1",
+    "description" : "",
+    "everyFish" : [],
+    "activeFish" : []
+  },
+  {
+    "name" : "koi tank",
+    "description" : "",
+    "everyFish" : [],
+    "activeFish" : []
+  },
+  {
+    "name" : "interactive tank",
+    "description" : "",
+    "everyFish" : [],
+    "activeFish" : []
+  },
+  {
+    "name" : "sea fishies tank 2",
+    "description" : "",
+    "everyFish" : [],
+    "activeFish" : []
+  },
+  {
+    "name" : "sea fishies tank 3",
     "description" : "",
     "everyFish" : [],
     "activeFish" : []

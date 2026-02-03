@@ -9,6 +9,7 @@ public class Fish {
     private Boolean special;
     private String description;
     private int preferredTime;
+    private String homeLocation;
 
     public Fish() {
     }
@@ -51,6 +52,14 @@ public class Fish {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getHomeLocation() {
+        return homeLocation;
+    }
+
+    public void setHomeLocation(String homeLocation) {
+        this.homeLocation = homeLocation;
     }
 
     @Override

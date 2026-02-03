@@ -45,7 +45,7 @@
     "neighbours": ["lobby","restaurant"],
     "NPCsPresent": ["john"],
     "interactableObjects": [],
-    "aquariums" : [],
+    "aquariums" : ["sea fishies tank 1","sea fishies tank 2","sea fishies tank 3"],
     "items" : [],
     "description" : ""
   },
@@ -55,7 +55,7 @@
     "neighbours": ["restaurant","freshwater Area"],
     "NPCsPresent": ["julia", "michael"],
     "interactableObjects": [],
-    "aquariums" : [],
+    "aquariums" : ["koi tank","interactive tank"],
     "items" : [],
     "description" : ""
   },
@@ -75,7 +75,7 @@
     "neighbours": ["freshwater area","lobby"],
     "NPCsPresent": ["mariane"],
     "interactableObjects": [],
-    "aquariums" : [],
+    "aquariums" : ["octopus tank"],
     "items" : [],
     "description" : ""
   },

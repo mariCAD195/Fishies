@@ -1,16 +1,186 @@
 [
   {
-    "name" : "octopus",
+    "name" : "Shelly",
     "species" : "octopus",
     "special" : true,
     "preferredTime" : 0,
-    "description" : ""
+    "description" : "",
+    "homeLocation" : "octopus tank"
   },
   {
     "name" : "trumpet fish",
     "species" : "trumpet fish",
     "special" : false,
     "preferredTime" : 1,
-    "description" : ""
+    "description" : "",
+    "homeLocation" : "sea fishies tank 1"
+  },
+  {
+    "name" : "koi carp",
+    "species" : "kai carp",
+    "special" : false,
+    "preferredTime" : 0,
+    "description" : "",
+    "homeLocation" : "koi tank"
+  },
+  {
+    "name" : "starfish",
+    "species" : "starfish",
+    "special" : false,
+    "preferredTime" : 0,
+    "description" : "",
+    "homeLocation" : "interactive tank"
+  },
+  {
+    "name" : "sea urchin",
+    "species" : "sea urchin",
+    "special" : false,
+    "preferredTime" : 0,
+    "description" : "",
+    "homeLocation" : "interactive tank"
+  },
+  {
+    "name" : "jellyfish",
+    "species" : "jellyfish",
+    "special" : false,
+    "preferredTime" : 0,
+    "description" : "",
+    "homeLocation" : "interactive tank"
+  },
+  {
+    "name" : "seahorse",
+    "species" : "seahorse",
+    "special" : false,
+    "preferredTime" : 0,
+    "description" : "",
+    "homeLocation" : "sea fishies tank 1"
+  },
+  {
+    "name" : "clownfish",
+    "species" : "clownfish",
+    "special" : false,
+    "preferredTime" : 0,
+    "description" : "",
+    "homeLocation" : "sea fishies tank 1"
+  },
+  {
+    "name" : "surgeonfish",
+    "species" : "surgeonfish",
+    "special" : false,
+    "preferredTime" : 0,
+    "description" : "",
+    "homeLocation" : "sea fishies tank 1"
+  },
+  {
+    "name" : "butterfly fish",
+    "species" : "butterfly fish",
+    "special" : false,
+    "preferredTime" : 1,
+    "description" : "",
+    "homeLocation" : "sea fishies tank 1"
+  },
+  {
+    "name" : "napoleonfish",
+    "species" : "napoleonfish",
+    "special" : false,
+    "preferredTime" : 2,
+    "description" : "",
+    "homeLocation" : "sea fishies tank 1"
+  },
+  {
+    "name" : "zebra turkeyfish",
+    "species" : "zebra turkeyfish",
+    "special" : false,
+    "preferredTime" : 0,
+    "description" : "",
+    "homeLocation" : "sea fishies tank 2"
+  },
+  {
+    "name" : "blowfish",
+    "species" : "blowfish",
+    "special" : false,
+    "preferredTime" : 4,
+    "description" : "",
+    "homeLocation" : "sea fishies tank 2"
+  },
+  {
+    "name" : "puffer fish",
+    "species" : "puffer fish",
+    "special" : false,
+    "preferredTime" : 4,
+    "description" : "",
+    "homeLocation" : "sea fishies tank 2"
+  },
+  {
+    "name" : "anchovy",
+    "species" : "anchovy",
+    "special" : false,
+    "preferredTime" : 2,
+    "description" : "",
+    "homeLocation" : "sea fishies tank 3"
+  },
+  {
+    "name" : "horse mackrel",
+    "species" : "horse mackrel",
+    "special" : false,
+    "preferredTime" : 0,
+    "description" : "",
+    "homeLocation" : "sea fishies tank 3"
+  },
+  {
+    "name" : "barred knifejaw",
+    "species" : "barred knifejaw",
+    "special" : false,
+    "preferredTime" : 3,
+    "description" : "",
+    "homeLocation" : "sea fishies tank 3"
+  },
+  {
+    "name" : "sea bass",
+    "species" : "sea bass",
+    "special" : false,
+    "preferredTime" : 0,
+    "description" : "sea bass...it's at least a C+",
+    "homeLocation" : "sea fishies tank 3"
+  },
+  {
+    "name" : "red snapper",
+    "species" : "red snapper",
+    "special" : false,
+    "preferredTime" : 0,
+    "description" : "",
+    "homeLocation" : "sea fishies tank 3"
+  },
+  {
+    "name" : "dab",
+    "species" : "dab",
+    "special" : false,
+    "preferredTime" : 3,
+    "description" : "",
+    "homeLocation" : "sea fishies tank 3"
+  },
+  {
+    "name" : "olive flounder",
+    "species" : "olive flounder",
+    "special" : false,
+    "preferredTime" : 2,
+    "description" : "",
+    "homeLocation" : "sea fishies tank 3"
+  },
+  {
+    "name" : "tuna",
+    "species" : "tuna",
+    "special" : false,
+    "preferredTime" : 1,
+    "description" : "",
+    "homeLocation" : "sea fishies tank 3"
+  },
+  {
+    "name" : "blue marlin",
+    "species" : "blue marlin",
+    "special" : false,
+    "preferredTime" : 0,
+    "description" : "",
+    "homeLocation" : "sea fishies tank 3"
   }
 ]

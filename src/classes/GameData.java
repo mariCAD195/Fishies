@@ -30,13 +30,18 @@ public class GameData {
     /**
      * loads fish from json file
      */
-    public void loadFish(Journal journal){
+    public void loadFish(Journal journal, Map map){
         ObjectMapper mapper = new ObjectMapper();
         try (InputStream input = new FileInputStream("res/fish.json");) {
             Fish[] fish = mapper.readValue(input, Fish[].class);
             for (Fish fish1 : fish) {
                 journal.getAllFish().put(fish1.getName().toLowerCase(), fish1);
                 journal.getFishLeft().put(fish1.getName().toLowerCase(), fish1);
+                for(Aquarium aquarium1 : map.getAquariums().values()){
+                    if(aquarium1.getName().equalsIgnoreCase(fish1.getHomeLocation())){
+                        aquarium1.addFish(fish1);
+                    }
+                }
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
