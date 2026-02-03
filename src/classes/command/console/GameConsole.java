@@ -60,6 +60,7 @@ public class GameConsole {
         commands.put("look around", new LookAround(gameMap, larry));
         commands.put("talk to", new TalkTo(gameMap, larry));
         commands.put("help", new Help());
+        commands.put("spend time", new SpendTime(larry));
     }
 
     /**
@@ -77,5 +78,6 @@ public class GameConsole {
             throw new RuntimeException(e);
         }
         larry = new Larry(gameMap.getLocations().get("lobby"), 1, 1);
+        larry.createTime();
     }
 }

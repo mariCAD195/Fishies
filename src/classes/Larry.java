@@ -8,7 +8,7 @@ import java.util.HashMap;
  */
 public class Larry {
     private Location currentLocation;
-    private HashMap<String, Integer> time;
+    private HashMap<Integer, String> time;
     private int currentTime;
     private int date;
     private ArrayList<Item> inventory;
@@ -25,11 +25,11 @@ public class Larry {
      * adds different time periods which serve as in-game time
      */
     public void createTime() {
-        time.put("all", 0);
-        time.put("morning", 1);
-        time.put("noon", 2);
-        time.put("afternoon", 3);
-        time.put("evening", 4);
+        time.put(0, "all");
+        time.put(1,"morning");
+        time.put(2, "noon");
+        time.put(3, "afternoon");
+        time.put(4, "evening");
     }
 
     public String newDayScreen(){
@@ -54,11 +54,11 @@ public class Larry {
         this.date = date;
     }
 
-    public HashMap<String, Integer> getTime() {
+    public HashMap<Integer, String> getTime() {
         return time;
     }
 
-    public void setTime(HashMap<String, Integer> time) {
+    public void setTime(HashMap<Integer, String> time) {
         this.time = time;
     }
 
