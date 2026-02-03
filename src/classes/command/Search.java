@@ -34,20 +34,38 @@ public class Search extends Command {
                 case "fishies":
                     map.getAquariums().get(input.toLowerCase()).activeFishMenu();
                     System.out.println("\ntype fish name if you want to take a photo of them");
-                    String input3 = scanner.next();
-                    if (map.getAquariums().get(input).getActiveFish().contains(input3)) {
-                        journal.takephoto(input3);
-                    } else {
+                    String input3 = scanner.nextLine();
+                    System.out.println(input3);
+
+                    boolean fishExists = false;
+                    for (int i = 0; i < map.getAquariums().get(input).getActiveFish().size(); i++) {
+                        if (fishExists == false) {
+                            System.out.println("test");
+                            if(map.getAquariums().get(input).getActiveFish().get(i).getSpecies().equalsIgnoreCase(input3)) {
+                                journal.takephoto(input3);
+                                fishExists = true;
+                                return "";
+                            }
+                        }
+                    }
+                    if (!fishExists) {
                         return "sorry I don't see any fish like this";
                     }
-                    break;
                 case "sign":
                     map.getAquariums().get(input).everyFishSign();
                     System.out.println("\ntype fish name if you want to learn more");
-                    String input4 = scanner.next();
-                    if (map.getAquariums().get(input).getActiveFish().contains(input4)) {
-                        journal.getAllFish().get(input4).getDescription();
-                    } else {
+                    String input4 = scanner.nextLine();
+                    boolean fishExists2 = false;
+                    for (int i = 0; i < map.getAquariums().get(input).getActiveFish().size(); i++) {
+                        if (fishExists2 == false) {
+                            if(map.getAquariums().get(input).getActiveFish().get(i).getSpecies().equalsIgnoreCase(input4.toLowerCase())) {
+                                journal.getAllFish().get(input4).getDescription();
+                                fishExists2 = true;
+                                return "";
+                            }
+                        }
+                    }
+                    if (!fishExists2) {
                         return "sorry I don't see any fish like this";
                     }
             }

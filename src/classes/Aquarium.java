@@ -20,7 +20,7 @@ public class Aquarium {
 
     public String activeFishMenu(){
         for (int i = 0; i < activeFish.size(); i++) {
-            System.out.println(Toolbox.coloredText("blue","1) " + activeFish.get(i).getName()));
+            System.out.println(Toolbox.coloredText("blue",activeFish.get(i).getSpecies()));
         }
         return "";
     }
@@ -28,13 +28,24 @@ public class Aquarium {
     public String everyFishSign(){
         System.out.println("\nhere is every fish in this fish tank\n");
         for (int i = 0; i < everyFish.size(); i++) {
-            System.out.println(Toolbox.coloredText("blue","1) " + everyFish.get(i).getName()));
+            System.out.println(Toolbox.coloredText("blue",everyFish.get(i).getSpecies()));
         }
         return "";
     }
 
     public String getName() {
         return name;
+    }
+
+    public void activateFish(Larry larry) {
+        for (int i = 0; i < everyFish.size(); i++) {
+            if(everyFish.get(i).getPreferredTime()==0){
+                activeFish.add(everyFish.get(i));
+            }
+            if(everyFish.get(i).getPreferredTime()==larry.getCurrentTime()){
+                activeFish.add(everyFish.get(i));
+            }
+        }
     }
 
     public void setName(String name) {

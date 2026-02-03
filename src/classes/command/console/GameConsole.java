@@ -1,9 +1,6 @@
 package classes.command.console;
 
-import classes.GameData;
-import classes.Journal;
-import classes.Larry;
-import classes.Map;
+import classes.*;
 import classes.command.*;
 
 import java.io.FileNotFoundException;
@@ -60,7 +57,7 @@ public class GameConsole {
         commands.put("look around", new LookAround(gameMap, larry));
         commands.put("talk to", new TalkTo(gameMap, larry));
         commands.put("help", new Help());
-        commands.put("spend time", new SpendTime(larry));
+        commands.put("spend time", new SpendTime(larry, gameMap));
     }
 
     /**
@@ -79,5 +76,8 @@ public class GameConsole {
         }
         larry = new Larry(gameMap.getLocations().get("lobby"), 1, 1);
         larry.createTime();
+        for(Aquarium aquarium : gameMap.getAquariums().values()){
+            aquarium.activateFish(larry);
+        }
     }
 }

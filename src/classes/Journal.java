@@ -58,6 +58,7 @@ public class Journal {
     }
 
     public void takephoto(String fish){
+        System.out.println("chci hrat life is strange :(");
         //TODO take photo method
     }
 
