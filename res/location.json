@@ -7,7 +7,7 @@
     "interactableObjects": [],
     "aquariums" : [],
     "items" : [],
-    "description" : "A room on the smaller side. it has big open archways leading to the two biggest rooms and a smaller glass door leading to the café."
+    "description" : "A room on the smaller side. \nit has big open archways leading to the two biggest rooms and a smaller glass door leading to the café."
   },
   {
     "name": "Cafe",
@@ -17,7 +17,7 @@
     "interactableObjects": ["plant"],
     "aquariums" : ["small tank"],
     "items" : ["coffee", "bagel"],
-    "description" : "Quite tiny place with lots of plants and string lights. there is only a few people here and behind the counter stands a freckled brunette in an apron, smiling at you."
+    "description" : "Quite tiny place with lots of plants and string lights. \nthere is only a few people here and in the back of the room you see a glass door leading to the gift shop and a glowing exit sign."
   },
   {
     "name": "Gift shop",
@@ -27,7 +27,7 @@
     "interactableObjects": [],
     "aquariums" : [],
     "items" : ["octopus merch"],
-    "description" : "Very cluttered space filled with fish-themed plushies, magnets, shirts, bags and many others. The local cashier seems...distracted by his phone, maybe best if you don't talk to him much."
+    "description" : "Very cluttered space filled with fish-themed plushies, magnets, shirts, bags and many others. \nThe local cashier seems...distracted by his phone, maybe best if you don't talk to him much."
   },
   {
     "name": "Restaurant",
@@ -47,7 +47,7 @@
     "interactableObjects": [],
     "aquariums" : ["sea fishies tank 1","sea fishies tank 2","sea fishies tank 3"],
     "items" : [],
-    "description" : ""
+    "description" : "Very spacious light room with high ceilings and subtle blue lighting"
   },
   {
     "name": "Kids section",
@@ -57,7 +57,7 @@
     "interactableObjects": [],
     "aquariums" : ["koi tank","interactive tank"],
     "items" : [],
-    "description" : ""
+    "description" : "You are in a heavily lighted room with a lot of kids screaming and bright colors everywhere, the room has a lot of decorative elements and seems very fun for exploring.\n It even has a small cinema with a fish documentary."
   },
   {
     "name": "Freshwater Area",
@@ -67,7 +67,7 @@
     "interactableObjects": [],
     "aquariums" : [],
     "items" : [],
-    "description" : ""
+    "description" : "Narrow and dark room with green toned lighting. It's very quiet and peaceful here."
   },
   {
     "name": "unique animals",
@@ -77,7 +77,7 @@
     "interactableObjects": [],
     "aquariums" : ["octopus tank"],
     "items" : [],
-    "description" : ""
+    "description" : "Probably the biggest room and surely the main attraction of this building.\nYou see a lot of big tanks and huge figurines of octopuses, sharks and penguins, representing their living counterparts."
   },
   {
     "name": "Staff Area",

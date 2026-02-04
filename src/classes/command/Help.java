@@ -11,7 +11,8 @@ public class Help extends Command {
                 "\"search\" - search closely a fish tank in the room\n"+
                 "\"go home\" - end the day and come back the next morning\n"+
                 "\"move\" - move to a different room\n"+
-                "\"open journal\" - open journal where you can look at your progress\n");
+                "\"open journal\" - open journal where you can look at your progress\n" +
+                "\"backpack\" - see what items you have in your inventory\n");
     }
 
     @Override
