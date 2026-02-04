@@ -18,6 +18,7 @@ public class GameConsole {
     private Map gameMap = new Map();
     private Larry larry;
     private Journal journal = new Journal();
+    private Story story;
 
     /**
      * loads the game and repeatedly shows command window
@@ -25,6 +26,8 @@ public class GameConsole {
     public void start() {
         gameInitialization();
         commandInitialization();
+        story = new Story();
+        System.out.println(story.introduction(new Help()));
         do{
             execute();
         }while(!exit);
@@ -58,6 +61,7 @@ public class GameConsole {
         commands.put("talk to", new TalkTo(gameMap, larry));
         commands.put("help", new Help());
         commands.put("spend time", new SpendTime(larry, gameMap));
+        commands.put("backpack", new Backpack(larry));
     }
 
     /**

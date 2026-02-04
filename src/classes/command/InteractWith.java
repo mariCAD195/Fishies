@@ -39,7 +39,7 @@ public class InteractWith extends Command {
                 if(answer.equalsIgnoreCase("y")||answer.equalsIgnoreCase("yes")){
                     if(larry.getInventory().size()<5){
                         larry.getInventory().add(map.getItems().get(input));
-                        return "\ngreat, you now have it in your inventory :)";
+                        return "\ngreat, you now have it in your inventory :)\n";
                     }else{
                         return "oh...it looks like you can't pick up any more items, i'm sorry :(";
                     }

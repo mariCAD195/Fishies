@@ -46,6 +46,15 @@ public class Larry {
         return "";
     }
 
+    public String whatsInMyBackpack(){
+        if(inventory.size()==0){
+            return "\nyou backpack seems quite empty :(\n";
+        }else{
+            System.out.println("here's everything you are currently carrying: \n");
+            return inventoryMenu();
+        }
+    }
+
     public int getDate() {
         return date;
     }
