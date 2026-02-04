@@ -29,19 +29,18 @@ public class Search extends Command {
         if (map.getLocations().get(larry.getCurrentLocation().getName().toLowerCase()).getAquariums().contains(input)) {
             System.out.println(Toolbox.coloredText("blue", "\n1) look for fishies\n2) look at information sign"));
             System.out.println("\n(type fishies/sign)\n");
-            String input2 = scanner.next();
+            String input2 = scanner.nextLine();
             switch (input2) {
                 case "fishies":
                     map.getAquariums().get(input.toLowerCase()).activeFishMenu();
                     System.out.println("\ntype fish name if you want to take a photo of them");
-                    String input3 = scanner.nextLine();
+                    String input3 = scanner.nextLine().toLowerCase().trim();
                     System.out.println(input3);
-
                     boolean fishExists = false;
                     for (int i = 0; i < map.getAquariums().get(input).getActiveFish().size(); i++) {
                         if (fishExists == false) {
                             System.out.println("test");
-                            if(map.getAquariums().get(input).getActiveFish().get(i).getSpecies().equalsIgnoreCase(input3)) {
+                            if(map.getAquariums().get(input).getActiveFish().get(i).getSpecies().trim().equalsIgnoreCase(input3)) {
                                 journal.takephoto(input3);
                                 fishExists = true;
                                 return "";
