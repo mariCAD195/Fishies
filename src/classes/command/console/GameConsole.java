@@ -27,9 +27,14 @@ public class GameConsole {
     public void start() {
         gameInitialization();
         commandInitialization();
+        System.out.println(story.title());
         System.out.println(story.introduction(new Help()));
+        System.out.println(Toolbox.coloredText("yellow",larry.getCurrentLocation().getName().toUpperCase())+"\n"+larry.getCurrentLocation().getDescription());
+        Toolbox.enter();
         do{
+            System.out.println(Toolbox.clearConsole());
             execute();
+            Toolbox.enter();
         }while(!exit);
     }
 

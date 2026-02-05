@@ -1,10 +1,10 @@
 [
   {
-    "name" : "Shelly",
-    "species" : "octopus",
+    "name" : "shelly",
+    "species" : "common octopus",
     "special" : true,
-    "preferredTime" : 0,
-    "description" : "",
+    "preferredTime" : 4,
+    "description" : "The common octopus is a highly intelligent, active predator.\nThey are masters of camouflage and will change colour and texture depending on their mood or the situation.\nMost octopuses are pretty inactive during the daytime",
     "homeLocation" : "octopus tank"
   },
   {
@@ -20,15 +20,15 @@
     "species" : "kai carp",
     "special" : false,
     "preferredTime" : 0,
-    "description" : "",
-    "homeLocation" : "koi tank"
+    "description" : "koi carps are ornamental, domesticated variants of common carp, originating in 19th-century Japan.\nThey are popular in ponds and can reach 3 feet in length",
+    "homeLocation": "koi tank"
   },
   {
-    "name" : "starfish",
-    "species" : "starfish",
-    "special" : false,
-    "preferredTime" : 0,
-    "description" : "",
+    "name": "starfish",
+    "species": "starfish",
+    "special": false,
+    "preferredTime": 0,
+    "description" : "Starfish, or sea stars, are marine invertebrates closely related to sea urchins.",
     "homeLocation" : "interactive tank"
   },
   {
@@ -36,7 +36,7 @@
     "species" : "sea urchin",
     "special" : false,
     "preferredTime" : 0,
-    "description" : "",
+    "description" : "Sea urchins are spherical marine invertebrates who live on the ocean seabed",
     "homeLocation" : "interactive tank"
   },
   {
