@@ -39,7 +39,6 @@ public class Search extends Command {
                     boolean fishExists = false;
                     for (int i = 0; i < map.getAquariums().get(input).getActiveFish().size(); i++) {
                         if (fishExists == false) {
-                            System.out.println("test");
                             if(map.getAquariums().get(input).getActiveFish().get(i).getSpecies().trim().equalsIgnoreCase(input3)) {
                                 journal.takephoto(input3);
                                 fishExists = true;

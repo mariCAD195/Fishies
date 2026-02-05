@@ -46,20 +46,22 @@ public class Journal {
      * @return fish species name
      */
     public String fishJournal(){
-        for (int i = 0; i < allFish.size(); i++) {
-            if(fishLeft.containsKey(allFish.get(i).getName())){
-                System.out.println(Toolbox.coloredText("red", allFish.get(i).getSpecies()));
+        for (Fish fish : allFish.values()) {
+            if(fishLeft.containsKey(fish.getName().toLowerCase())){
+                System.out.println(Toolbox.coloredText("red", fish.getSpecies()));
             }
-            if(fishDone.containsKey(allFish.get(i).getName())){
-                System.out.println(Toolbox.coloredText("green",allFish.get(i).getSpecies()));
+            if(fishDone.containsKey(fish.getName().toLowerCase())){
+                System.out.println(Toolbox.coloredText("green",fish.getSpecies()));
             }
         }
         return "";
     }
 
     public void takephoto(String fish){
-        System.out.println("chci hrat life is strange :(");
-        //TODO take photo method
+        System.out.println("say cheese fishie!!!");
+        Toolbox.enter();
+        fishLeft.remove(fish);
+        fishDone.put(fish, allFish.get(fish));
     }
 
     @Override
