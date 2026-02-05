@@ -43,6 +43,7 @@ public class GameConsole {
         Command command = commands.get(input);
         if(commands.containsKey(input)) {
             System.out.println(commands.get(input).execute());
+            exit = commands.get(input).exit();
         }else{
             System.out.println("sorry...I don't think I can do this.");
         }
@@ -62,6 +63,7 @@ public class GameConsole {
         commands.put("help", new Help());
         commands.put("spend time", new SpendTime(larry, gameMap));
         commands.put("backpack", new Backpack(larry));
+        commands.put("exit", new Exit());
     }
 
     /**
