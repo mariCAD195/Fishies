@@ -4,6 +4,7 @@ import classes.*;
 import classes.command.*;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -18,7 +19,7 @@ public class GameConsole {
     private Map gameMap = new Map();
     private Larry larry;
     private Journal journal = new Journal();
-    private Story story;
+    private Story story = new Story();
 
     /**
      * loads the game and repeatedly shows command window
@@ -26,7 +27,6 @@ public class GameConsole {
     public void start() {
         gameInitialization();
         commandInitialization();
-        story = new Story();
         System.out.println(story.introduction(new Help()));
         do{
             execute();
@@ -56,7 +56,7 @@ public class GameConsole {
         commands.put("move", new Move(larry, gameMap));
         commands.put("open journal", new OpenJournal(journal));
         commands.put("go home", new GoHome(larry, gameMap));
-        commands.put("search", new Search(gameMap, larry, journal));
+        commands.put("search", new Search(gameMap, larry, journal, story));
         commands.put("interact with", new InteractWith(gameMap, larry));
         commands.put("look around", new LookAround(gameMap, larry));
         commands.put("talk to", new TalkTo(gameMap, larry));
@@ -77,7 +77,10 @@ public class GameConsole {
             gameData.loadFish(journal,  gameMap);
             gameData.loadObjects(gameMap);
             gameData.loadItems(gameMap);
+            gameData.loadPolaroidFish(story);
         } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
             throw new RuntimeException(e);
         }
         larry = new Larry(gameMap.getLocations().get("lobby"), 1, 1);

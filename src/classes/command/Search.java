@@ -1,9 +1,6 @@
 package classes.command;
 
-import classes.Journal;
-import classes.Larry;
-import classes.Map;
-import classes.Toolbox;
+import classes.*;
 
 import java.util.Scanner;
 
@@ -12,12 +9,14 @@ public class Search extends Command {
     private Map map;
     private Larry larry;
     private Journal journal;
+    private Story story;
     Scanner scanner = new Scanner(System.in);
 
-    public Search(Map map, Larry larry, Journal journal) {
+    public Search(Map map, Larry larry, Journal journal, Story story) {
         this.map = map;
         this.larry = larry;
         this.journal = journal;
+        this.story = story;
     }
 
     @Override
@@ -40,7 +39,7 @@ public class Search extends Command {
                     for (int i = 0; i < map.getAquariums().get(input).getActiveFish().size(); i++) {
                         if (fishExists == false) {
                             if(map.getAquariums().get(input).getActiveFish().get(i).getSpecies().trim().equalsIgnoreCase(input3)) {
-                                journal.takephoto(input3);
+                                journal.takephoto(input3,story);
                                 fishExists = true;
                                 return "";
                             }

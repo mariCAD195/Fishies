@@ -2,7 +2,23 @@ package classes;
 
 import classes.command.Help;
 
+import java.util.ArrayList;
+
 public class Story {
+
+    private ArrayList<String>polaroidFish;
+
+    public Story() {
+        this.polaroidFish = new ArrayList<>();
+    }
+
+    public ArrayList<String> getPolaroidFish() {
+        return polaroidFish;
+    }
+
+    public void setPolaroidFish(ArrayList<String> polaroidFish) {
+        this.polaroidFish = polaroidFish;
+    }
 
     public String introduction(Help help) {
         System.out.println("\nYou are Larry, a college student on summer break who thought this summer would be a perfect time to revisit his childhood dreams.");
@@ -13,5 +29,13 @@ public class Story {
         System.out.println("\n(press enter to continue)");
         Toolbox.enter();
         return help.execute();
+    }
+
+    public String printPolaroid(){
+        for (int i = 0; i < polaroidFish.size()-1; i++) {
+            System.out.println(polaroidFish.get(i));
+            Toolbox.wait(800);
+        }
+        return "";
     }
 }

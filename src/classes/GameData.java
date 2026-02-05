@@ -2,10 +2,8 @@ package classes;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
+import java.util.ArrayList;
 
 /**
  * all game data is loaded here
@@ -92,6 +90,14 @@ public class GameData {
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
+        }
+    }
+    public void loadPolaroidFish(Story story) throws IOException {
+        BufferedReader br = new BufferedReader(new FileReader("res/fishPolaroidAscii"));
+        String line = "";
+        while (line!=null){
+            line = br.readLine();
+            story.getPolaroidFish().add(line);
         }
     }
 }

@@ -57,11 +57,12 @@ public class Journal {
         return "";
     }
 
-    public void takephoto(String fish){
+    public void takephoto(String fish,Story story){
         System.out.println("say cheese fishie!!!");
         Toolbox.enter();
         fishLeft.remove(fish);
         fishDone.put(fish, allFish.get(fish));
+        story.printPolaroid();
     }
 
     @Override
