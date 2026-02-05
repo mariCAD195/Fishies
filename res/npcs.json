@@ -5,5 +5,40 @@
     "welcomeDialog" : "hiiii, I'm Natalie, what will it be for you today?? :)",
     "fishInfo" : "some animal crossing quote",
     "giftReaction" : "em...you're sweet but i don't really want anything from you"
+  },
+  {
+    "name" : "Trevor",
+    "giftable" : false,
+    "welcomeDialog" : "(robotically in moody voice) hello, thank you for your visit, do  you want a bag?",
+    "fishInfo" : "don't know...don't care...anything else??",
+    "giftReaction" : "sorry bro I don't take bribes"
+},
+  {
+    "name" : "John",
+    "giftable" : true,
+    "welcomeDialog" : "well hello there visitor, I hope you are enjoying the visit so far :)",
+    "fishInfo" : "fishie info in progress",
+    "giftReaction" : "oh thank you! you my friend are a good person :)"
+  },
+  {
+    "name" : "Julia",
+    "giftable" : false,
+    "welcomeDialog" : "hi! you need anything? sorry i'm quite busy over here but i will try my best to help :3",
+    "fishInfo" : "something about sharks",
+    "giftReaction" : "awww I'm so thankfull but I don't even have free hands to hold this, you should keep that for yourself"
+  },
+  {
+    "name" : "Michael",
+    "giftable" : true,
+    "welcomeDialog" : "greetings! what do you need?",
+    "fishInfo" : "coming soon",
+    "giftReaction" : "is that a bagel?!! well that is a really nice surprise"
+  },
+  {
+    "name" : "Mariane",
+    "giftable" : true,
+    "welcomeDialog" : "hi I'm Mariane, I take care of octopuses here, well i take care of lots of fish here but my specialization are cephalopods. Squids, nautiluses and OCTOPUSES.\nDid you know octopuses have blue blood? humans have haemoglobin in their blood cells but octopuses due to high copper level have haemocyanin instead which makes it bluish.\nThe reason for this is that haemocyanin wouldn't be efficient for humans but for sea creatures like octopuses it's actually better\nbecause in conditions like low temperatures and high pressures it transports oxygen much faster.\nIsn't that so cool?!\nOh sorry...I'm talking to much again right? :)",
+    "fishInfo" : "a looooot of octopus fun facts :)",
+    "giftReaction" : "sudkvbakdvbafbvlcnaifbe OMG THAT'S AN OCTOPUUUUUS. awwwww that's so sweeeet. thank youuuuu"
   }
 ]
