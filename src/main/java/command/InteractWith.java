@@ -1,4 +1,4 @@
-package classes.command;
+package command;
 
 import classes.GameData;
 import classes.Larry;

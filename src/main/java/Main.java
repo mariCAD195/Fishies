@@ -1,6 +1,4 @@
-package classes;
-
-import classes.command.console.GameConsole;
+import command.console.GameConsole;
 
 public class Main {
     public static void main(String[] args) {

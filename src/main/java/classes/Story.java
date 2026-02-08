@@ -1,6 +1,7 @@
 package classes;
 
-import classes.command.Help;
+
+import command.Help;
 
 import java.util.ArrayList;
 

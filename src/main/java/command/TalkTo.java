@@ -1,4 +1,4 @@
-package classes.command;
+package command;
 
 import classes.Larry;
 import classes.Map;

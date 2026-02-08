@@ -1,7 +1,7 @@
-package classes.command.console;
+package command.console;
 
 import classes.*;
-import classes.command.*;
+import command.*;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
