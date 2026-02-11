@@ -5,6 +5,7 @@ import classes.Map;
 
 /**
  * allows player to see all available activities in the room
+ * @author mari
  */
 public class LookAround extends Command {
 

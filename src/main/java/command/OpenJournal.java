@@ -2,6 +2,10 @@ package command;
 
 import classes.Journal;
 
+/**
+ * allows the player to look at their progress
+ * @author mari
+ */
 public class OpenJournal extends Command {
 
     Journal journal;

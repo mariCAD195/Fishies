@@ -6,6 +6,7 @@ import java.util.ArrayList;
 
 /**
  * game location aka one aquarium room
+ * @author mari
  */
 public class Location {
     private String name;

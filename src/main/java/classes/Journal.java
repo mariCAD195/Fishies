@@ -4,6 +4,7 @@ import java.util.HashMap;
 
 /**
  * stores your progress and fish
+ * @author mari
  */
 public class Journal {
     private HashMap<String, Fish> fishDone;
@@ -64,7 +65,7 @@ public class Journal {
         return "";
     }
 
-    public void takephoto(String fish,Story story){
+    public void takePhoto(String fish,Story story){
         System.out.println("say cheese fishie!!!");
         Toolbox.enter();
         fishLeft.remove(fish);

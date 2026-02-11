@@ -2,6 +2,7 @@ package classes;
 
 /**
  * game characters the player can talk to
+ * @author mari
  */
 public class NPC {
     private String name;

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 /**
  * individual fish tanks which house local fish
+ * @author mari
  */
 public class Aquarium {
     private String name;

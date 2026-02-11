@@ -10,6 +10,7 @@ import java.util.Scanner;
 
 /**
  * it's a console for my game :)
+ * @author mari
  */
 public class GameConsole {
     private boolean exit = false;

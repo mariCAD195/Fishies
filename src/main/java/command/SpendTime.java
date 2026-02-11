@@ -5,6 +5,10 @@ import classes.Larry;
 import classes.Map;
 import classes.Toolbox;
 
+/**
+ * allows the player to pass time
+ * @author mari
+ */
 public class SpendTime extends Command {
 
     Larry larry;
@@ -15,6 +19,9 @@ public class SpendTime extends Command {
         this.map = map;
     }
 
+    /**
+     * changes time by 1 if in the right room
+     */
     @Override
     public String execute() {
         if(larry.getCurrentLocation().getName().equalsIgnoreCase("cafe")||larry.getCurrentLocation().getName().equalsIgnoreCase("restaurant")){

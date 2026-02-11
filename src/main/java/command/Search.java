@@ -41,7 +41,7 @@ public class Search extends Command {
                     for (int i = 0; i < map.getAquariums().get(input).getActiveFish().size(); i++) {
                         if (fishExists == false) {
                             if(map.getAquariums().get(input).getActiveFish().get(i).getSpecies().trim().equalsIgnoreCase(input3)) {
-                                journal.takephoto(input3,story);
+                                journal.takePhoto(input3,story);
                                 fishExists = true;
                                 return "";
                             }

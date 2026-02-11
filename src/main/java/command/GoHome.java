@@ -6,6 +6,7 @@ import classes.Toolbox;
 
 /**
  * allows player to end the day and go home
+ * @author mari
  */
 public class GoHome extends Command {
 

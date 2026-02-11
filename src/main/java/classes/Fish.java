@@ -2,6 +2,7 @@ package classes;
 
 /**
  * manages different fish species in the aquarium
+ * @author mari
  */
 public class Fish {
     private String name;

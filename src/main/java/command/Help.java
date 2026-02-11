@@ -2,7 +2,16 @@ package command;
 
 import classes.Toolbox;
 
+/**
+ * helps the player by providing all available commands
+ * @author mari
+ */
 public class Help extends Command {
+
+    /**
+     * prints all available commands
+     * @return commands and short description
+     */
     @Override
     public String execute() {
         return Toolbox.coloredText("blue", "\"look around\" - look for everything insteresting in the room\n"+

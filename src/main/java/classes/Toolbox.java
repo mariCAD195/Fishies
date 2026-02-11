@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 /**
  * useful methods for better console organization
+ * @author mari
  */
 public class Toolbox {
 

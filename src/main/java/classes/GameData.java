@@ -6,6 +6,7 @@ import java.io.*;
 
 /**
  * all game data is loaded here
+ * @author mari
  */
 public class GameData {
 

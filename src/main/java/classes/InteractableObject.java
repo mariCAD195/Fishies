@@ -2,6 +2,7 @@ package classes;
 
 /**
  * object the player can interact with but not carry
+ * @author mari
  */
 public class InteractableObject {
     private String name;

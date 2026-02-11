@@ -9,6 +9,7 @@ import java.util.Scanner;
 
 /**
  * changes players current location
+ * @author mari
  */
 public class Move extends Command{
 

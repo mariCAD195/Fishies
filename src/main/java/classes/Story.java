@@ -5,6 +5,10 @@ import command.Help;
 
 import java.util.ArrayList;
 
+/**
+ * game story and title
+ * @author mari
+ */
 public class Story {
 
     private ArrayList<String>polaroidFish;

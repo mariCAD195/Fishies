@@ -2,6 +2,7 @@ package classes;
 
 /**
  * item the player can carry and gift to characters
+ * @author mari
  */
 public class Item {
     private String name;

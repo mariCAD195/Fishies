@@ -6,6 +6,10 @@ import classes.Map;
 
 import java.util.Scanner;
 
+/**
+ * allows the player to interact with objects
+ * @author mari
+ */
 public class InteractWith extends Command {
 
     private Map map;
@@ -17,6 +21,9 @@ public class InteractWith extends Command {
         this.larry = larry;
     }
 
+    /**
+     * allows object interaction and also buying items
+     */
     @Override
     public String execute() {
         System.out.println("\n...");

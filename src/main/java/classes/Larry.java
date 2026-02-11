@@ -5,6 +5,7 @@ import java.util.HashMap;
 
 /**
  * the player
+ * @author mari
  */
 public class Larry {
     private Location currentLocation;
@@ -19,6 +20,9 @@ public class Larry {
         this.currentTime = currentTime;
         this.date = date;
         this.inventory = new ArrayList<>();
+    }
+
+    public Larry() {
     }
 
     /**

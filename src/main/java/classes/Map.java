@@ -4,6 +4,7 @@ import java.util.HashMap;
 
 /**
  * game map aka the entire aquarium building
+ * @author mari
  */
 public class Map {
     private HashMap<String, Location> locations;

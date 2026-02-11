@@ -6,6 +6,10 @@ import classes.Toolbox;
 
 import java.util.Scanner;
 
+/**
+ * allows the player to talk to NPCs currently in the room
+ * @author mari
+ */
 public class TalkTo extends Command {
 
     private Map map;
@@ -17,6 +21,9 @@ public class TalkTo extends Command {
         this.larry = larry;
     }
 
+    /**
+     * allows interactions with NPCs in the current room and gift giving
+     */
     @Override
     public String execute() {
         System.out.println("\n...");
