@@ -45,12 +45,20 @@ public class Journal {
      * @return fish species name
      */
     public String fishJournal(){
+        int width = 50;
+        int i = 0;
         for (Fish fish : allFish.values()) {
-            if(fishLeft.containsKey(fish.getName().toLowerCase())){
-                System.out.println(Toolbox.coloredText("red", fish.getSpecies()));
+            String spaced = String.format("%-" + width + "s", fish.getSpecies());
+            if (fishLeft.containsKey(fish.getName().toLowerCase())) {
+                System.out.print(Toolbox.coloredText("red", spaced));
+                i++;
             }
-            if(fishDone.containsKey(fish.getName().toLowerCase())){
-                System.out.println(Toolbox.coloredText("green",fish.getSpecies()));
+            else if (fishDone.containsKey(fish.getName().toLowerCase())) {
+                System.out.print(Toolbox.coloredText("green", spaced));
+                i++;
+            }
+            if (i % 2 == 0) {
+                System.out.println();
             }
         }
         return "";
@@ -66,7 +74,7 @@ public class Journal {
 
     @Override
     public String toString() {
-        return "Journal{" +
+        return "classes.Journal{" +
                 "fishDone=" + fishDone +
                 ", fishLeft=" + fishLeft +
                 '}';

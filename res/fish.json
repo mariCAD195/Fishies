@@ -13,7 +13,7 @@
     "special" : false,
     "preferredTime" : 1,
     "description" : "",
-    "homeLocation" : "sea fishies tank 1"
+    "homeLocation" : "sea fish tank 1"
   },
   {
     "name" : "koi carp",
@@ -53,7 +53,7 @@
     "special" : false,
     "preferredTime" : 0,
     "description" : "",
-    "homeLocation" : "sea fishies tank 1"
+    "homeLocation" : "sea fish tank 1"
   },
   {
     "name" : "clownfish",
@@ -61,7 +61,7 @@
     "special" : false,
     "preferredTime" : 0,
     "description" : "",
-    "homeLocation" : "sea fishies tank 1"
+    "homeLocation" : "sea fish tank 1"
   },
   {
     "name" : "surgeonfish",
@@ -69,7 +69,7 @@
     "special" : false,
     "preferredTime" : 0,
     "description" : "",
-    "homeLocation" : "sea fishies tank 1"
+    "homeLocation" : "sea fish tank 1"
   },
   {
     "name" : "butterfly fish",
@@ -77,7 +77,7 @@
     "special" : false,
     "preferredTime" : 1,
     "description" : "",
-    "homeLocation" : "sea fishies tank 1"
+    "homeLocation" : "sea fish tank 1"
   },
   {
     "name" : "napoleonfish",
@@ -85,7 +85,7 @@
     "special" : false,
     "preferredTime" : 2,
     "description" : "",
-    "homeLocation" : "sea fishies tank 1"
+    "homeLocation" : "sea fish tank 1"
   },
   {
     "name" : "zebra turkeyfish",
@@ -93,7 +93,7 @@
     "special" : false,
     "preferredTime" : 0,
     "description" : "",
-    "homeLocation" : "sea fishies tank 2"
+    "homeLocation" : "sea fish tank 2"
   },
   {
     "name" : "blowfish",
@@ -101,7 +101,7 @@
     "special" : false,
     "preferredTime" : 4,
     "description" : "",
-    "homeLocation" : "sea fishies tank 2"
+    "homeLocation" : "sea fish tank 2"
   },
   {
     "name" : "puffer fish",
@@ -109,7 +109,7 @@
     "special" : false,
     "preferredTime" : 4,
     "description" : "",
-    "homeLocation" : "sea fishies tank 2"
+    "homeLocation" : "sea fish tank 2"
   },
   {
     "name" : "anchovy",
@@ -117,7 +117,7 @@
     "special" : false,
     "preferredTime" : 2,
     "description" : "",
-    "homeLocation" : "sea fishies tank 3"
+    "homeLocation" : "sea fish tank 3"
   },
   {
     "name" : "horse mackrel",
@@ -125,7 +125,7 @@
     "special" : false,
     "preferredTime" : 0,
     "description" : "",
-    "homeLocation" : "sea fishies tank 3"
+    "homeLocation" : "sea fish tank 3"
   },
   {
     "name" : "barred knifejaw",
@@ -133,7 +133,7 @@
     "special" : false,
     "preferredTime" : 3,
     "description" : "",
-    "homeLocation" : "sea fishies tank 3"
+    "homeLocation" : "sea fish tank 3"
   },
   {
     "name" : "sea bass",
@@ -141,7 +141,7 @@
     "special" : false,
     "preferredTime" : 0,
     "description" : "sea bass...it's at least a C+",
-    "homeLocation" : "sea fishies tank 3"
+    "homeLocation" : "sea fish tank 3"
   },
   {
     "name" : "red snapper",
@@ -149,7 +149,7 @@
     "special" : false,
     "preferredTime" : 0,
     "description" : "",
-    "homeLocation" : "sea fishies tank 3"
+    "homeLocation" : "sea fish tank 3"
   },
   {
     "name" : "dab",
@@ -157,7 +157,7 @@
     "special" : false,
     "preferredTime" : 3,
     "description" : "",
-    "homeLocation" : "sea fishies tank 3"
+    "homeLocation" : "sea fish tank 3"
   },
   {
     "name" : "olive flounder",
@@ -165,7 +165,7 @@
     "special" : false,
     "preferredTime" : 2,
     "description" : "",
-    "homeLocation" : "sea fishies tank 3"
+    "homeLocation" : "sea fish tank 3"
   },
   {
     "name" : "tuna",
@@ -173,7 +173,7 @@
     "special" : false,
     "preferredTime" : 1,
     "description" : "",
-    "homeLocation" : "sea fishies tank 3"
+    "homeLocation" : "sea fish tank 3"
   },
   {
     "name" : "blue marlin",
@@ -181,6 +181,216 @@
     "special" : false,
     "preferredTime" : 0,
     "description" : "",
-    "homeLocation" : "sea fishies tank 3"
+    "homeLocation" : "sea fish tank 3"
+  },
+  {
+    "name": "bitterling",
+    "species": "bitterling",
+    "preferredTime": 0,
+    "description" : "",
+    "homeLocation" : "small river fish"
+  },
+  {
+    "name": "pale chub",
+    "species": "pale chub",
+    "preferredTime": 2,
+    "description" : "",
+    "homeLocation" : "small river fish"
+  },
+  {
+    "name": "crucian carp",
+    "species": "crucian carp",
+    "preferredTime": 0,
+    "description" : "",
+    "homeLocation" : "river fish 1"
+  },
+  {
+    "name": "dace",
+    "species": "dace",
+    "preferredTime": 4,
+    "description" : "",
+    "homeLocation" : "river fish 2"
+  },
+  {
+    "name": "freshwater goby",
+    "species": "freshwater goby",
+    "preferredTime": 3,
+    "description" : "",
+    "homeLocation" : "river fish 1"
+  },
+  {
+    "name": "loach",
+    "species": "loach",
+    "preferredTime": 0,
+    "description" : "",
+    "homeLocation" : "river fish 2"
+  },
+  {
+    "name": "bluegill",
+    "species": "bluegill",
+    "preferredTime": 2,
+    "description" : "",
+    "homeLocation" : "small river fish"
+  },
+  {
+    "name": "yellow perch",
+    "species": "yellow perch",
+    "preferredTime": 0,
+    "description" : "",
+    "homeLocation" : "river fish 1"
+  },
+  {
+    "name": "black bass",
+    "species": "black bass",
+    "preferredTime": 0,
+    "description" : "",
+    "homeLocation" : "river fish 2"
+  },
+  {
+    "name": "tilapia",
+    "species": "tilapia",
+    "preferredTime": 0,
+    "description" : "",
+    "homeLocation" : "river fish 1"
+  },
+  {
+    "name": "pike",
+    "species": "pike",
+    "preferredTime": 0,
+    "description" : "",
+    "homeLocation" : "river fish 2"
+  },
+  {
+    "name": "pond smelt",
+    "species": "pond smelt",
+    "preferredTime": 0,
+    "description" : "",
+    "homeLocation" : "small river fish"
+  },
+  {
+    "name": "sweet fish",
+    "species": "sweet fish",
+    "preferredTime": 0,
+    "description" : "",
+    "homeLocation" : "river fish 1"
+  },
+  {
+    "name": "cherry salmon",
+    "species": "cherry salmon",
+    "preferredTime": 3,
+    "description" : "",
+    "homeLocation" : "river fish 2"
+  },
+  {
+    "name": "char",
+    "species": "char",
+    "preferredTime": 3,
+    "description" : "",
+    "homeLocation" : "river fish 1"
+  },
+  {
+    "name": "golden trout",
+    "species": "golden trout",
+    "preferredTime": 4,
+    "description" : "",
+    "homeLocation" : "river fish 2"
+  },
+  {
+    "name": "stringfish",
+    "species": "stringfish",
+    "preferredTime": 4,
+    "description" : "",
+    "homeLocation" : "river fish 1"
+  },
+  {
+    "name": "salmon",
+    "species": "salmon",
+    "preferredTime": 0,
+    "description" : "",
+    "homeLocation" : "river fish 2"
+  },
+  {
+    "name": "king salmon",
+    "species": "king salmon",
+    "preferredTime": 0,
+    "description" : "",
+    "homeLocation" : "river fish 1"
+  },
+  {
+    "name": "guppy",
+    "species": "guppy",
+    "preferredTime": 2,
+    "description" : "",
+    "homeLocation" : "small river fish"
+  },
+  {
+    "name": "nibble fish",
+    "species": "nibble fish",
+    "preferredTime": 2,
+    "description" : "",
+    "homeLocation" : "small river fish"
+  },
+  {
+    "name": "angelfish",
+    "species": "angelfish",
+    "preferredTime": 3,
+    "description" : "",
+    "homeLocation" : "small river fish"
+  },
+  {
+    "name": "betta",
+    "species": "betta",
+    "preferredTime": 2,
+    "description" : "",
+    "homeLocation" : "small river fish"
+  },
+  {
+    "name": "neon tetra",
+    "species": "neon tetra",
+    "preferredTime": 2,
+    "description" : "",
+    "homeLocation" : "small river fish"
+  },
+  {
+    "name": "rainbowfish",
+    "species": "rainbowfish",
+    "preferredTime": 2,
+    "description" : "",
+    "homeLocation" : "small river fish"
+  },
+  {
+    "name": "piranha",
+    "species": "piranha",
+    "preferredTime": 2,
+    "description" : "",
+    "homeLocation" : "river fish 2"
+  },
+  {
+    "name": "arowana",
+    "species": "arowana",
+    "preferredTime": 3,
+    "description" : "",
+    "homeLocation" : "river fish 1"
+  },
+  {
+    "name": "dorado",
+    "species": "dorado",
+    "preferredTime": 0,
+    "description" : "",
+    "homeLocation" : "river fish 2"
+  },
+  {
+    "name": "arapaima",
+    "species": "arapaima",
+    "preferredTime": 0,
+    "description" : "",
+    "homeLocation" : "river fish 1"
+  },
+  {
+    "name": "sturgeon",
+    "species": "sturgeon",
+    "preferredTime": 0,
+    "description" : "",
+    "homeLocation" : "river fish 2"
   }
 ]

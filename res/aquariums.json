@@ -6,7 +6,7 @@
     "activeFish" : []
   },
   {
-    "name" : "sea fishies tank 1",
+    "name" : "sea fish tank 1",
     "description" : "",
     "everyFish" : [],
     "activeFish" : []
@@ -24,13 +24,31 @@
     "activeFish" : []
   },
   {
-    "name" : "sea fishies tank 2",
+    "name" : "sea fish tank 2",
     "description" : "",
     "everyFish" : [],
     "activeFish" : []
   },
   {
-    "name" : "sea fishies tank 3",
+    "name" : "sea fish tank 3",
+    "description" : "",
+    "everyFish" : [],
+    "activeFish" : []
+  },
+  {
+    "name" : "river fish 1",
+    "description" : "",
+    "everyFish" : [],
+    "activeFish" : []
+  },
+  {
+    "name" : "river fish 2",
+    "description" : "",
+    "everyFish" : [],
+    "activeFish" : []
+  },
+  {
+    "name" : "small river fish",
     "description" : "",
     "everyFish" : [],
     "activeFish" : []
