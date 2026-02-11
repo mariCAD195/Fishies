@@ -95,7 +95,7 @@ public class Location {
      */
     public String neighboursMenu() {
         for (int i = 0; i < neighbours.size(); i++) {
-            System.out.println(Toolbox.coloredText("blue",(i+1) +") " + neighbours.get(i)));
+            return Toolbox.coloredText("blue",(i+1) +") " + neighbours.get(i));
         }
         return "";
     }
