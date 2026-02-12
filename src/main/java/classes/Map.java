@@ -21,6 +21,7 @@ public class Map {
         items = new HashMap<>();
     }
 
+    //region getters setters
     public HashMap<String, Location> getLocations() {
         return locations;
     }
@@ -40,6 +41,7 @@ public class Map {
     public HashMap<String, Item> getItems() {
         return items;
     }
+    //endregion
 
     @Override
     public String toString() {

@@ -15,6 +15,12 @@ public class Aquarium {
     public Aquarium() {
     }
 
+    public Aquarium(String name) {
+        this.name = name;
+        this.everyFish = new ArrayList<>();
+        this.activeFish = new ArrayList<>();
+    }
+
     public void addFish(Fish fish) {
         everyFish.add(fish);
     }
@@ -34,10 +40,6 @@ public class Aquarium {
         return "";
     }
 
-    public String getName() {
-        return name;
-    }
-
     public void activateFish(Larry larry) {
         for (int i = 0; i < everyFish.size(); i++) {
             if(everyFish.get(i).getPreferredTime()==0){
@@ -49,8 +51,13 @@ public class Aquarium {
         }
     }
 
+    //region getters setters
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public String getDescription() {
@@ -76,5 +83,6 @@ public class Aquarium {
     public void setActiveFish(ArrayList<Fish> activeFish) {
         this.activeFish = activeFish;
     }
+    //endregion
 
 }

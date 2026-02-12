@@ -14,6 +14,7 @@ public class NPC {
     public NPC() {
     }
 
+    //region getters setters
     public String getName() {
         return name;
     }
@@ -53,4 +54,5 @@ public class NPC {
     public void setGiftReaction(String giftReaction) {
         this.giftReaction = giftReaction;
     }
+    //endregion
 }

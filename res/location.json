@@ -4,7 +4,7 @@
     "timePassable": false,
     "neighbours": ["cafe","saltwater area","unique animals"],
     "NPCsPresent": [],
-    "interactableObjects": [],
+    "interactableObjects": ["information stand"],
     "aquariums" : ["jellyfish tank"],
     "items" : [],
     "description" : "A room on the smaller side. \nit has big open archways leading to the two biggest rooms and a smaller glass door leading to the café."

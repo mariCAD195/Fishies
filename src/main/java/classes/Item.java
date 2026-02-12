@@ -11,6 +11,7 @@ public class Item {
     public Item() {
     }
 
+    //region getters setters
     public String getName() {
         return name;
     }
@@ -26,4 +27,5 @@ public class Item {
     public void setDescription(String description) {
         this.description = description;
     }
+    //endregion
 }

@@ -15,6 +15,12 @@ public class Fish {
     public Fish() {
     }
 
+    public Fish(String species, int preferredTime){
+       this.species = species;
+       this.preferredTime = preferredTime;
+    }
+
+    //region getters setters
     public String getDescription() {
         return description;
     }
@@ -62,6 +68,7 @@ public class Fish {
     public void setHomeLocation(String homeLocation) {
         this.homeLocation = homeLocation;
     }
+    //endregion
 
     @Override
     public String toString() {

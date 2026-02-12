@@ -17,6 +17,7 @@ public class Journal {
         allFish = new HashMap<>();
     }
 
+    //region getters setters
     public HashMap<String, Fish> getFishDone() {
         return fishDone;
     }
@@ -40,6 +41,7 @@ public class Journal {
     public void setAllFish(HashMap<String, Fish> allFish) {
         this.allFish = allFish;
     }
+    //endregion
 
     /**
      * prints all fish in color based on your progress

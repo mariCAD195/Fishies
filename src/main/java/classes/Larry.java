@@ -59,6 +59,7 @@ public class Larry {
         }
     }
 
+    //region getters setters
     public int getDate() {
         return date;
     }
@@ -98,4 +99,5 @@ public class Larry {
     public void setCurrentLocation(Location currentLocation) {
         this.currentLocation = currentLocation;
     }
+    //endregion
 }
