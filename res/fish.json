@@ -392,5 +392,19 @@
     "preferredTime": 0,
     "description" : "",
     "homeLocation" : "river fish 2"
+  },
+  {
+    "name" : "jellyfish",
+    "species" : "jellyfish",
+    "preferredTime" : 0,
+    "description" : "Jellyfish are ancient marine invertebrates made of over 95% water\nthey lack brains, hearts, or bones and can range from 1cm to 2 meters in size\n",
+    "homeLocation" : "jellyfish tank"
+  },
+  {
+    "name" : "momo",
+    "species" : "tiger shark",
+    "preferredTime" : 4,
+    "description" : "The tiger shark is a large predator found in tropical and coastal waters\nrecognizable by dark, vertical stripes that fade with age, these sharks can grow up to 18+ feet in length",
+    "homeLocation" : "shark pavilion"
   }
 ]

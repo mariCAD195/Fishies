@@ -1,6 +1,22 @@
 [
   {
     "name" : "plant",
-    "description" : "this is a plant"
+    "description" : "\nyou see a very vibrant green monstera. whoever takes care of it clearly does a great job"
+  },
+  {
+    "name" : "fish documentary projection",
+    "description" : "\nhmm...hm hm...\nyou quietly listen but the documentary is very clearly made for kids, you learn the following information: \nnothing you didn't already know :)"
+  },
+  {
+    "name" : "bench",
+    "description" : "\nyou sit on the bench...that's it what did you expect\nnow get back to work, if you want to relax go to the cafe"
+  },
+  {
+    "name" : "information stand",
+    "description" : "quite small metal mesh stand with flyers about the aquarium and few fun facts about local fish\n- a tiger shark named Momo hates the sun"
+  },
+  {
+    "name" : "",
+    "description" : ""
   }
 ]

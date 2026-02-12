@@ -5,7 +5,7 @@
     "neighbours": ["cafe","saltwater area","unique animals"],
     "NPCsPresent": [],
     "interactableObjects": [],
-    "aquariums" : [],
+    "aquariums" : ["jellyfish tank"],
     "items" : [],
     "description" : "A room on the smaller side. \nit has big open archways leading to the two biggest rooms and a smaller glass door leading to the café."
   },
@@ -15,7 +15,7 @@
     "neighbours": ["lobby","gift shop"],
     "NPCsPresent": ["natalie"],
     "interactableObjects": ["plant"],
-    "aquariums" : ["small tank"],
+    "aquariums" : [],
     "items" : ["coffee", "bagel"],
     "description" : "Quite tiny place with lots of plants and string lights. \nthere is only a few people here and in the back of the room you see a glass door leading to the gift shop and a glowing exit sign."
   },
@@ -54,7 +54,7 @@
     "timePassable": false,
     "neighbours": ["restaurant","freshwater Area"],
     "NPCsPresent": ["julia", "michael"],
-    "interactableObjects": [],
+    "interactableObjects": ["fish documentary projection"],
     "aquariums" : ["koi tank","interactive tank"],
     "items" : [],
     "description" : "You are in a heavily lighted room with a lot of kids screaming and bright colors everywhere, the room has a lot of decorative elements and seems very fun for exploring.\n It even has a small cinema with a fish documentary."
@@ -62,7 +62,7 @@
   {
     "name": "Freshwater Area",
     "timePassable": false,
-    "neighbours": ["kids area","saltwater area","staff area"],
+    "neighbours": ["kids section","saltwater area","staff area"],
     "NPCsPresent": [],
     "interactableObjects": [],
     "aquariums" : ["river fish 1","river fish 2","small fish"],
@@ -75,7 +75,7 @@
     "neighbours": ["freshwater area","lobby"],
     "NPCsPresent": ["mariane"],
     "interactableObjects": [],
-    "aquariums" : ["octopus tank"],
+    "aquariums" : ["octopus tank","shark pavilion"],
     "items" : [],
     "description" : "Probably the biggest room and surely the main attraction of this building.\nYou see a lot of big tanks and huge figurines of octopuses, sharks and penguins, representing their living counterparts."
   },

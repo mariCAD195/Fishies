@@ -52,5 +52,17 @@
     "description" : "",
     "everyFish" : [],
     "activeFish" : []
+  },
+  {
+    "name" : "jellyfish tank",
+    "description" : "",
+    "everyFish" : [],
+    "activeFish" : []
+  },
+  {
+    "name" : "shark pavilion",
+    "description" : "",
+    "everyFish" : [],
+    "activeFish" : []
   }
 ]
