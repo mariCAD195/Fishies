@@ -117,7 +117,11 @@ public class GameData {
         }
     }
     public void loadPolaroidFish(Story story) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("res/fishPolaroidAscii"));
+        InputStream input = GameData.class.getResourceAsStream("/fishPolaroidAscii");
+        if(input == null){
+            throw new RuntimeException();
+        }
+        BufferedReader br = new BufferedReader(new InputStreamReader(input));
         String line = "";
         while (line!=null){
             line = br.readLine();

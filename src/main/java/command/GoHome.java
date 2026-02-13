@@ -2,6 +2,7 @@ package command;
 
 import classes.Larry;
 import classes.Map;
+import classes.NPC;
 import classes.Toolbox;
 
 /**
@@ -29,6 +30,9 @@ public class GoHome extends Command {
             larry.setDate(larry.getDate()+1);
             larry.setCurrentTime(1);
             larry.setCurrentLocation(map.getLocations().get("lobby"));
+            for(NPC npc : map.getNpcs().values()){
+                npc.setWasGifted(false);
+            }
             Toolbox.clearConsole();
             System.out.println(larry.newDayScreen());
             return Toolbox.clearConsole();

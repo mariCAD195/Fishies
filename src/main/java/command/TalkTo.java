@@ -43,19 +43,8 @@ public class TalkTo extends Command {
                     Toolbox.enter();
                     return Toolbox.coloredText("cyan","thanks so much :)\n");
                 case "gift":
-                    if(map.getNpcs().get(input).isGiftable()) {
-                        larry.inventoryMenu();
-                        System.out.println("\n(type item name)");
-                        String giftWhat = sc.nextLine();
-                        for (int i = 0; i < larry.getInventory().size(); i++) {
-                            if (larry.getInventory().get(i).getName().equalsIgnoreCase(giftWhat)) {
-                                larry.getInventory().remove(i);
-                                map.getNpcs().get(input).getGiftReaction();
-                            }
-                        }
-                    }else{
-                        return map.getNpcs().get(input).getGiftReaction();
-                    }
+                    System.out.println(map.getNpcs().get(input).giftGiving(map.getNpcs().get(input),larry));
+                    return map.getNpcs().get(input).keyCardCheck(map.getNpcs().get(input),larry,map.getItems().get("key card"));
             }
         }else{
             return "hmm...i don't think anybody like that is here";

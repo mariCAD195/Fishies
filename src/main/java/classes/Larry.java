@@ -12,6 +12,8 @@ public class Larry {
     private HashMap<Integer, String> time;
     private int currentTime;
     private int date;
+    private boolean hasBorrowedCard;
+    private boolean hasCardPermanently;
     private ArrayList<Item> inventory;
 
     public Larry(Location currentLocation, int currentTime, int date) {
@@ -62,6 +64,22 @@ public class Larry {
     //region getters setters
     public int getDate() {
         return date;
+    }
+
+    public boolean isHasBorrowedCard() {
+        return hasBorrowedCard;
+    }
+
+    public void setHasBorrowedCard(boolean hasBorrowedCard) {
+        this.hasBorrowedCard = hasBorrowedCard;
+    }
+
+    public boolean isHasCardPermanently() {
+        return hasCardPermanently;
+    }
+
+    public void setHasCardPermanently(boolean hasCardPermanently) {
+        this.hasCardPermanently = hasCardPermanently;
     }
 
     public void setDate(int date) {

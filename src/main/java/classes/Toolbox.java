@@ -63,6 +63,7 @@ public class Toolbox {
      * when used somewhere, forces the player to press enter before continuing
      */
     public static void enter(){
+        System.out.println(Toolbox.coloredText("yellow","\npress enter to continue"));
         Scanner scanner = new Scanner(System.in);
         scanner.nextLine();
     }
