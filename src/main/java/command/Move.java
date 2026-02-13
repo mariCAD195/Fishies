@@ -34,7 +34,7 @@ public class Move extends Command{
         if (map.getLocations().containsKey(input)) {
             if(map.getLocations().get(larry.getCurrentLocation().getName().toLowerCase()).getNeighbours().contains(input)){
                 if(input.equalsIgnoreCase("staff area")){
-                    if(larry.getInventory().contains("key card")){
+                    if(larry.isHasBorrowedCard()||larry.isHasCardPermanently()){
                         larry.setCurrentLocation(map.getLocations().get(input));
                         System.out.println( "\nyou excitedly pull out your key card and after a quiet beep open the door to the staff room");
                         Toolbox.enter();

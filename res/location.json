@@ -52,7 +52,7 @@
   {
     "name": "Kids section",
     "timePassable": false,
-    "neighbours": ["restaurant","freshwater Area"],
+    "neighbours": ["restaurant","freshwater area"],
     "NPCsPresent": ["julia", "michael"],
     "interactableObjects": ["fish documentary projection"],
     "aquariums" : ["koi tank","interactive tank"],
@@ -87,7 +87,7 @@
     "interactableObjects": [],
     "aquariums" : [],
     "items" : [],
-    "description" : ""
+    "description" : "uuuu, this is exiting"
   }
 ]
 

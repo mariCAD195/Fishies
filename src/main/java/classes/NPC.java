@@ -61,6 +61,7 @@ public class NPC {
         return "";
     }
 
+
     //region getters setters
     public String getName() {
         return name;
