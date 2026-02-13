@@ -13,9 +13,13 @@ public class GameData {
     /**
      * loads game map from json file
      */
-    public void loadLocations(Map map) throws FileNotFoundException {
+    public void loadLocations(Map map){
         ObjectMapper mapper = new ObjectMapper();
-        try (InputStream input = new FileInputStream("res/location.json");) {
+        InputStream input = GameData.class.getResourceAsStream("/location.json");
+        if(input == null){
+            throw new RuntimeException();
+        }
+        try (input) {
             Location[] locations = mapper.readValue(input, Location[].class);
             for (Location location : locations) {
                 map.getLocations().put(location.getName().toLowerCase(), location);
@@ -30,7 +34,11 @@ public class GameData {
      */
     public void loadFish(Journal journal, Map map){
         ObjectMapper mapper = new ObjectMapper();
-        try (InputStream input = new FileInputStream("res/fish.json");) {
+        InputStream input = GameData.class.getResourceAsStream("/fish.json");
+        if(input == null){
+            throw new RuntimeException();
+        }
+        try (input) {
             Fish[] fish = mapper.readValue(input, Fish[].class);
             for (Fish fish1 : fish) {
                 journal.getAllFish().put(fish1.getSpecies().toLowerCase(), fish1);
@@ -46,9 +54,13 @@ public class GameData {
         }
     }
 
-    public void loadNPCs(Map map) throws FileNotFoundException {
+    public void loadNPCs(Map map){
         ObjectMapper mapper = new ObjectMapper();
-        try (InputStream input = new FileInputStream("res/npcs.json");) {
+        InputStream input = GameData.class.getResourceAsStream("/npcs.json");
+        if(input == null){
+            throw new RuntimeException();
+        }
+        try (input) {
             NPC[] npcs = mapper.readValue(input, NPC[].class);
             for (NPC npc : npcs) {
                 map.getNpcs().put(npc.getName().toLowerCase(), npc);
@@ -58,9 +70,13 @@ public class GameData {
         }
     }
 
-    public void loadObjects(Map map) throws FileNotFoundException {
+    public void loadObjects(Map map){
         ObjectMapper mapper = new ObjectMapper();
-        try(InputStream input = new FileInputStream("res/objects.json");){
+        InputStream input = GameData.class.getResourceAsStream("/objects.json");
+        if(input == null){
+            throw new RuntimeException();
+        }
+        try(input){
             InteractableObject[] objects = mapper.readValue(input, InteractableObject[].class);
             for (InteractableObject object : objects) {
                 map.getInteractableObjects().put(object.getName().toLowerCase(), object);
@@ -70,9 +86,13 @@ public class GameData {
         }
     }
 
-    public void loadAquariums(Map map) throws FileNotFoundException {
+    public void loadAquariums(Map map){
         ObjectMapper mapper = new ObjectMapper();
-        try(InputStream input = new FileInputStream("res/aquariums.json");){
+        InputStream input = GameData.class.getResourceAsStream("/aquariums.json");
+        if(input == null){
+            throw new RuntimeException();
+        }
+        try(input){
             Aquarium[] aquariums = mapper.readValue(input, Aquarium[].class);
             for (Aquarium aquarium : aquariums) {
                 map.getAquariums().put(aquarium.getName().toLowerCase(), aquarium);
@@ -81,9 +101,13 @@ public class GameData {
             throw new RuntimeException(e);
         }
     }
-    public void loadItems(Map map) throws FileNotFoundException {
+    public void loadItems(Map map){
         ObjectMapper mapper = new ObjectMapper();
-        try(InputStream input = new FileInputStream("res/item.json");){
+        InputStream input = GameData.class.getResourceAsStream("/item.json");
+        if(input == null){
+            throw new RuntimeException();
+        }
+        try(input){
             Item[] items = mapper.readValue(input, Item[].class);
             for (Item item : items) {
                 map.getItems().put(item.getName().toLowerCase(), item);

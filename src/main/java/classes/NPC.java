@@ -10,8 +10,14 @@ public class NPC {
     private String welcomeDialog;
     private String fishInfo;
     private String giftReaction;
+    private int giftLevel;
 
     public NPC() {
+    }
+
+    public String giftGiving(){
+
+        return "";
     }
 
     //region getters setters
@@ -53,6 +59,14 @@ public class NPC {
 
     public void setGiftReaction(String giftReaction) {
         this.giftReaction = giftReaction;
+    }
+
+    public int getGiftLevel() {
+        return giftLevel;
+    }
+
+    public void setGiftLevel(int giftLevel) {
+        this.giftLevel = giftLevel;
     }
     //endregion
 }
