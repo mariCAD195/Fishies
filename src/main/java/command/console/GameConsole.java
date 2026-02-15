@@ -60,7 +60,7 @@ public class GameConsole {
      */
     public void commandInitialization() {
         commands.put("move", new Move(larry, gameMap));
-        commands.put("open journal", new OpenJournal(journal));
+        commands.put("open journal", new OpenJournal(journal, larry));
         commands.put("go home", new GoHome(larry, gameMap));
         commands.put("search", new Search(gameMap, larry, journal, story));
         commands.put("interact with", new InteractWith(gameMap, larry));
@@ -89,7 +89,7 @@ public class GameConsole {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        larry = new Larry(gameMap.getLocations().get("lobby"), 1, 1);
+        larry = new Larry(gameMap.getLocations().get("lobby"), 1, 1,0);
         larry.createTime();
         for(Aquarium aquarium : gameMap.getAquariums().values()){
             aquarium.activateFish(larry);

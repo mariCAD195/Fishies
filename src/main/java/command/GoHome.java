@@ -30,6 +30,7 @@ public class GoHome extends Command {
             larry.setDate(larry.getDate()+1);
             larry.setCurrentTime(1);
             larry.setCurrentLocation(map.getLocations().get("lobby"));
+            larry.setPhotosTaken(0);
             for(NPC npc : map.getNpcs().values()){
                 npc.setWasGifted(false);
             }

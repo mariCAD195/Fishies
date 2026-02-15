@@ -32,7 +32,7 @@
   {
     "name": "Restaurant",
     "timePassable": true,
-    "neighbours": ["gift Shop","saltwater area","kids section"],
+    "neighbours": ["gift shop","saltwater area","kids section"],
     "NPCsPresent": [],
     "interactableObjects": [],
     "aquariums" : [],

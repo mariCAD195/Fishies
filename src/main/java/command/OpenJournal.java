@@ -1,6 +1,7 @@
 package command;
 
 import classes.Journal;
+import classes.Larry;
 
 /**
  * allows the player to look at their progress
@@ -9,9 +10,11 @@ import classes.Journal;
 public class OpenJournal extends Command {
 
     Journal journal;
+    Larry larry;
 
-    public OpenJournal(Journal journal) {
+    public OpenJournal(Journal journal, Larry larry) {
         this.journal = journal;
+        this.larry = larry;
     }
 
     /**
@@ -20,7 +23,7 @@ public class OpenJournal extends Command {
     @Override
     public String execute() {
         System.out.println("\nhere is the list of all the fishies you need to get\nI highlighted the ones you already have in green\n");
-        return journal.fishJournal();
+        return journal.fishJournal(larry);
     }
 
     @Override

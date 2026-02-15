@@ -47,9 +47,10 @@ public class Journal {
      * prints all fish in color based on your progress
      * @return fish species name
      */
-    public String fishJournal(){
+    public String fishJournal(Larry larry){
         int width = 50;
         int i = 0;
+        System.out.println(Toolbox.coloredText("yellow","\ncamera film left: "+larry.getPhotosTaken()+"\n"));
         for (Fish fish : allFish.values()) {
             String spaced = String.format("%-" + width + "s", fish.getSpecies());
             if (fishLeft.containsKey(fish.getName().toLowerCase())) {
@@ -67,12 +68,17 @@ public class Journal {
         return "";
     }
 
-    public void takePhoto(String fish,Story story){
-        System.out.println("say cheese fishie!!!");
-        Toolbox.enter();
-        fishLeft.remove(fish);
-        fishDone.put(fish, allFish.get(fish));
-        story.printPolaroid();
+    public void takePhoto(String fish,Story story, Larry larry){
+        if(larry.getPhotosTaken()<=8){
+            System.out.println("\nsay cheese fishie!!!");
+            Toolbox.enter();
+            fishLeft.remove(fish);
+            fishDone.put(fish, allFish.get(fish));
+            larry.setPhotosTaken(larry.getPhotosTaken()+1);
+            story.printPolaroid();
+        }else{
+            System.out.println("\nOH NO! You've run out of film, you can't take any more photos for today\ngo home, refill your stock and come back tomorrow");
+        }
     }
 
     @Override

@@ -15,13 +15,15 @@ public class Larry {
     private boolean hasBorrowedCard;
     private boolean hasCardPermanently;
     private ArrayList<Item> inventory;
+    private int photosTaken;
 
-    public Larry(Location currentLocation, int currentTime, int date) {
+    public Larry(Location currentLocation, int currentTime, int date, int photosTaken) {
         this.currentLocation = currentLocation;
         this.time = new HashMap<>();
         this.currentTime = currentTime;
         this.date = date;
         this.inventory = new ArrayList<>();
+        this.photosTaken = photosTaken;
     }
 
     public Larry() {
@@ -64,6 +66,14 @@ public class Larry {
     //region getters setters
     public int getDate() {
         return date;
+    }
+
+    public int getPhotosTaken() {
+        return photosTaken;
+    }
+
+    public void setPhotosTaken(int photosTaken) {
+        this.photosTaken = photosTaken;
     }
 
     public boolean isHasBorrowedCard() {
