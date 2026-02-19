@@ -1,9 +1,6 @@
 package command;
 
-import classes.Larry;
-import classes.Map;
-import classes.NPC;
-import classes.Toolbox;
+import classes.*;
 
 /**
  * allows player to end the day and go home
@@ -31,6 +28,9 @@ public class GoHome extends Command {
             larry.setCurrentTime(1);
             larry.setCurrentLocation(map.getLocations().get("lobby"));
             larry.setPhotosTaken(0);
+            for(Item item : map.getItems().values()){
+                item.setBought(false);
+            }
             for(NPC npc : map.getNpcs().values()){
                 npc.setWasGifted(false);
             }

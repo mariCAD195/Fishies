@@ -27,7 +27,7 @@ public class InteractWith extends Command {
     @Override
     public String execute() {
         System.out.println("\n...");
-        larry.getCurrentLocation().interactWithMenu();
+        larry.getCurrentLocation().interactWithMenu(map);
         System.out.println("\n(type object name)");
         String input = scanner.nextLine();
         if(map.getLocations().get(larry.getCurrentLocation().getName().toLowerCase()).getInteractableObjects().contains(input)) {
@@ -46,6 +46,7 @@ public class InteractWith extends Command {
                 if(answer.equalsIgnoreCase("y")||answer.equalsIgnoreCase("yes")){
                     if(larry.getInventory().size()<5){
                         larry.getInventory().add(map.getItems().get(input));
+                        map.getItems().get(input).setBought(true);
                         return "\ngreat, you now have it in your inventory :)\n";
                     }else{
                         return "oh...it looks like you can't pick up any more items, i'm sorry :(";

@@ -7,6 +7,7 @@ package classes;
 public class Item {
     private String name;
     private String description;
+    private boolean bought;
 
     public Item() {
     }
@@ -14,6 +15,14 @@ public class Item {
     //region getters setters
     public String getName() {
         return name;
+    }
+
+    public boolean isBought() {
+        return bought;
+    }
+
+    public void setBought(boolean bought) {
+        this.bought = bought;
     }
 
     public void setName(String name) {
@@ -27,5 +36,6 @@ public class Item {
     public void setDescription(String description) {
         this.description = description;
     }
+
     //endregion
 }

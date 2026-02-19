@@ -1,18 +1,22 @@
 [
   {
     "name" : "coffee",
-    "description" : "a great looking cup of coffee. It smells so nice"
+    "description" : "a great looking cup of coffee. It smells so nice",
+    "bought" : false
   },
   {
     "name" : "bagel",
-    "description" : "yum, it looks so crunchy and tasty"
+    "description" : "yum, it looks so crunchy and tasty",
+    "bought" : false
   },
   {
     "name" : "key card",
-    "description" : "slim gray card with a blue strip that you definitely should not have, but well...here you go"
+    "description" : "slim gray card with a blue strip that you definitely should not have, but well...here you go",
+    "bought" : false
   },
   {
     "name" : "octopus merch",
-    "description" : "IT'S AN OCTOPUS. doesn't even matter what it is. OCTOPUS PEOPLE, OCTOPUS!!!"
+    "description" : "IT'S AN OCTOPUS. doesn't even matter what it is. OCTOPUS PEOPLE, OCTOPUS!!!",
+    "bought" : false
   }
 ]

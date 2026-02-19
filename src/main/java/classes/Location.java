@@ -104,7 +104,7 @@ public class Location {
      * prints all thing the player is able to interact with
      * @return list of available objects and items
      */
-    public String interactWithMenu() {
+    public String interactWithMenu(Map map) {
         int count = 0;
         for (int i = 0; i < interactableObjects.size(); i++) {
             System.out.println(Toolbox.coloredText("blue",(i+1) +") " + interactableObjects.get(i)));
@@ -112,7 +112,9 @@ public class Location {
         }
         if(items.size()>0){
             for (int i = 0; i < items.size(); i++) {
-                System.out.println(Toolbox.coloredText("blue",(count+1) +") " + items.get(i)));
+                if(!map.getItems().get(items.get(i)).isBought()){
+                    System.out.println(Toolbox.coloredText("blue",(count+1) +") " + items.get(i)));
+                }
             }
         }
         return "";
