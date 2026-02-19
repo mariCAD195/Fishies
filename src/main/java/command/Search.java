@@ -19,6 +19,10 @@ public class Search extends Command {
         this.story = story;
     }
 
+    public Search(Journal journal) {
+        this.journal = journal;
+    }
+
     @Override
     public String execute() {
         System.out.println("\n what do you want to search?\n");
@@ -77,6 +81,9 @@ public class Search extends Command {
 
     @Override
     public boolean exit() {
+        if(journal.getFishLeft().isEmpty()){
+            return true;
+        }
         return false;
     }
 }

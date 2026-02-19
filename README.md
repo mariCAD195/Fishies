@@ -5,7 +5,7 @@ You play as Larry, a fish enthusiast on summer break as he wonders through the r
 1. download the JAR file
 2. open the folder containing the file in terminal
 3. copy the following command and press enter          
-``java -jar Fishies.jar``
+```java -jar Fishies.jar```
 4. now your game is running, you can play using a set of commands listed bellow  
 
 ```
