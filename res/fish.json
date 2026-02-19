@@ -12,8 +12,8 @@
     "species" : "trumpet fish",
     "special" : false,
     "preferredTime" : 1,
-    "description" : "",
-    "homeLocation" : "sea fish tank 1"
+    "description" : "trumpet fish is a long-bodied marine fish commonly found in tropical coral reefs",
+    "homeLocation" : "coral reef"
   },
   {
     "name" : "koi carp",
@@ -44,7 +44,7 @@
     "species" : "jellyfish",
     "special" : false,
     "preferredTime" : 0,
-    "description" : "",
+    "description" : "Jellyfish are ancient, spineless invertebrates composed of 95–98% water",
     "homeLocation" : "interactive tank"
   },
   {
@@ -52,40 +52,40 @@
     "species" : "seahorse",
     "special" : false,
     "preferredTime" : 0,
-    "description" : "",
-    "homeLocation" : "sea fish tank 1"
+    "description" : "seahorse is a small, unique marine fish found in shallow tropical waters, characterized by a horse-like head",
+    "homeLocation" : "coral reef"
   },
   {
     "name" : "clownfish",
     "species" : "clownfish",
     "special" : false,
     "preferredTime" : 0,
-    "description" : "",
-    "homeLocation" : "sea fish tank 1"
+    "description" : "Clownfish are small, vibrant saltwater fish known for their symbiotic relationship with sea anemones in coral reefs",
+    "homeLocation" : "coral reef"
   },
   {
     "name" : "surgeonfish",
     "species" : "surgeonfish",
     "special" : false,
     "preferredTime" : 0,
-    "description" : "",
-    "homeLocation" : "sea fish tank 1"
+    "description" : "Surgeonfish are a family of about 75–80 species of vibrant, tropical marine fish, commonly found in coral reefs",
+    "homeLocation" : "coral reef"
   },
   {
     "name" : "butterfly fish",
     "species" : "butterfly fish",
     "special" : false,
     "preferredTime" : 1,
-    "description" : "",
-    "homeLocation" : "sea fish tank 1"
+    "description" : "Butterflyfish are small, brightly colored, tropical fish, typically under 8 inches long, known for their thin bodies",
+    "homeLocation" : "coral reef"
   },
   {
-    "name" : "napoleonfish",
-    "species" : "napoleonfish",
+    "name" : "napoleon fish",
+    "species" : "napoleon fish",
     "special" : false,
     "preferredTime" : 2,
-    "description" : "",
-    "homeLocation" : "sea fish tank 1"
+    "description" : "The Napoleon fish is one of the largest and most distinctive fish inhabiting Indo-Pacific coral reefs\nthey are immediately recognizable by a jiggly lump on their forehead, thick lips, and vibrant colors",
+    "homeLocation" : "coral reef"
   },
   {
     "name" : "zebra turkeyfish",

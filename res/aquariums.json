@@ -64,5 +64,11 @@
     "description" : "",
     "everyFish" : [],
     "activeFish" : []
+  },
+  {
+    "name" : "coral reef",
+    "description": "",
+    "everyFish" : [],
+    "activeFish" : []
   }
 ]

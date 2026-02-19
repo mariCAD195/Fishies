@@ -45,7 +45,7 @@
     "neighbours": ["lobby","restaurant"],
     "NPCsPresent": ["john"],
     "interactableObjects": [],
-    "aquariums" : ["sea fish tank 1","sea fish tank 2","sea fish tank 3"],
+    "aquariums" : ["sea fish tank 1","sea fish tank 2","sea fish tank 3","coral reef"],
     "items" : [],
     "description" : "Very spacious light room with high ceilings and subtle blue lighting"
   },
