@@ -84,6 +84,7 @@ public class GameConsole {
             gameData.loadObjects(gameMap);
             gameData.loadItems(gameMap);
             gameData.loadPolaroidFish(story);
+            gameData.loadTitle(story);
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         } catch (IOException e) {

@@ -116,6 +116,7 @@ public class GameData {
             throw new RuntimeException(e);
         }
     }
+
     public void loadPolaroidFish(Story story) throws IOException {
         InputStream input = GameData.class.getResourceAsStream("/fishPolaroidAscii");
         if(input == null){
@@ -126,6 +127,19 @@ public class GameData {
         while (line!=null){
             line = br.readLine();
             story.getPolaroidFish().add(line);
+        }
+    }
+
+    public void loadTitle(Story story) throws IOException {
+        InputStream input = GameData.class.getResourceAsStream("/title.txt");
+        if(input == null){
+            throw new RuntimeException();
+        }
+        BufferedReader br = new BufferedReader(new InputStreamReader(input));
+        String line = "";
+        while (line!=null){
+            line = br.readLine();
+            story.getTitle().add(line);
         }
     }
 }

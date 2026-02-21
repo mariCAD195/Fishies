@@ -93,7 +93,7 @@
     "special" : false,
     "preferredTime" : 0,
     "description" : "",
-    "homeLocation" : "sea fish tank 2"
+    "homeLocation" : "sea fish tank 1"
   },
   {
     "name" : "blowfish",
@@ -101,7 +101,7 @@
     "special" : false,
     "preferredTime" : 4,
     "description" : "",
-    "homeLocation" : "sea fish tank 2"
+    "homeLocation" : "sea fish tank 1"
   },
   {
     "name" : "puffer fish",
@@ -109,7 +109,7 @@
     "special" : false,
     "preferredTime" : 4,
     "description" : "",
-    "homeLocation" : "sea fish tank 2"
+    "homeLocation" : "sea fish tank 1"
   },
   {
     "name" : "anchovy",
@@ -117,7 +117,7 @@
     "special" : false,
     "preferredTime" : 2,
     "description" : "",
-    "homeLocation" : "sea fish tank 3"
+    "homeLocation" : "sea fish tank 2"
   },
   {
     "name" : "horse mackrel",
@@ -125,7 +125,7 @@
     "special" : false,
     "preferredTime" : 0,
     "description" : "",
-    "homeLocation" : "sea fish tank 3"
+    "homeLocation" : "sea fish tank 2"
   },
   {
     "name" : "barred knifejaw",
@@ -133,7 +133,7 @@
     "special" : false,
     "preferredTime" : 3,
     "description" : "",
-    "homeLocation" : "sea fish tank 3"
+    "homeLocation" : "sea fish tank 2"
   },
   {
     "name" : "sea bass",
@@ -141,7 +141,7 @@
     "special" : false,
     "preferredTime" : 0,
     "description" : "sea bass...it's at least a C+",
-    "homeLocation" : "sea fish tank 3"
+    "homeLocation" : "sea fish tank 2"
   },
   {
     "name" : "red snapper",
@@ -149,7 +149,7 @@
     "special" : false,
     "preferredTime" : 0,
     "description" : "",
-    "homeLocation" : "sea fish tank 3"
+    "homeLocation" : "sea fish tank 2"
   },
   {
     "name" : "dab",
@@ -157,7 +157,7 @@
     "special" : false,
     "preferredTime" : 3,
     "description" : "",
-    "homeLocation" : "sea fish tank 3"
+    "homeLocation" : "sea fish tank 2"
   },
   {
     "name" : "olive flounder",
@@ -165,7 +165,7 @@
     "special" : false,
     "preferredTime" : 2,
     "description" : "",
-    "homeLocation" : "sea fish tank 3"
+    "homeLocation" : "sea fish tank 2"
   },
   {
     "name" : "tuna",
@@ -173,7 +173,7 @@
     "special" : false,
     "preferredTime" : 1,
     "description" : "",
-    "homeLocation" : "sea fish tank 3"
+    "homeLocation" : "sea fish tank 2"
   },
   {
     "name" : "blue marlin",
@@ -181,7 +181,7 @@
     "special" : false,
     "preferredTime" : 0,
     "description" : "",
-    "homeLocation" : "sea fish tank 3"
+    "homeLocation" : "sea fish tank 2"
   },
   {
     "name": "bitterling",
@@ -394,8 +394,8 @@
     "homeLocation" : "river fish 2"
   },
   {
-    "name" : "jellyfish",
-    "species" : "jellyfish",
+    "name" : "moon jellies",
+    "species" : "moon jellies",
     "preferredTime" : 0,
     "description" : "Jellyfish are ancient marine invertebrates made of over 95% water\nthey lack brains, hearts, or bones and can range from 1cm to 2 meters in size\n",
     "homeLocation" : "jellyfish tank"
