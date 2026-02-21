@@ -2,12 +2,17 @@
 A simple java console game where you run around an aquarium and take photos of fish.
 You play as Larry, a fish enthusiast on summer break as he wonders through the rooms with his polaroid camera.
 ## ✨ HOW TO PLAY?
-1. download the JAR file
-2. open the folder containing the file in terminal
-3. copy the following commands in order and press enter          
-```chcp 65001```  
-```java -jar Fishies.jar```
-4. now your game is running, you can play using a set of commands listed bellow  
+1. download [java 25](https://www.oracle.com/europe/java/technologies/downloads/#jdk25-windows) on your computer
+2. download the JAR file
+3. open the folder containing the file in terminal
+4. copy the following commands in order and press enter          
+```
+chcp 65001
+```  
+```
+java -jar Fishies.jar
+```
+now your game is running, you can play using a set of commands listed bellow  
 
 ```
 "look around" - look for everything insteresting in the room
