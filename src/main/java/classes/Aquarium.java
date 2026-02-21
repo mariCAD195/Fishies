@@ -25,6 +25,9 @@ public class Aquarium {
         everyFish.add(fish);
     }
 
+    /**
+     * prints every fish currently visible in the aquarium
+     */
     public String activeFishMenu(){
         for (int i = 0; i < activeFish.size(); i++) {
             System.out.println(Toolbox.coloredText("blue",activeFish.get(i).getSpecies()));
@@ -32,6 +35,9 @@ public class Aquarium {
         return "";
     }
 
+    /**
+     * prints every fish in the aquarium
+     */
     public String everyFishSign(){
         System.out.println("\nhere is every fish in this fish tank\n");
         for (int i = 0; i < everyFish.size(); i++) {
@@ -40,6 +46,10 @@ public class Aquarium {
         return "";
     }
 
+    /**
+     * puts fish into active fish based on their preferred time
+     * @param larry current player
+     */
     public void activateFish(Larry larry) {
         for (int i = 0; i < everyFish.size(); i++) {
             if(everyFish.get(i).getPreferredTime()==0){

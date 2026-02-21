@@ -23,6 +23,9 @@ public class Search extends Command {
         this.journal = journal;
     }
 
+    /**
+     * manages aquarium searching
+     */
     @Override
     public String execute() {
         System.out.println("\n what do you want to search?\n");

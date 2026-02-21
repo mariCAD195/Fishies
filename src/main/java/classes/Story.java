@@ -19,6 +19,7 @@ public class Story {
         this.title = new ArrayList<>();
     }
 
+    //region getters setters
     public ArrayList<String> getTitle() {
         return title;
     }
@@ -34,7 +35,11 @@ public class Story {
     public void setPolaroidFish(ArrayList<String> polaroidFish) {
         this.polaroidFish = polaroidFish;
     }
+    //endregion
 
+    /**
+     * story introduction to the game
+     */
     public String introduction(Help help) {
         System.out.println("\nYou are Larry, a college student on summer break who thought this summer would be a perfect time to revisit his childhood dreams.");
         Toolbox.wait(4000);
@@ -45,6 +50,9 @@ public class Story {
         return help.execute();
     }
 
+    /**
+     * prints fish polaroid ascii art
+     */
     public String printPolaroid(){
         for (int i = 0; i < polaroidFish.size()-1; i++) {
             System.out.println(polaroidFish.get(i));
@@ -53,6 +61,9 @@ public class Story {
         return "";
     }
 
+    /**
+     * prints game title
+     */
     public String title(){
         for (int i = 0; i < title.size()-1; i++) {
             System.out.println(title.get(i));

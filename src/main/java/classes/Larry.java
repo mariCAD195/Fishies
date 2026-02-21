@@ -40,6 +40,9 @@ public class Larry {
         time.put(4, "evening");
     }
 
+    /**
+     * prints that a new day has started
+     */
     public String newDayScreen(){
         Toolbox.clearConsole();
         System.out.println(Toolbox.coloredText("yellow", "\n\n\n -- day " + date+" -- \n\n\n"));
@@ -47,6 +50,9 @@ public class Larry {
         return Toolbox.clearConsole();
     }
 
+    /**
+     * prints players inventory
+     */
     public String inventoryMenu(){
         for (int i = 0; i < inventory.size(); i++) {
             System.out.println(Toolbox.coloredText("blue", inventory.get(i).getName()));
@@ -54,6 +60,9 @@ public class Larry {
         return "";
     }
 
+    /**
+     * prints inventory menu or text that your inventory is empty
+     */
     public String whatsInMyBackpack(){
         if(inventory.size()==0){
             return "\nyou backpack seems quite empty :(\n";

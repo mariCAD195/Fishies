@@ -22,6 +22,11 @@ public class NPC {
     public NPC() {
     }
 
+    /**
+     * manages gift giving between the player and the npcs
+     * @param npc gifted NPC
+     * @param larry current player
+     */
     public String giftGiving(NPC npc, Larry larry){
         if(npc.giftable){
             if(!npc.wasGifted){
@@ -43,6 +48,11 @@ public class NPC {
         return npc.giftReactionNEGATIVE;
     }
 
+    /**
+     * checks if currently gifted NPC has key card to gift or borrow
+     * @param npc checked NPC
+     * @param larry current player
+     */
     public String keyCardCheck(NPC npc, Larry larry, Item keyCard){
         if(npc.borrowsKeyCard){
             if(npc.giftLevel>=2){

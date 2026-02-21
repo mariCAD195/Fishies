@@ -54,6 +54,9 @@ public class GameData {
         }
     }
 
+    /**
+     * loads NPCs from json file
+     */
     public void loadNPCs(Map map){
         ObjectMapper mapper = new ObjectMapper();
         InputStream input = GameData.class.getResourceAsStream("/npcs.json");
@@ -70,6 +73,9 @@ public class GameData {
         }
     }
 
+    /**
+     * loads objects from json file
+     */
     public void loadObjects(Map map){
         ObjectMapper mapper = new ObjectMapper();
         InputStream input = GameData.class.getResourceAsStream("/objects.json");
@@ -86,6 +92,9 @@ public class GameData {
         }
     }
 
+    /**
+     * loads aquariums from json file
+     */
     public void loadAquariums(Map map){
         ObjectMapper mapper = new ObjectMapper();
         InputStream input = GameData.class.getResourceAsStream("/aquariums.json");
@@ -101,6 +110,10 @@ public class GameData {
             throw new RuntimeException(e);
         }
     }
+
+    /**
+     * loads items from json file
+     */
     public void loadItems(Map map){
         ObjectMapper mapper = new ObjectMapper();
         InputStream input = GameData.class.getResourceAsStream("/item.json");
@@ -117,6 +130,10 @@ public class GameData {
         }
     }
 
+    /**
+     * loads polaroid ascii art from text file
+     * @throws IOException
+     */
     public void loadPolaroidFish(Story story) throws IOException {
         InputStream input = GameData.class.getResourceAsStream("/fishPolaroidAscii");
         if(input == null){
@@ -130,6 +147,10 @@ public class GameData {
         }
     }
 
+    /**
+     * loads game title from text file
+     * @throws IOException
+     */
     public void loadTitle(Story story) throws IOException {
         InputStream input = GameData.class.getResourceAsStream("/title.txt");
         if(input == null){

@@ -68,6 +68,11 @@ public class Journal {
         return "";
     }
 
+    /**
+     * puts photographed fish into fish done list and removes it from fish left list
+     * @param fish photographed fish
+     * @param larry current player
+     */
     public void takePhoto(String fish,Story story, Larry larry){
         if(larry.getPhotosTaken()<=8){
             System.out.println("\nsay cheese fishie!!!");

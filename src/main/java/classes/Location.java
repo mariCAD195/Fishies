@@ -130,6 +130,9 @@ public class Location {
         return "";
     }
 
+    /**
+     * prints all available aquariums in the room
+     */
     public String searchMenu(){
         for (int i = 0; i < aquariums.size(); i++) {
             System.out.println(Toolbox.coloredText("blue",(i+1) +") " + aquariums.get(i)));
