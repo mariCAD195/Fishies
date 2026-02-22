@@ -406,5 +406,40 @@
     "preferredTime" : 4,
     "description" : "The tiger shark is a large predator found in tropical and coastal waters\nrecognizable by dark, vertical stripes that fade with age, these sharks can grow up to 18+ feet in length",
     "homeLocation" : "shark pavilion"
+  },
+  {
+    "name" : "yuzu",
+    "species" : "lemon shark",
+    "preferredTime" : 0,
+    "description" : "The lemon shark is a large yellow-brown coastal shark found in tropical Atlantic and Pacific waters",
+    "homeLocation" : "shark pavilion"
+  },
+  {
+    "name" : "alfredo",
+    "species" : "blacknose shark",
+    "preferredTime" : 0,
+    "description" : "The blacknose shark is a small species of shark found in tropical coastal waters. Recognized by a dusky smudge on its nose",
+    "homeLocation" : "shark pavilion"
+  },
+  {
+    "name" : "leo",
+    "species" : "leopard shark",
+    "preferredTime" : 2,
+    "description" : "The leopard shark is a small coastal shark easily recognized by its silvery-bronze body covered in dark spots",
+    "homeLocation" : "shark pavilion"
+  },
+  {
+    "name" : "monica",
+    "species" : "pyjama shark",
+    "preferredTime" : 4,
+    "description" : "The pyjama shark is a small catshark native to South Africa's coastal waters\nIt is easily identified by 5–7 long, dark stripes running down its body",
+    "homeLocation" : "shark pavilion"
+  },
+  {
+    "name" : "pete",
+    "species" : "hammerhead shark",
+    "preferredTime" : 0,
+    "description" : "Hammerhead sharks are predatory sharks recognized by their flattened, T-shaped heads, known as a cephalofoil",
+    "homeLocation" : "shark pavilion"
   }
 ]
