@@ -92,7 +92,7 @@
     "species" : "zebra turkeyfish",
     "special" : false,
     "preferredTime" : 0,
-    "description" : "",
+    "description" : "zebra turkeyfish is a small, venomous scorpionfish native to the Indo-Pacific ocean",
     "homeLocation" : "sea fish tank 1"
   },
   {
@@ -100,7 +100,7 @@
     "species" : "blowfish",
     "special" : false,
     "preferredTime" : 4,
-    "description" : "",
+    "description" : "Blowfish are tropical marine fish famous for inflating their bodies with water or air when threatened to deter predators",
     "homeLocation" : "sea fish tank 1"
   },
   {
@@ -108,7 +108,7 @@
     "species" : "puffer fish",
     "special" : false,
     "preferredTime" : 4,
-    "description" : "",
+    "description" : "Pufferfish are uniquely shaped, slow-moving fish found in warm, shallow waters\nKnown for their ability to ingest large amounts of water or air to inflate into a ball when threatened",
     "homeLocation" : "sea fish tank 1"
   },
   {
@@ -116,15 +116,15 @@
     "species" : "anchovy",
     "special" : false,
     "preferredTime" : 2,
-    "description" : "",
+    "description" : "Anchovies are small saltwater fish known for their slender bodies and silvery-blue color",
     "homeLocation" : "sea fish tank 2"
   },
   {
-    "name" : "horse mackrel",
-    "species" : "horse mackrel",
+    "name" : "horse mackerel",
+    "species" : "horse mackerel",
     "special" : false,
     "preferredTime" : 0,
-    "description" : "",
+    "description" : "The horse mackerel is a slender fish found in the Atlantic and Mediterranean, typically measuring 20–60 cm",
     "homeLocation" : "sea fish tank 2"
   },
   {
@@ -132,7 +132,7 @@
     "species" : "barred knifejaw",
     "special" : false,
     "preferredTime" : 3,
-    "description" : "",
+    "description" : "The barred knifejaw is a marine fish recognized by seven distinct vertical black bars on a white body",
     "homeLocation" : "sea fish tank 2"
   },
   {
@@ -148,15 +148,15 @@
     "species" : "red snapper",
     "special" : false,
     "preferredTime" : 0,
-    "description" : "",
+    "description" : "The red snapper is a deep-red saltwater fish found in the Gulf of Mexico known for its pointed face and red eyes",
     "homeLocation" : "sea fish tank 2"
   },
   {
     "name" : "dab",
-    "species" : "dab",
+    "species" : "common dab",
     "special" : false,
     "preferredTime" : 3,
-    "description" : "",
+    "description" : "the common dab is a small saltwater fish known for having both eyes on the right side of it's body",
     "homeLocation" : "sea fish tank 2"
   },
   {
@@ -164,7 +164,7 @@
     "species" : "olive flounder",
     "special" : false,
     "preferredTime" : 2,
-    "description" : "",
+    "description" : "olive flounder is a small saltwater fish known for having both eyes on the left side of it's body",
     "homeLocation" : "sea fish tank 2"
   },
   {
@@ -172,7 +172,7 @@
     "species" : "tuna",
     "special" : false,
     "preferredTime" : 1,
-    "description" : "",
+    "description" : "Tuna are fast-swimming, migratory fish found in tropical and temperate oceans worldwide",
     "homeLocation" : "sea fish tank 2"
   },
   {
@@ -180,35 +180,35 @@
     "species" : "blue marlin",
     "special" : false,
     "preferredTime" : 0,
-    "description" : "",
+    "description" : "The blue marlin is a massive, fast-swimming predatory fish found in warm Atlantic waters",
     "homeLocation" : "sea fish tank 2"
   },
   {
     "name": "bitterling",
     "species": "bitterling",
     "preferredTime": 0,
-    "description" : "",
+    "description" : "The bitterling is a small carplike freshwater fish native to Europe and Asia",
     "homeLocation" : "small river fish"
   },
   {
     "name": "pale chub",
     "species": "pale chub",
     "preferredTime": 2,
-    "description" : "",
+    "description" : "the pale chub is a small freshwater fish native to East Asian rivers",
     "homeLocation" : "small river fish"
   },
   {
     "name": "crucian carp",
     "species": "crucian carp",
     "preferredTime": 0,
-    "description" : "",
+    "description" : "the crucian carp is a medium-sized freshwater fish native to Europe and Asia",
     "homeLocation" : "river fish 1"
   },
   {
-    "name": "dace",
-    "species": "dace",
+    "name": "common dace",
+    "species": "common dace",
     "preferredTime": 4,
-    "description" : "",
+    "description" : "the common dace is a small freshwater fish native to Europe and Asia",
     "homeLocation" : "river fish 2"
   },
   {

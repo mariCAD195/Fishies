@@ -85,6 +85,11 @@ public class Search extends Command {
     @Override
     public boolean exit() {
         if(journal.getFishLeft().isEmpty()){
+            System.out.println("\ndo i see it right??...you...YOU DID IT\nyou proved to be quite the fish nerd and all the staff members congratulated you whe you told them\n");
+            Toolbox.enter();
+            System.out.println("\nyou will definitely come here again sometime but this summers quest is over now\n");
+            Toolbox.enter();
+            System.out.println("\nhope you enjoyed my game, bye :)");
             return true;
         }
         return false;

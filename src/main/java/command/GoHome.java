@@ -45,6 +45,10 @@ public class GoHome extends Command {
 
     @Override
     public boolean exit() {
+        if(larry.getDate()>90){
+            System.out.println("\noh no...day 90 already?! you were so close to your goal but school calls now\nbetter luck next summer :)");
+            return true;
+        }
         return false;
     }
 }
