@@ -222,182 +222,168 @@
     "name": "",
     "species": "freshwater goby",
     "preferredTime": 3,
-    "description" : "",
+    "description" : "Freshwater gobies are small, bottom-dwelling fish known for having modified pelvic fins that act as a suction cup to cling to rocks in swift currents",
     "homeLocation" : "river fish 1"
   },
   {
     "name": "",
     "species": "loach",
     "preferredTime": 0,
-    "description" : "",
+    "description" : "Loaches are a diverse group of small, bottom-dwelling freshwater fish native to Eurasia and Africa",
     "homeLocation" : "river fish 2"
   },
   {
     "name": "",
     "species": "bluegill",
     "preferredTime": 2,
-    "description" : "",
+    "description" : "The bluegill is a pan-shaped freshwater sunfish native to North America, known for its small mouth, olive-green color and a distinct, dark blue-black \"ear\" flap",
     "homeLocation" : "small river fish"
   },
   {
     "name": "",
     "species": "yellow perch",
     "preferredTime": 0,
-    "description" : "",
+    "description" : "The yellow perch is a small, freshwater fish native to North America, easily recognized by its golden-yellow body",
     "homeLocation" : "river fish 1"
   },
   {
     "name": "",
     "species": "black bass",
     "preferredTime": 0,
-    "description" : "",
+    "description" : "Black bass are popular freshwater fish native to North America",
     "homeLocation" : "river fish 2"
   },
   {
     "name": "",
     "species": "tilapia",
     "preferredTime": 0,
-    "description" : "",
+    "description" : "Tilapia is a fast-growing and highly adaptable freshwater fish native to Africa and the Middle East",
     "homeLocation" : "river fish 1"
   },
   {
     "name": "",
     "species": "pike",
     "preferredTime": 0,
-    "description" : "",
+    "description" : "The pike is a large, slender freshwater fish known as a fierce apex predator, commonly found in lakes, rivers, and canals",
     "homeLocation" : "river fish 2"
   },
   {
     "name": "",
-    "species": "pond smelt",
+    "species": "sweetfish",
     "preferredTime": 0,
-    "description" : "",
-    "homeLocation" : "small river fish"
-  },
-  {
-    "name": "",
-    "species": "sweet fish",
-    "preferredTime": 0,
-    "description" : "",
+    "description" : "sweetfish is a small, migratory freshwater fish native to East Asia",
     "homeLocation" : "river fish 1"
   },
   {
     "name": "",
     "species": "cherry salmon",
     "preferredTime": 3,
-    "description" : "",
+    "description" : "The cherry salmon is a small salmon species typically native to East Asian rivers and the Northwest Pacific",
     "homeLocation" : "river fish 2"
   },
   {
     "name": "",
-    "species": "char",
+    "species": "arctic char",
     "preferredTime": 3,
-    "description" : "",
+    "description" : "the arctic char is a cold-water salmonid fish closely related to salmon and trout, commonly found in high-latitude northern lakes and coastal waters",
     "homeLocation" : "river fish 1"
   },
   {
     "name": "",
     "species": "golden trout",
     "preferredTime": 4,
-    "description" : "",
+    "description" : "The California golden trout is a vibrant, small salmonid native to high-elevation streams in California’s southern Sierra Nevada",
     "homeLocation" : "river fish 2"
   },
   {
     "name": "",
     "species": "stringfish",
     "preferredTime": 4,
-    "description" : "",
+    "description" : "The Stringfish is a rare, high-value fish in Animal Crossing: New Horizons, selling for 15,000 Bells :)",
     "homeLocation" : "river fish 1"
   },
   {
     "name": "",
     "species": "salmon",
     "preferredTime": 0,
-    "description" : "",
+    "description" : "Salmon are ray-finned fish known for their silver-scaled bodies and anadromous life cycle\n — meaning they are born in fresh water, travel to the ocean, and return to fresh water to spawn",
     "homeLocation" : "river fish 2"
-  },
-  {
-    "name": "",
-    "species": "king salmon",
-    "preferredTime": 0,
-    "description" : "",
-    "homeLocation" : "river fish 1"
   },
   {
     "name": "",
     "species": "guppy",
     "preferredTime": 2,
-    "description" : "",
+    "description" : "The guppy is a small, vibrant, and highly popular tropical freshwater fish, known for its extreme color variations and ease of care",
     "homeLocation" : "small river fish"
   },
   {
     "name": "",
     "species": "nibble fish",
     "preferredTime": 2,
-    "description" : "",
+    "description" : "The nibble fish is a small, toothless freshwater fish native to Western Asia, commonly known for its use in skin-exfoliating spa pedicures",
     "homeLocation" : "small river fish"
   },
   {
     "name": "",
     "species": "angelfish",
     "preferredTime": 3,
-    "description" : "",
+    "description" : "Angelfish are deep-bodied tropical fish known for their triangular profiles with flowing fins",
     "homeLocation" : "small river fish"
   },
   {
     "name": "",
     "species": "betta",
     "preferredTime": 2,
-    "description" : "",
+    "description" : "Betta fish are small, vibrant freshwater fish native to Southeast Asia",
     "homeLocation" : "small river fish"
   },
   {
     "name": "",
     "species": "neon tetra",
     "preferredTime": 2,
-    "description" : "",
+    "description" : "The neon tetra is a popular, small and peaceful freshwater fish from South America, known for its vibrant iridescent blue and red horizontal stripes",
     "homeLocation" : "small river fish"
   },
   {
     "name": "",
     "species": "rainbowfish",
     "preferredTime": 2,
-    "description" : "",
+    "description" : "Rainbowfish are a diverse group of small, colorful freshwater fish native to Australia, New Guinea, and Indonesia, popular iridescent scales",
     "homeLocation" : "small river fish"
   },
   {
     "name": "",
     "species": "piranha",
     "preferredTime": 2,
-    "description" : "",
+    "description" : "Piranhas are small-to-medium-sized freshwater fish native to South American rivers, known for their razor-sharp triangular teeth, and powerful jaws",
     "homeLocation" : "river fish 2"
   },
   {
     "name": "",
     "species": "arowana",
     "preferredTime": 3,
-    "description" : "",
+    "description" : "The Arowana is a group of large, predatory freshwater fish recognized for their prehistoric appearance",
     "homeLocation" : "river fish 1"
   },
   {
     "name": "",
-    "species": "dorado",
+    "species": "Mahi-mahi",
     "preferredTime": 0,
-    "description" : "",
+    "description" : "Mahi-mahi is a vibrant fish found in tropical and subtropical oceans, famous for their dazzling golden-green and blue colors",
     "homeLocation" : "river fish 2"
   },
   {
     "name": "",
     "species": "arapaima",
     "preferredTime": 0,
-    "description" : "",
+    "description" : "The arapaima is one of the world's largest freshwater fish, native to the Amazon River basin",
     "homeLocation" : "river fish 1"
   },
   {
     "name": "",
     "species": "sturgeon",
     "preferredTime": 0,
-    "description" : "",
+    "description" : "Sturgeons are ancient fish, often called \"living fossils,\" that have existed for over 200 million years",
     "homeLocation" : "river fish 2"
   },
   {
