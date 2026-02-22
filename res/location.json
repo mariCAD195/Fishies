@@ -34,7 +34,7 @@
     "timePassable": true,
     "neighbours": ["gift shop","saltwater area","kids section"],
     "NPCsPresent": [],
-    "interactableObjects": [],
+    "interactableObjects": ["deep frier","a fish?!","cactus"],
     "aquariums" : [],
     "items" : [],
     "description" : "A very spacious clean room wit blue walls and lots of tables and chairs. The space is crowded with hungry visitors and all the staff here seems really busy"
@@ -75,7 +75,7 @@
     "neighbours": ["freshwater area","lobby"],
     "NPCsPresent": ["mariane"],
     "interactableObjects": [],
-    "aquariums" : ["octopus tank","shark pavilion"],
+    "aquariums" : ["octopus tank","shark pavilion","penguin habitat","axolotl aquarium","turtle bay"],
     "items" : [],
     "description" : "Probably the biggest room and surely the main attraction of this building.\nYou see a lot of big tanks and huge figurines of octopuses, sharks and penguins, representing their living counterparts."
   },

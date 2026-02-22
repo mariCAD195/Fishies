@@ -64,5 +64,23 @@
     "description": "",
     "everyFish" : [],
     "activeFish" : []
+  },
+  {
+    "name" : "axolotl aquarium",
+    "description" : "",
+    "everyFish" : [],
+    "activeFish" : []
+  },
+  {
+    "name" : "penguin habitat",
+    "description" : "",
+    "everyFish" : [],
+    "activeFish" : []
+  },
+  {
+    "name" : "turtle bay",
+    "description" : "",
+    "everyFish" : [],
+    "activeFish" : []
   }
 ]

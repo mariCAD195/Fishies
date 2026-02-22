@@ -8,7 +8,7 @@
     "homeLocation" : "octopus tank"
   },
   {
-    "name" : "trumpet fish",
+    "name" : "",
     "species" : "trumpet fish",
     "special" : false,
     "preferredTime" : 1,
@@ -16,7 +16,14 @@
     "homeLocation" : "coral reef"
   },
   {
-    "name" : "koi carp",
+    "name" : "juliet",
+    "species" : "macroraphosus scolopax",
+    "preferredTime" : 3,
+    "description" : "a tiny yellowish fish known for its long snout (requested by tony)",
+    "homeLocation" : "sea fish tank 1"
+  },
+  {
+    "name" : "",
     "species" : "kai carp",
     "special" : false,
     "preferredTime" : 0,
@@ -24,7 +31,7 @@
     "homeLocation": "koi tank"
   },
   {
-    "name": "starfish",
+    "name": "",
     "species": "starfish",
     "special": false,
     "preferredTime": 0,
@@ -32,7 +39,7 @@
     "homeLocation" : "interactive tank"
   },
   {
-    "name" : "sea urchin",
+    "name" : "",
     "species" : "sea urchin",
     "special" : false,
     "preferredTime" : 0,
@@ -40,7 +47,7 @@
     "homeLocation" : "interactive tank"
   },
   {
-    "name" : "jellyfish",
+    "name" : "",
     "species" : "jellyfish",
     "special" : false,
     "preferredTime" : 0,
@@ -48,7 +55,7 @@
     "homeLocation" : "interactive tank"
   },
   {
-    "name" : "seahorse",
+    "name" : "",
     "species" : "seahorse",
     "special" : false,
     "preferredTime" : 0,
@@ -56,7 +63,7 @@
     "homeLocation" : "coral reef"
   },
   {
-    "name" : "clownfish",
+    "name" : "",
     "species" : "clownfish",
     "special" : false,
     "preferredTime" : 0,
@@ -64,7 +71,7 @@
     "homeLocation" : "coral reef"
   },
   {
-    "name" : "surgeonfish",
+    "name" : "",
     "species" : "surgeonfish",
     "special" : false,
     "preferredTime" : 0,
@@ -72,7 +79,7 @@
     "homeLocation" : "coral reef"
   },
   {
-    "name" : "butterfly fish",
+    "name" : "",
     "species" : "butterfly fish",
     "special" : false,
     "preferredTime" : 1,
@@ -80,7 +87,7 @@
     "homeLocation" : "coral reef"
   },
   {
-    "name" : "napoleon fish",
+    "name" : "",
     "species" : "napoleon fish",
     "special" : false,
     "preferredTime" : 2,
@@ -88,7 +95,7 @@
     "homeLocation" : "coral reef"
   },
   {
-    "name" : "zebra turkeyfish",
+    "name" : "",
     "species" : "zebra turkeyfish",
     "special" : false,
     "preferredTime" : 0,
@@ -96,7 +103,7 @@
     "homeLocation" : "sea fish tank 1"
   },
   {
-    "name" : "blowfish",
+    "name" : "",
     "species" : "blowfish",
     "special" : false,
     "preferredTime" : 4,
@@ -104,7 +111,7 @@
     "homeLocation" : "sea fish tank 1"
   },
   {
-    "name" : "puffer fish",
+    "name" : "",
     "species" : "puffer fish",
     "special" : false,
     "preferredTime" : 4,
@@ -112,7 +119,7 @@
     "homeLocation" : "sea fish tank 1"
   },
   {
-    "name" : "anchovy",
+    "name" : "",
     "species" : "anchovy",
     "special" : false,
     "preferredTime" : 2,
@@ -120,7 +127,7 @@
     "homeLocation" : "sea fish tank 2"
   },
   {
-    "name" : "horse mackerel",
+    "name" : "",
     "species" : "horse mackerel",
     "special" : false,
     "preferredTime" : 0,
@@ -128,7 +135,7 @@
     "homeLocation" : "sea fish tank 2"
   },
   {
-    "name" : "barred knifejaw",
+    "name" : "",
     "species" : "barred knifejaw",
     "special" : false,
     "preferredTime" : 3,
@@ -136,7 +143,7 @@
     "homeLocation" : "sea fish tank 2"
   },
   {
-    "name" : "sea bass",
+    "name" : "",
     "species" : "sea bass",
     "special" : false,
     "preferredTime" : 0,
@@ -144,7 +151,7 @@
     "homeLocation" : "sea fish tank 2"
   },
   {
-    "name" : "red snapper",
+    "name" : "",
     "species" : "red snapper",
     "special" : false,
     "preferredTime" : 0,
@@ -152,7 +159,7 @@
     "homeLocation" : "sea fish tank 2"
   },
   {
-    "name" : "dab",
+    "name" : "",
     "species" : "common dab",
     "special" : false,
     "preferredTime" : 3,
@@ -160,7 +167,7 @@
     "homeLocation" : "sea fish tank 2"
   },
   {
-    "name" : "olive flounder",
+    "name" : "",
     "species" : "olive flounder",
     "special" : false,
     "preferredTime" : 2,
@@ -168,7 +175,7 @@
     "homeLocation" : "sea fish tank 2"
   },
   {
-    "name" : "tuna",
+    "name" : "",
     "species" : "tuna",
     "special" : false,
     "preferredTime" : 1,
@@ -176,7 +183,7 @@
     "homeLocation" : "sea fish tank 2"
   },
   {
-    "name" : "blue marlin",
+    "name" : "",
     "species" : "blue marlin",
     "special" : false,
     "preferredTime" : 0,
@@ -184,217 +191,217 @@
     "homeLocation" : "sea fish tank 2"
   },
   {
-    "name": "bitterling",
+    "name": "",
     "species": "bitterling",
     "preferredTime": 0,
     "description" : "The bitterling is a small carplike freshwater fish native to Europe and Asia",
     "homeLocation" : "small river fish"
   },
   {
-    "name": "pale chub",
+    "name": "",
     "species": "pale chub",
     "preferredTime": 2,
     "description" : "the pale chub is a small freshwater fish native to East Asian rivers",
     "homeLocation" : "small river fish"
   },
   {
-    "name": "crucian carp",
+    "name": "",
     "species": "crucian carp",
     "preferredTime": 0,
     "description" : "the crucian carp is a medium-sized freshwater fish native to Europe and Asia",
     "homeLocation" : "river fish 1"
   },
   {
-    "name": "common dace",
+    "name": "",
     "species": "common dace",
     "preferredTime": 4,
     "description" : "the common dace is a small freshwater fish native to Europe and Asia",
     "homeLocation" : "river fish 2"
   },
   {
-    "name": "freshwater goby",
+    "name": "",
     "species": "freshwater goby",
     "preferredTime": 3,
     "description" : "",
     "homeLocation" : "river fish 1"
   },
   {
-    "name": "loach",
+    "name": "",
     "species": "loach",
     "preferredTime": 0,
     "description" : "",
     "homeLocation" : "river fish 2"
   },
   {
-    "name": "bluegill",
+    "name": "",
     "species": "bluegill",
     "preferredTime": 2,
     "description" : "",
     "homeLocation" : "small river fish"
   },
   {
-    "name": "yellow perch",
+    "name": "",
     "species": "yellow perch",
     "preferredTime": 0,
     "description" : "",
     "homeLocation" : "river fish 1"
   },
   {
-    "name": "black bass",
+    "name": "",
     "species": "black bass",
     "preferredTime": 0,
     "description" : "",
     "homeLocation" : "river fish 2"
   },
   {
-    "name": "tilapia",
+    "name": "",
     "species": "tilapia",
     "preferredTime": 0,
     "description" : "",
     "homeLocation" : "river fish 1"
   },
   {
-    "name": "pike",
+    "name": "",
     "species": "pike",
     "preferredTime": 0,
     "description" : "",
     "homeLocation" : "river fish 2"
   },
   {
-    "name": "pond smelt",
+    "name": "",
     "species": "pond smelt",
     "preferredTime": 0,
     "description" : "",
     "homeLocation" : "small river fish"
   },
   {
-    "name": "sweet fish",
+    "name": "",
     "species": "sweet fish",
     "preferredTime": 0,
     "description" : "",
     "homeLocation" : "river fish 1"
   },
   {
-    "name": "cherry salmon",
+    "name": "",
     "species": "cherry salmon",
     "preferredTime": 3,
     "description" : "",
     "homeLocation" : "river fish 2"
   },
   {
-    "name": "char",
+    "name": "",
     "species": "char",
     "preferredTime": 3,
     "description" : "",
     "homeLocation" : "river fish 1"
   },
   {
-    "name": "golden trout",
+    "name": "",
     "species": "golden trout",
     "preferredTime": 4,
     "description" : "",
     "homeLocation" : "river fish 2"
   },
   {
-    "name": "stringfish",
+    "name": "",
     "species": "stringfish",
     "preferredTime": 4,
     "description" : "",
     "homeLocation" : "river fish 1"
   },
   {
-    "name": "salmon",
+    "name": "",
     "species": "salmon",
     "preferredTime": 0,
     "description" : "",
     "homeLocation" : "river fish 2"
   },
   {
-    "name": "king salmon",
+    "name": "",
     "species": "king salmon",
     "preferredTime": 0,
     "description" : "",
     "homeLocation" : "river fish 1"
   },
   {
-    "name": "guppy",
+    "name": "",
     "species": "guppy",
     "preferredTime": 2,
     "description" : "",
     "homeLocation" : "small river fish"
   },
   {
-    "name": "nibble fish",
+    "name": "",
     "species": "nibble fish",
     "preferredTime": 2,
     "description" : "",
     "homeLocation" : "small river fish"
   },
   {
-    "name": "angelfish",
+    "name": "",
     "species": "angelfish",
     "preferredTime": 3,
     "description" : "",
     "homeLocation" : "small river fish"
   },
   {
-    "name": "betta",
+    "name": "",
     "species": "betta",
     "preferredTime": 2,
     "description" : "",
     "homeLocation" : "small river fish"
   },
   {
-    "name": "neon tetra",
+    "name": "",
     "species": "neon tetra",
     "preferredTime": 2,
     "description" : "",
     "homeLocation" : "small river fish"
   },
   {
-    "name": "rainbowfish",
+    "name": "",
     "species": "rainbowfish",
     "preferredTime": 2,
     "description" : "",
     "homeLocation" : "small river fish"
   },
   {
-    "name": "piranha",
+    "name": "",
     "species": "piranha",
     "preferredTime": 2,
     "description" : "",
     "homeLocation" : "river fish 2"
   },
   {
-    "name": "arowana",
+    "name": "",
     "species": "arowana",
     "preferredTime": 3,
     "description" : "",
     "homeLocation" : "river fish 1"
   },
   {
-    "name": "dorado",
+    "name": "",
     "species": "dorado",
     "preferredTime": 0,
     "description" : "",
     "homeLocation" : "river fish 2"
   },
   {
-    "name": "arapaima",
+    "name": "",
     "species": "arapaima",
     "preferredTime": 0,
     "description" : "",
     "homeLocation" : "river fish 1"
   },
   {
-    "name": "sturgeon",
+    "name": "",
     "species": "sturgeon",
     "preferredTime": 0,
     "description" : "",
     "homeLocation" : "river fish 2"
   },
   {
-    "name" : "moon jellies",
+    "name" : "",
     "species" : "moon jellies",
     "preferredTime" : 0,
     "description" : "Jellyfish are ancient marine invertebrates made of over 95% water\nthey lack brains, hearts, or bones and can range from 1cm to 2 meters in size\n",
@@ -441,5 +448,82 @@
     "preferredTime" : 0,
     "description" : "Hammerhead sharks are predatory sharks recognized by their flattened, T-shaped heads, known as a cephalofoil",
     "homeLocation" : "shark pavilion"
+  },
+  {
+    "name" : "",
+    "species" : "snails",
+    "preferredTime" : 0,
+    "description" : "Snails are small gastropod mollusks characterized by a soft, slimy body and a coiled, protective shell",
+    "homeLocation" : "river fish 1"
+  },
+  {
+    "name" : "axel",
+    "species" : "axolotl",
+    "preferredTime" : 0,
+    "description" : "The axolotl is a critically endangered aquatic salamander native only to the Xochimilco lake complex near Mexico City",
+    "homeLocation" : "axolotl aquarium"
+  },
+  {
+    "name" : "",
+    "species" : "king penguin",
+    "preferredTime" : 0,
+    "description" : "The king penguin is the world's second-largest penguin species\nstanding 85–95 cm tall with yellow upper chest markings. Inhabiting subantarctic islands",
+    "homeLocation" : "penguin habitat"
+  },
+  {
+    "name" : "",
+    "species" : "green turtle",
+    "preferredTime" : 0,
+    "description" : "The Green Turtle is a large, endangered sea turtle found in tropical/subtropical seas\nThey measure up to 4 feet in length and weigh over 300 pounds",
+    "homeLocation" : "turtle bay"
+  },
+  {
+    "name" : "",
+    "species" : "flatback turtle",
+    "preferredTime" : 0,
+    "description" : "The flatback turtle is a medium-sized marine turtle native to coastal waters of Northern Australia and Papua New Guinea",
+    "homeLocation" : "turtle bay"
+  },
+  {
+    "name" : "gandalf",
+    "species" : "blue-ringed octopus",
+    "preferredTime" : 0,
+    "description" : "The blue-ringed octopus is a tiny, highly venomous marine cephalopod found in Pacific/Indian Ocean tide pools",
+    "homeLocation" : "octopus tank"
+  },
+  {
+    "name" : "coco",
+    "species" : "coconut octopus",
+    "preferredTime" : 0,
+    "description" : "The coconut octopus is a small, highly intelligent Indo-Pacific cephalopod famous for using tools",
+    "homeLocation" : "octopus tank"
+  },
+  {
+    "name" : "louisa",
+    "species" : "caribbean reef squid",
+    "preferredTime" : 0,
+    "description" : "The Caribbean reef squid is a small cephalopod found in shallow Western Atlantic coral reefs",
+    "homeLocation" : "corral reef"
+  },
+  {
+    "name" : "philip",
+    "species" : "bobtail squid",
+    "preferredTime" : 0,
+    "description" : "Bobtail squid are small cephalopods, often called \"dumpling\"",
+    "homeLocation" : "sea fish tank 2"
+  },
+  {
+    "name" : "filip",
+    "species" : "cownose ray",
+    "preferredTime" : 0,
+    "description" : "The cownose ray is a species of eagle ray known for its distinct snout that resembles a cow's nose\nPrimarily found in the Western Atlantic Ocean and Gulf of Mexico",
+    "homeLocation" : "sea fish tank 2"
+  },
+  {
+    "name" : "",
+    "species" : "ocellate river stingray",
+    "preferredTime" : 0,
+    "description" : "The Ocellate River Stingray is a freshwater fish native to South American river basins",
+    "homeLocation" : "river fish 2"
   }
 ]
