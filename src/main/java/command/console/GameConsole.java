@@ -80,7 +80,7 @@ public class GameConsole {
             gameData.loadLocations(gameMap);
             gameData.loadNPCs(gameMap);
             gameData.loadAquariums(gameMap);
-            gameData.loadFish(journal,  gameMap);
+            gameData.loadFish(journal,gameMap);
             gameData.loadObjects(gameMap);
             gameData.loadItems(gameMap);
             gameData.loadPolaroidFish(story);

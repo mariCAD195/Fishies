@@ -52,13 +52,20 @@ public class Journal {
         int i = 0;
         System.out.println(Toolbox.coloredText("yellow","\ncamera film left: "+larry.getPhotosTaken()+"\n"));
         for (Fish fish : allFish.values()) {
-            String spaced = String.format("%-" + width + "s", fish.getSpecies());
-            if (fishLeft.containsKey(fish.getName().toLowerCase())) {
-                System.out.print(Toolbox.coloredText("red", spaced));
+            String spacedLeft;
+            String spacedDone;
+            if(fish.getName()!=""){
+                spacedDone = String.format("%-" + width + "s", (fish.getSpecies()+" - "+fish.getName()));
+            }else{
+                spacedDone = String.format("%-" + width + "s", fish.getSpecies());
+            }
+            spacedLeft = String.format("%-" + width + "s", fish.getSpecies());
+            if (fishLeft.containsKey(fish.getSpecies().toLowerCase())) {
+                System.out.print(Toolbox.coloredText("red", spacedLeft));
                 i++;
             }
-            else if (fishDone.containsKey(fish.getName().toLowerCase())) {
-                System.out.print(Toolbox.coloredText("green", spaced));
+            else if (fishDone.containsKey(fish.getSpecies().toLowerCase())) {
+                System.out.print(Toolbox.coloredText("green", spacedDone));
                 i++;
             }
             if (i % 2 == 0) {
