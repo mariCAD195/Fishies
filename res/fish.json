@@ -60,7 +60,7 @@
     "special" : false,
     "preferredTime" : 0,
     "description" : "seahorse is a small, unique marine fish found in shallow tropical waters, characterized by a horse-like head",
-    "homeLocation" : "coral reef"
+    "homeLocation" : "area for sick fish"
   },
   {
     "name" : "",
@@ -138,9 +138,9 @@
     "name" : "",
     "species" : "barred knifejaw",
     "special" : false,
-    "preferredTime" : 3,
+    "preferredTime" : 0,
     "description" : "The barred knifejaw is a marine fish recognized by seven distinct vertical black bars on a white body",
-    "homeLocation" : "sea fish tank 2"
+    "homeLocation" : "area for sick fish"
   },
   {
     "name" : "",
@@ -251,7 +251,7 @@
     "species": "black bass",
     "preferredTime": 0,
     "description" : "Black bass are popular freshwater fish native to North America",
-    "homeLocation" : "river fish 2"
+    "homeLocation" : "area for sick fish"
   },
   {
     "name": "",
@@ -284,9 +284,9 @@
   {
     "name": "",
     "species": "arctic char",
-    "preferredTime": 3,
+    "preferredTime": 0,
     "description" : "the arctic char is a cold-water salmonid fish closely related to salmon and trout, commonly found in high-latitude northern lakes and coastal waters",
-    "homeLocation" : "river fish 1"
+    "homeLocation" : "area for sick fish"
   },
   {
     "name": "",
@@ -412,7 +412,7 @@
     "species" : "blacknose shark",
     "preferredTime" : 0,
     "description" : "The blacknose shark is a small species of shark found in tropical coastal waters. Recognized by a dusky smudge on its nose",
-    "homeLocation" : "shark pavilion"
+    "homeLocation" : "area for sick fish"
   },
   {
     "name" : "leo",

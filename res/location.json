@@ -85,7 +85,7 @@
     "neighbours": ["freshwater area"],
     "NPCsPresent": [],
     "interactableObjects": [],
-    "aquariums" : [],
+    "aquariums" : ["area for sick fish"],
     "items" : [],
     "description" : "uuuu, this is exiting"
   }

@@ -82,5 +82,11 @@
     "description" : "",
     "everyFish" : [],
     "activeFish" : []
+  },
+  {
+    "name" : "area for sick fish",
+    "description" : "",
+    "everyFish" : [],
+    "activeFish" : []
   }
 ]
